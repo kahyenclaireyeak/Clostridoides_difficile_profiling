@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kah Yen Claire Yeak">
+
+<title>Clostridoides difficile Profiling</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./chapter_2.html" rel="next">
+<link href="./preface.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-69a30c073420f475066ff0fd08b8a642.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Pathogen Overview</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./"><em>Clostridoides difficile</em> Profiling</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface/Disclaimer</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Pathogen Overview</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Virulence mechanisms, environmental persistence and survival</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Therapeutic Strategies Targeting Colonization Resistance</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Diagnostic Techniques and Challenges</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Treatment and Control Strategies</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Host immune response</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Future Research Directions and Opportunities</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./reference.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">References</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#pathogen-overview" id="toc-pathogen-overview" class="nav-link active" data-scroll-target="#pathogen-overview"><span class="header-section-number">1</span> Pathogen Overview</a>
+  <ul class="collapse">
+  <li><a href="#characteristics" id="toc-characteristics" class="nav-link" data-scroll-target="#characteristics"><span class="header-section-number">1.1</span> Characteristics</a></li>
+  <li><a href="#epidemiology" id="toc-epidemiology" class="nav-link" data-scroll-target="#epidemiology"><span class="header-section-number">1.2</span> Epidemiology</a></li>
+  <li><a href="#transmission-route" id="toc-transmission-route" class="nav-link" data-scroll-target="#transmission-route"><span class="header-section-number">1.3</span> Transmission route</a></li>
+  <li><a href="#reservoirs" id="toc-reservoirs" class="nav-link" data-scroll-target="#reservoirs"><span class="header-section-number">1.4</span> Reservoirs</a></li>
+  <li><a href="#global-geographical-distribution" id="toc-global-geographical-distribution" class="nav-link" data-scroll-target="#global-geographical-distribution"><span class="header-section-number">1.5</span> Global geographical distribution</a></li>
+  <li><a href="#ribotypes" id="toc-ribotypes" class="nav-link" data-scroll-target="#ribotypes"><span class="header-section-number">1.6</span> Ribotypes</a></li>
+  <li><a href="#virulence-factor" id="toc-virulence-factor" class="nav-link" data-scroll-target="#virulence-factor"><span class="header-section-number">1.7</span> Virulence factor</a></li>
+  <li><a href="#infection-cycles" id="toc-infection-cycles" class="nav-link" data-scroll-target="#infection-cycles"><span class="header-section-number">1.8</span> Infection cycles</a></li>
+  <li><a href="#infectious-dose" id="toc-infectious-dose" class="nav-link" data-scroll-target="#infectious-dose"><span class="header-section-number">1.9</span> Infectious Dose</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><em>Clostridoides difficile</em> Profiling</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kah Yen Claire Yeak </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="pathogen-overview" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Pathogen Overview</h1>
+<section id="characteristics" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="characteristics"><span class="header-section-number">1.1</span> Characteristics</h2>
+<ul>
+<li><p>Gram-positive, anaerobic, spore-forming bacterium, causing <em>Clostridioides difficile</em> infection (CDI)</p></li>
+<li><p>It is a major cause of healthcare-associated infections (HAI), particularly in hospital and long-term care settings</p></li>
+</ul>
+<section id="symptoms" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="symptoms"><span class="header-section-number">1.1.1</span> Symptoms</h3>
+<ul>
+<li><p><strong>Gastrointestinal symptoms</strong> are most common, including <strong>diarrhoea</strong> (often watery and frequent), <strong>abdominal pain</strong>, <strong>fever</strong>, <strong>nausea</strong>, and <strong>loss of appetite</strong>.</p></li>
+<li><p>Severe cases may lead to <strong>pseudomembranous colitis</strong>, <strong>toxic megacolon</strong>, <strong>septic shock</strong>, and, in extreme cases, <strong>colon perforation</strong>.</p></li>
+</ul>
+</section>
+<section id="disease" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="disease"><span class="header-section-number">1.1.2</span> Disease</h3>
+<ul>
+<li><p>CDI refers to the clinical disease caused by <strong>toxin-producing</strong> <em>C. difficile</em> strains colonizing the gut.</p></li>
+<li><p>CDI typically follows the&nbsp;<strong>disruption of the gut microbiota</strong> by antibiotics, which reduces microbial competition and allows <em>C. difficile</em> spores to germinate and grow.</p></li>
+</ul>
+</section>
+<section id="duration-of-sickness" class="level3" data-number="1.1.3">
+<h3 data-number="1.1.3" class="anchored" data-anchor-id="duration-of-sickness"><span class="header-section-number">1.1.3</span> <strong>Duration of Sickness</strong></h3>
+<ul>
+<li><p><strong>Mild to moderate cases</strong> usually last <strong>1–2 weeks</strong> with appropriate antibiotic treatment.</p></li>
+<li><p><strong>Severe or recurrent cases</strong> can persist for weeks or longer, especially in cases where standard treatments are less effective or where reinfection occurs.</p></li>
+</ul>
+</section>
+<section id="duration-of-onset" class="level3" data-number="1.1.4">
+<h3 data-number="1.1.4" class="anchored" data-anchor-id="duration-of-onset"><span class="header-section-number">1.1.4</span> <strong>Duration of onset</strong></h3>
+<ul>
+<li><p>Most infectious periods for potential donors to support transmission of <em>C. difficile</em> were ≤1 week (65%), with only 10% &gt;8 weeks.</p></li>
+<li><p>Most incubation periods in recipients were ≤4 weeks (61%), with few &gt;12 weeks (13%)</p></li>
+<li><p>82% of CDIs occurred within 4 weeks of a potential donor infection</p></li>
+<li><p>30-day mortality (rare cases)</p></li>
+</ul>
+</section>
+<section id="recurrence-rate" class="level3" data-number="1.1.5">
+<h3 data-number="1.1.5" class="anchored" data-anchor-id="recurrence-rate"><span class="header-section-number">1.1.5</span> Recurrence rate</h3>
+<ul>
+<li>Recurrence occurs in approximately <strong>20-30% of patients</strong> after the initial infection, with some cases experiencing multiple recurrences, further increasing morbidity.</li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Recurrence Factors</strong>:</li>
+</ul>
+<!-- -->
+<ul>
+<li><p><strong>Age</strong>: Older adults are more likely to experience recurrent CDI.</p></li>
+<li><p><strong>Previous CDI</strong>: A history of CDI increases the likelihood of future recurrences.</p></li>
+<li><p><strong>Antibiotic Use</strong>: Continued use of broad-spectrum antibiotics disrupts gut microbiota, increasing recurrence risk.</p></li>
+<li><p><strong>Immune Response</strong>: Insufficient immune response to <em>C. difficile</em> toxins predisposes patients to recurrence​</p></li>
+</ul>
+</section>
+<section id="severity-of-sickness" class="level3" data-number="1.1.6">
+<h3 data-number="1.1.6" class="anchored" data-anchor-id="severity-of-sickness"><span class="header-section-number">1.1.6</span> Severity of Sickness</h3>
+<ul>
+<li><strong>Mortality Rate</strong>: CDI has an estimated 5-10% mortality with some cases <strong>up to 20% mortality rate,</strong> especially in older, hospitalized patients or those with weakened immune systems. Mortality rates may vary by country, healthcare setting, and patient age.</li>
+</ul>
+</section>
+<section id="likelihood" class="level3" data-number="1.1.7">
+<h3 data-number="1.1.7" class="anchored" data-anchor-id="likelihood"><span class="header-section-number">1.1.7</span> Likelihood</h3>
+<ul>
+<li>CDI is a leading cause of healthcare-associated infections, with <strong>incidence rates of 3–10 per 1,000 hospital admissions</strong> in North America and Europe. Rates are on the rise in some regions, linked to high antibiotic usage and inadequate infection control in healthcare facilities.</li>
+</ul>
+</section>
+<section id="risk-factors" class="level3" data-number="1.1.8">
+<h3 data-number="1.1.8" class="anchored" data-anchor-id="risk-factors"><span class="header-section-number">1.1.8</span> <strong>Risk Factors</strong></h3>
+<section id="antibiotic-use" class="level4" data-number="1.1.8.1">
+<h4 data-number="1.1.8.1" class="anchored" data-anchor-id="antibiotic-use"><span class="header-section-number">1.1.8.1</span> Antibiotic Use:</h4>
+<ul>
+<li>Broad-spectrum antibiotics, such as fluoroquinolones, clindamycin, cephalosporins, and penicillin, disrupt normal gut microbiota, making patients more susceptible.</li>
+</ul>
+</section>
+<section id="hospitalization-and-long-term-care" class="level4" data-number="1.1.8.2">
+<h4 data-number="1.1.8.2" class="anchored" data-anchor-id="hospitalization-and-long-term-care"><span class="header-section-number">1.1.8.2</span> Hospitalization and Long-Term Care:</h4>
+<ul>
+<li>Patients in these settings are more exposed to <em>C. difficile</em> spores, especially those undergoing lengthy treatments.</li>
+</ul>
+</section>
+<section id="age" class="level4" data-number="1.1.8.3">
+<h4 data-number="1.1.8.3" class="anchored" data-anchor-id="age"><span class="header-section-number">1.1.8.3</span> Age:</h4>
+<ul>
+<li>Older adults (65+) are at higher risk due to reduced immune function.</li>
+</ul>
+</section>
+<section id="immunocompromised-status" class="level4" data-number="1.1.8.4">
+<h4 data-number="1.1.8.4" class="anchored" data-anchor-id="immunocompromised-status"><span class="header-section-number">1.1.8.4</span> Immunocompromised Status:</h4>
+<ul>
+<li><p>Patients with weakened immune systems (e.g., cancer patients, organ transplant recipients) are more vulnerable.</p></li>
+<li><p>Underlying Health Conditions: Conditions such as inflammatory bowel disease (IBD) and kidney disease increase the risk of severe outcomes.</p></li>
+<li><p>Previous CDI: Individuals who have had CDI before are at a higher risk for recurrence.</p></li>
+</ul>
+</section>
+</section>
+<section id="antibiotics-used-for-treatment" class="level3" data-number="1.1.9">
+<h3 data-number="1.1.9" class="anchored" data-anchor-id="antibiotics-used-for-treatment"><span class="header-section-number">1.1.9</span> Antibiotics Used for Treatment</h3>
+<section id="primary-antibiotics" class="level4" data-number="1.1.9.1">
+<h4 data-number="1.1.9.1" class="anchored" data-anchor-id="primary-antibiotics"><span class="header-section-number">1.1.9.1</span> Primary Antibiotics</h4>
+<ul>
+<li><p><strong>Vancomycin</strong>: Often used as a first-line treatment due to its efficacy against <em>C. difficile</em>.</p></li>
+<li><p><strong>Fidaxomicin</strong>: Another first-line antibiotic, favoured for its narrow-spectrum effects that minimize microbiota disruption.</p></li>
+<li><p><strong>Metronidazole</strong>: Previously a first-line treatment, it is now often reserved for mild cases or used when other options are unavailable.</p></li>
+</ul>
+</section>
+<section id="adjunct-treatments" class="level4" data-number="1.1.9.2">
+<h4 data-number="1.1.9.2" class="anchored" data-anchor-id="adjunct-treatments"><span class="header-section-number">1.1.9.2</span> Adjunct Treatments</h4>
+<ul>
+<li>In cases of recurrent CDI, <strong>faecal microbiota transplantation (FMT)</strong> is often considered to restore a healthy microbiome​</li>
+</ul>
+</section>
+</section>
+<section id="diagnostics-for-cdi" class="level3" data-number="1.1.10">
+<h3 data-number="1.1.10" class="anchored" data-anchor-id="diagnostics-for-cdi"><span class="header-section-number">1.1.10</span> Diagnostics for CDI</h3>
+<section id="glutamate-dehydrogenase-gdh-eia" class="level4" data-number="1.1.10.1">
+<h4 data-number="1.1.10.1" class="anchored" data-anchor-id="glutamate-dehydrogenase-gdh-eia"><span class="header-section-number">1.1.10.1</span> Glutamate Dehydrogenase (GDH) EIA</h4>
+<ul>
+<li><p><strong>Purpose</strong>: Screens for the presence of <em>C. difficile</em> but cannot distinguish between toxigenic and non-toxigenic strains.</p></li>
+<li><p><strong>Use</strong>: Typically combined with a toxin test for confirmation due to high sensitivity​.</p></li>
+</ul>
+</section>
+<section id="enzyme-immunoassay-eia" class="level4" data-number="1.1.10.2">
+<h4 data-number="1.1.10.2" class="anchored" data-anchor-id="enzyme-immunoassay-eia"><span class="header-section-number">1.1.10.2</span> Enzyme Immunoassay (EIA)</h4>
+<ul>
+<li><p><strong>Purpose</strong>: Detects toxins A and/or B directly from stool samples.</p></li>
+<li><p><strong>Advantages</strong>: Rapid results, but sensitivity ranges widely (29–86%) depending on the setting and kit used.</p></li>
+<li><p><strong>Limitation</strong>: Due to lower sensitivity, EIA is generally not recommended as a standalone diagnostic tool​</p></li>
+</ul>
+</section>
+<section id="nucleic-acid-amplification-test-naat" class="level4" data-number="1.1.10.3">
+<h4 data-number="1.1.10.3" class="anchored" data-anchor-id="nucleic-acid-amplification-test-naat"><span class="header-section-number">1.1.10.3</span> Nucleic Acid Amplification Test (NAAT)</h4>
+<ul>
+<li><p><strong>Purpose</strong>: Detects toxigenic genes directly from stool samples, offering high sensitivity for identifying <em>C. difficile’s</em> presence.</p></li>
+<li><p><strong>Consideration</strong>: While highly sensitive, NAAT may detect asymptomatic colonization, potentially leading to overtreatment. Often used alongside toxin assays for accurate diagnosis.</p></li>
+</ul>
+</section>
+<section id="cell-cytotoxicity-assay-cta" class="level4" data-number="1.1.10.4">
+<h4 data-number="1.1.10.4" class="anchored" data-anchor-id="cell-cytotoxicity-assay-cta"><span class="header-section-number">1.1.10.4</span> Cell Cytotoxicity Assay (CTA)</h4>
+<ul>
+<li><p><strong>Purpose</strong>: Identifies toxin-induced damage in a cell culture, serving as a reference standard with high accuracy.</p></li>
+<li><p><strong>Limitation</strong>: The process is time-intensive and technically demanding, making it less practical for routine diagnostics​</p>
+<p>For more information on diagnostics for CDI, see <a href="chapter_4.html">Diagnostics for CDI</a>.</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="epidemiology" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="epidemiology"><span class="header-section-number">1.2</span> Epidemiology</h2>
+<ul>
+<li><p>CDI rates have increased due to antibiotic usage and hypervirulent strains like ribotype 027</p></li>
+<li><p>It is prevalent in North America and Europe and has recently expanded to community-associated infections (CA-CDI), affecting a broader demographic, including younger, healthier individuals</p></li>
+<li><p>The rising rates of CDI have largely been attributed to the presence of BI/NAP1/027 but are not limited to the spread of this strain</p></li>
+<li><p>Depending on the country, other strains (including PCR ribotypes 001, 053 and 106) can be often associated with outbreaks and severe cases</p></li>
+<li><p>Ribotype 078 has increased recently from 3% to 13% in several countries in Europe. In the Netherlands, patients infected with ribotype 078 were younger (67.4 versus 73.5 years) and had community-associated disease more frequently (17.5% versus 6.7%; odds ratio = 2.98; 95% confidence interval = 2.11–8.02) than patients infected with ribotype 027.</p></li>
+<li><p>Ribotype 027, new hypervirulent strains (e.g., ribotype 078 and ribotype 181) have been identified, particularly in community-associated settings and Environmental and Zoonotic Reservoirs</p></li>
+</ul>
+<section id="historical-context-and-rise-in-incidence" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="historical-context-and-rise-in-incidence"><span class="header-section-number">1.2.1</span> Historical Context and Rise in Incidence</h3>
+<p><strong>1935 – Initial Identification</strong></p>
+<ul>
+<li><em>C. difficile</em> was first isolated and identified by researchers Hall and O’Toole, who discovered it as part of the normal gut flora in neonates. The bacterium was named <em>difficile</em> due to the difficulty in culturing it.</li>
+</ul>
+<p><strong>1970s – Recognition as a Pathogen</strong></p>
+<ul>
+<li><p><strong>1974</strong>: The association between antibiotics and diarrhoea began to be studied more intensively, leading to the identification of certain bacterial causes.</p></li>
+<li><p><strong>1978</strong>: Researchers discovered that <em>C. difficile</em> was the primary cause of antibiotic-associated diarrhoea and pseudomembranous colitis. The discovery highlighted that <em>C. difficile</em> produced toxins responsible for severe colitis in patients who had undergone antibiotic treatment, which disrupted their gut microbiota.</p></li>
+</ul>
+<p><strong>1980s – Emergence as a Major Healthcare Concern</strong></p>
+<ul>
+<li>CDI gained recognition as a significant nosocomial (hospital-acquired) infection. The understanding of <em>C. difficile</em> spores and their resistance to conventional disinfectants emphasized the importance of stringent infection control practices in hospitals.</li>
+</ul>
+<p><strong>1990s – Advances in Diagnostic and Typing Methods</strong></p>
+<ul>
+<li><p>Improvements in laboratory techniques allowed for better detection of <em>C. difficile</em> toxins in stool samples, enhancing the diagnosis of CDI.</p></li>
+<li><p>The development of PCR ribotyping and other genetic typing methods helped in tracking outbreaks and understanding strain variations.</p></li>
+</ul>
+<p><strong>2000s – Hypervirulent Strains and Global Spread</strong></p>
+<ul>
+<li><p><strong>2003</strong>: The emergence of hypervirulent strains, particularly ribotype 027 (also known as BI/NAP1/027), was first reported in North America and soon observed in Europe. These strains were associated with increased severity, higher recurrence rates, and greater resistance to fluoroquinolones.</p></li>
+<li><p><strong>2005</strong>: Major outbreaks of CDI linked to ribotype 027 were reported in Canada and the U.S., resulting in significant mortality and reinforcing CDI as a public health priority.</p></li>
+<li><p>The EUCLID study (2011–2013) in Europe highlighted underreporting and gaps in the recognition of CDI, emphasizing the need for standardized diagnostics and increased awareness.</p></li>
+</ul>
+<p><strong>2010s – Recognition of Community-Associated CDI (CA-CDI)</strong></p>
+<ul>
+<li><p>Studies began to identify CDI cases outside of traditional healthcare settings, affecting younger, healthier individuals without recent antibiotic use or hospitalization. This indicated new transmission pathways and potential environmental or foodborne sources.</p></li>
+<li><p><strong>2011/12</strong>: The European Centre for Disease Prevention and Control (ECDC) conducted a large survey, estimating CDI’s prevalence at around 3.7% in healthcare-associated infections across Europe, revealing a significant annual burden.</p></li>
+</ul>
+<!-- -->
+<ul>
+<li><p><strong>2011</strong>: Fidaxomicin was approved as a treatment option, offering a targeted approach to reduce recurrence by preserving more of the normal gut microbiota compared to other antibiotics.</p></li>
+<li><p>Research in the decade highlighted the importance of microbiota restoration therapies, such as faecal microbiota transplantation (FMT), which gained popularity as an effective treatment for recurrent CDI.</p></li>
+</ul>
+<p><strong>2020s – Continued Research and Novel Strains</strong></p>
+<ul>
+<li><p>Ongoing studies focus on understanding the spread of CDI in community settings and further improving diagnostic methods. Research into alternative treatment methods, including bacteriophages and CRISPR-based strategies, continues to evolve.</p></li>
+<li><p><strong>Global Trends</strong>: Different regions showed varying strain distributions, with North America and Europe still seeing hypervirulent strains like ribotype 027, while Asia and Australia documented distinct ribotypes, such as 017, 018, and 244.</p></li>
+</ul>
+</section>
+<section id="incidence-in-healthcare-associated-infections-hais" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" class="anchored" data-anchor-id="incidence-in-healthcare-associated-infections-hais"><span class="header-section-number">1.2.2</span> Incidence in Healthcare-Associated Infections (HAIs)</h3>
+<ul>
+<li><p><strong>North America and Europe</strong>: CDI is a major contributor to HAIs in these regions. In the U.S., CDI accounts for approximately 14,000 deaths annually, positioning it as a leading cause of hospital-associated infections.</p></li>
+<li><p><strong>CDI Rates in Europe</strong>:</p>
+<ul>
+<li><p><strong>Early Studies</strong>: In 2000, CDI incidence in Europe was estimated at around 1.1 cases per 1,000 patient admissions. By 2005, it increased to 2.5 cases per 10,000 patient days, and by 2008, reached 4.1 cases per 10,000 patient days.</p></li>
+<li><p><strong>EUCLID Study (2011-2013)</strong>: This large, multicenter European study reported an incidence of 7.0 cases per 10,000 patient days among hospitalized patients with diarrhoea. The study highlighted that CDI may be underreported due to limited awareness and testing by healthcare providers.</p></li>
+<li><p><strong>ECDC Survey (2011/12)</strong>: The European Centre for Disease Prevention and Control (ECDC) survey of over 230,000 patients across 33 European countries estimated a CDI prevalence of 3.7% in HAIs, with an annual burden of around 123,997 cases in the EU and EEA countries.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="community-associated-cdi-ca-cdi" class="level3" data-number="1.2.3">
+<h3 data-number="1.2.3" class="anchored" data-anchor-id="community-associated-cdi-ca-cdi"><span class="header-section-number">1.2.3</span> Community-Associated CDI (CA-CDI)</h3>
+<ul>
+<li><p><strong>Expansion Beyond Hospitals</strong>: Initially, CDI primarily affected hospitalized and elderly patients with recent antibiotic exposure. Recently, however, there has been a significant increase in community-associated CDI cases affecting younger, healthier individuals with little or no recent antibiotic exposure.</p></li>
+<li><p><strong>Demographic Shift</strong>: This shift suggests changes in the transmission patterns and epidemiology of CDI, potentially linked to environmental contamination, foodborne sources, or asymptomatic carriers.</p></li>
+<li><p><strong>Definitions</strong></p></li>
+</ul>
+<!-- -->
+<ul>
+<li><p>Community-Associated CDI (CA-CDI): Refers to CDI cases in patients with no recent hospitalization or healthcare exposure. Typically, CA-CDI is diagnosed in individuals who have not been admitted to a healthcare facility in the previous 12 weeks, making it truly community-acquired.</p></li>
+<li><p>Community-Onset CDI (CO-CDI): Refers to CDI that is diagnosed outside of a hospital setting but may involve recent healthcare exposure (such as recent outpatient procedures or short-term hospital stays within the past 12 weeks). CO-CDI cases often represent an overlap between traditional hospital-acquired CDI and community-acquired cases.</p></li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Epidemiology and Rising Trends</strong></li>
+</ul>
+<!-- -->
+<ul>
+<li><p>Both CA-CDI and CO-CDI cases have been increasing in recent years, making up a larger portion of all CDI cases. Studies estimate that between 20-40% of CDI cases in some regions now occur outside healthcare settings.</p></li>
+<li><p>CA-CDI has been noted more frequently among younger, healthier individuals who traditionally would be at lower risk, such as children, pregnant women, and adults without recent antibiotic use or hospital exposure.</p></li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Potential Sources and Transmission Pathways</strong></li>
+</ul>
+<!-- -->
+<ul>
+<li><p>Environmental Contamination: C. difficile spores, which are highly resilient, are found in various environments, including soil, water, and public spaces. This environmental persistence contributes to community-based transmission, as spores can be ingested via contaminated surfaces, food, or water sources.</p></li>
+<li><p>Foodborne Transmission: Recent studies have detected C. difficile in retail meats (e.g., beef, pork, and chicken), suggesting a potential foodborne route, although direct evidence of foodborne infection remains limited.</p></li>
+<li><p>Animal and Zoonotic Sources: Certain C. difficile ribotypes found in livestock (like ribotype 078) are increasingly implicated in CA-CDI, especially in regions with intensive farming practices. Cross-species transmission from animals to humans could contribute to community transmission.</p></li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Risk Factors for CA-CDI</strong></li>
+</ul>
+<blockquote class="blockquote">
+<p>Unlike healthcare-associated CDI, where antibiotics are the main risk factor, CA-CDI cases often have more varied backgrounds. Risk factors include:</p>
+</blockquote>
+<ul>
+<li><p>Antibiotic Use: Although less common than in healthcare-associated CDI, prior outpatient antibiotic use (e.g., broad-spectrum antibiotics like cephalosporins) remains a significant risk factor.</p></li>
+<li><p>Acid-Suppressing Medications: Proton pump inhibitors (PPIs) and other acid-suppressing medications have been linked to increased CDI risk, possibly due to changes in gut pH that favour C. difficile growth.</p></li>
+<li><p>Underlying Health Conditions: Conditions like inflammatory bowel disease (IBD) and irritable bowel syndrome (IBS) can increase susceptibility to CDI by altering gut microbiota.</p></li>
+<li><p>Household Transmission: Some studies suggest household transmission among family members or those in close contact, particularly when one individual has been recently colonized or infected.</p></li>
+</ul>
+</section>
+<section id="global-trends-and-regional-variations" class="level3" data-number="1.2.4">
+<h3 data-number="1.2.4" class="anchored" data-anchor-id="global-trends-and-regional-variations"><span class="header-section-number">1.2.4</span> Global Trends and Regional Variations</h3>
+<ul>
+<li><p><strong>North America and Europe</strong>: Hypervirulent strains such as ribotype 027 are especially prevalent in these regions, driving higher CDI rates and more severe disease cases.</p></li>
+<li><p><strong>Australia and Asia</strong>: Distinct regional ribotypes are observed, such as ribotypes 017, 018, and 244, with different levels of virulence and transmission patterns. These strains indicate geographic variability in <em>C. difficile</em> distribution, potentially influenced by regional healthcare practices, antibiotic usage patterns, and genetic differences among strains.</p></li>
+</ul>
+<p>In Europe, CDI incidence has doubled over the past few decades, with the prevalence reaching about 3.7% in HAIs. Major regional studies like the ECDC’s report indicate an annual CDI burden of approximately 124,000 cases across the EU and EEA​</p>
+</section>
+<section id="transmission-and-reservoirs-for-cdi" class="level3" data-number="1.2.5">
+<h3 data-number="1.2.5" class="anchored" data-anchor-id="transmission-and-reservoirs-for-cdi"><span class="header-section-number">1.2.5</span> Transmission and Reservoirs for CDI</h3>
+<p>Primary transmission occurs through spores that can persist on surfaces, with healthcare environments and asymptomatic carriers serving as main reservoirs. Community transmission is increasingly linked to environmental and food sources, especially in areas with intensive farming practices​</p>
+<ul>
+<li><p>Primary Reservoirs: CDI can spread through direct contact with symptomatic or asymptomatic individuals, healthcare workers, and contaminated environments. Spores survive on surfaces for extended periods, posing long-term risks.</p></li>
+<li><p>Role of Asymptomatic Carriers: Asymptomatic individuals, especially in hospital and long-term care settings, can spread CDI. Roughly 4-10% of patients are colonized with C. difficile upon admission to healthcare facilities, increasing during their stay.</p></li>
+<li><p>Environmental and Zoonotic Sources: CDI spores are found in soil, water, and foods (e.g., meats, shellfish). There is potential zoonotic transmission from animals, particularly in agricultural regions with high-density farming, although foodborne outbreaks are rare.</p></li>
+</ul>
+</section>
+</section>
+<section id="transmission-route" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="transmission-route"><span class="header-section-number">1.3</span> Transmission route</h2>
+<p>Other than HAI, community sources for CDI include soil, water, pets, animals used for food, meats and vegetables There is no conclusive evidence that <em>C. difficile</em> contamination of food has led to clinical CDI in humans, and Community-associated CDI without previous direct or indirect contact with a hospital environment remains rare compared with hospital-acquired CDI</p>
+<section id="direct-contact-transmission" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" class="anchored" data-anchor-id="direct-contact-transmission"><span class="header-section-number">1.3.1</span> Direct Contact Transmission</h3>
+<ul>
+<li><p><strong>Person-to-Person Contact</strong>: Transmission via hands or skin contact with an infected or colonized individual, particularly in healthcare settings.</p></li>
+<li><p><strong>Healthcare Workers</strong>: <em>C. difficile</em> spores can be transferred from healthcare workers’ hands, clothing, or equipment if hygiene protocols are not followed.</p></li>
+</ul>
+</section>
+<section id="fomite-transmission" class="level3" data-number="1.3.2">
+<h3 data-number="1.3.2" class="anchored" data-anchor-id="fomite-transmission"><span class="header-section-number">1.3.2</span> Fomite Transmission</h3>
+<ul>
+<li><p><strong>Environmental Surfaces</strong>: <em>C. difficile</em> spores can survive on surfaces such as bed rails, medical equipment, door handles, and bathrooms for long periods, allowing indirect transmission.</p></li>
+<li><p><strong>Hospital and Healthcare Equipment</strong>: Shared medical devices, bed linens, and even handrails can harbor spores if not properly disinfected.</p></li>
+</ul>
+</section>
+<section id="aerosolization-and-airborne-particles" class="level3" data-number="1.3.3">
+<h3 data-number="1.3.3" class="anchored" data-anchor-id="aerosolization-and-airborne-particles"><span class="header-section-number">1.3.3</span> Aerosolization and Airborne Particles</h3>
+<p><em>C. difficile</em> spores can potentially spread via aerosols, although it is not the primary mode of transmission. The spores are highly resilient and can survive on surfaces for long periods. While direct contact and surface contamination are the most common ways <em>C. diff</em> spreads, studies have shown that spores can be released into the air during certain activities, such as when removing bed linens or flushing toilets. This highlights the importance of strict infection control measures in healthcare settings to prevent aerosol spread.</p>
+<ul>
+<li><p><strong>Aerosolized Particles</strong>: Spores may become airborne during activities such as bed linen removal, patient cleaning, or toilet flushing, although this is a less common transmission route than surface contamination.</p></li>
+<li><p><strong>Close Proximity Aerosols</strong>: In some settings, spores could theoretically spread through short-range airborne particles, especially in rooms with poor ventilation.</p></li>
+</ul>
+</section>
+<section id="ingestion-of-contaminated-food-and-water" class="level3" data-number="1.3.4">
+<h3 data-number="1.3.4" class="anchored" data-anchor-id="ingestion-of-contaminated-food-and-water"><span class="header-section-number">1.3.4</span> Ingestion of Contaminated Food and Water</h3>
+<ul>
+<li><p><strong>Foodborne Transmission</strong>: <em>C. difficile</em> spores have been found in food products, including meat and shellfish, potentially posing a foodborne transmission risk.</p></li>
+<li><p><strong>Contaminated Water</strong>: Spores can survive in water sources, which may contribute to transmission in community settings if individuals come into contact with contaminated water.</p></li>
+</ul>
+</section>
+<section id="zoonotic-transmission-animal-to-human" class="level3" data-number="1.3.5">
+<h3 data-number="1.3.5" class="anchored" data-anchor-id="zoonotic-transmission-animal-to-human"><span class="header-section-number">1.3.5</span> Zoonotic Transmission (Animal-to-Human)</h3>
+<ul>
+<li><p><strong>Livestock and Pets</strong>: Certain ribotypes common in livestock, such as ribotype 078, suggest potential zoonotic transmission. Contact with animals (e.g., cattle, pigs, and pets) and their environments may increase infection risk.</p></li>
+<li><p><strong>Soil and Environmental Exposure</strong>: Animal waste can introduce spores into soil, which may reach humans through direct contact or indirectly through food contamination.</p></li>
+</ul>
+</section>
+<section id="community-associated-transmission" class="level3" data-number="1.3.6">
+<h3 data-number="1.3.6" class="anchored" data-anchor-id="community-associated-transmission"><span class="header-section-number">1.3.6</span> Community-Associated Transmission</h3>
+<ul>
+<li><p><strong>Household Contacts</strong>: Transmission can occur between household members, especially if one person is colonized or infected.</p></li>
+<li><p><strong>Public Spaces</strong>: <em>C. difficile</em> spores may be present in community spaces such as public restrooms, gyms, and transportation vehicles, though these routes are less common.</p></li>
+</ul>
+<p>While direct contact with contaminated surfaces and person-to-person spread in healthcare settings are the primary transmission routes, environmental reservoirs, food, animals, and even aerosolization can contribute to <em>C. difficile</em> spread. Understanding these routes is essential for effective control and prevention.</p>
+</section>
+<section id="colonization-in-asymptomatic-carriers" class="level3" data-number="1.3.7">
+<h3 data-number="1.3.7" class="anchored" data-anchor-id="colonization-in-asymptomatic-carriers"><span class="header-section-number">1.3.7</span> Colonization in Asymptomatic Carriers</h3>
+<ul>
+<li><strong>Human Carriers as Reservoirs</strong>: Asymptomatic carriers can shed <em>C. difficile</em> spores into the environment without displaying symptoms. These carriers, particularly healthcare workers or patients with recent hospital visits, can unknowingly spread spores in both healthcare and community settings.</li>
+</ul>
+</section>
+<section id="hospital-infrastructure-related-spread" class="level3" data-number="1.3.8">
+<h3 data-number="1.3.8" class="anchored" data-anchor-id="hospital-infrastructure-related-spread"><span class="header-section-number">1.3.8</span> Hospital Infrastructure-Related Spread</h3>
+<ul>
+<li><p><strong>Shared Ventilation and Airflow</strong>: Although less common, there is some evidence that spores may spread within hospitals through shared ventilation systems, especially in inadequately ventilated or overcrowded facilities.</p></li>
+<li><p><strong>Clothing and Personal Items</strong>: Personal items like mobile phones, stethoscopes, and clothing can act as vectors, particularly in hospitals where cross-contamination is common.</p></li>
+</ul>
+</section>
+<section id="biofilm-as-a-long-term-environmental-reservoir" class="level3" data-number="1.3.9">
+<h3 data-number="1.3.9" class="anchored" data-anchor-id="biofilm-as-a-long-term-environmental-reservoir"><span class="header-section-number">1.3.9</span> Biofilm as a Long-Term Environmental Reservoir</h3>
+<ul>
+<li><strong>Water Systems and Biofilms</strong>: <em>C. difficile</em> spores can integrate into biofilms in water systems (e.g., sinks, drains) within healthcare facilities. Biofilms can harbor spores, allowing them to persist and spread over extended periods.</li>
+</ul>
+</section>
+<section id="hands-of-visitors-and-community-exposure" class="level3" data-number="1.3.10">
+<h3 data-number="1.3.10" class="anchored" data-anchor-id="hands-of-visitors-and-community-exposure"><span class="header-section-number">1.3.10</span> Hands of Visitors and Community Exposure</h3>
+<ul>
+<li><strong>Public Interaction in Hospitals</strong>: Hospital visitors who are not always under strict hygiene protocols might spread spores inadvertently, especially if they visit multiple rooms or interact closely with patients.</li>
+</ul>
+</section>
+<section id="healthcare-facility-design-factors" class="level3" data-number="1.3.11">
+<h3 data-number="1.3.11" class="anchored" data-anchor-id="healthcare-facility-design-factors"><span class="header-section-number">1.3.11</span> Healthcare Facility Design Factors</h3>
+<ul>
+<li><strong>Open-Plan Wards or Shared Bathrooms</strong>: The layout and use of shared bathrooms in healthcare facilities can contribute to transmission by increasing the chance of contact with contaminated surfaces or aerosolized particles from toilets.</li>
+</ul>
+<p>These additional routes highlight nuances in how <em>C. difficile</em> can spread, especially within healthcare settings, and underscore the importance of strict hygiene, infrastructure design, and environmental cleaning to minimize transmission risks.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/Picture1.png" class="img-fluid figure-img" style="width:85.0%"></p>
+<figcaption><strong><em>C. difficile</em></strong> <strong>transmission</strong> <span class="citation" data-cites="martin2016">(<a href="reference.html#ref-martin2016" role="doc-biblioref">Martin, Monaghan, and Wilcox 2016</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="reservoirs" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="reservoirs"><span class="header-section-number">1.4</span> Reservoirs</h2>
+<p><em>C. difficile</em> reservoirs are locations or hosts where the bacterium can survive, persist, and potentially spread to new hosts. These reservoirs are critical to understanding the transmission pathways of both symptomatic and asymptomatic CDI. Here are the main types:</p>
+<section id="human-reservoirs" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="human-reservoirs"><span class="header-section-number">1.4.1</span> Human Reservoirs</h3>
+<section id="asymptomatic-carriers" class="level4" data-number="1.4.1.1">
+<h4 data-number="1.4.1.1" class="anchored" data-anchor-id="asymptomatic-carriers"><span class="header-section-number">1.4.1.1</span> Asymptomatic Carriers</h4>
+<p>Humans can carry <em>C. difficile</em> without symptoms, especially in high-risk groups (e.g., infants, the elderly, and immunocompromised individuals), and shed spores that can infect others. Asymptomatic carriers can shed the bacteria and contribute to transmission without showing symptoms of infection themselves. Several groups are recognized as common or significant carriers:</p>
+<ul>
+<li><strong>Infants and Young Children</strong></li>
+</ul>
+<p>Infants, particularly under one year of age, frequently carry <em>C. difficile</em> asymptomatically due to underdeveloped gut microbiota and potential immune tolerance to C. difficile toxins.</p>
+<p>This group is unique in that C. difficile is often present without causing disease, possibly due to reduced toxin receptor expression in their intestines.</p>
+<ul>
+<li><strong>Elderly Individuals</strong></li>
+</ul>
+<p>Older adults, especially those in long-term care facilities, are more likely to carry C. difficile asymptomatically. Factors include frequent antibiotic use, age-related gut microbiome changes, and increased exposure in healthcare settings.</p>
+<ul>
+<li><strong>Hospitalized Patients</strong></li>
+</ul>
+<p>Patients admitted for reasons other than CDI often carry C. difficile asymptomatically, especially after receiving antibiotics that disrupt their gut microbiota.</p>
+<p>These carriers pose a transmission risk in hospitals, as they can shed spores that survive on surfaces, leading to healthcare-associated infections.</p>
+<ul>
+<li><strong>Healthcare Workers</strong></li>
+</ul>
+<p>While not commonly symptomatic carriers, healthcare workers can carry C. difficile spores transiently on their skin or clothing, making them potential vectors for hospital-based transmission, especially without rigorous hand hygiene.</p>
+<ul>
+<li><strong>Individuals Recently Treated with Antibiotics</strong></li>
+</ul>
+<p>Antibiotic use disrupts the gut microbiota, increasing susceptibility to C. difficile colonization without necessarily leading to symptoms, especially in patients not on acid-suppressing therapy.</p>
+<ul>
+<li><strong>Close Contacts of CDI Patients</strong></li>
+</ul>
+<p>Family members or household contacts of individuals with symptomatic CDI can become asymptomatic carriers, likely through environmental exposure to spores.</p>
+<ul>
+<li><strong>Immunocompromised Individuals</strong></li>
+</ul>
+<p>People with weakened immune systems (e.g., cancer patients, those on immunosuppressive therapy) are at a higher risk of asymptomatic colonization due to compromised defenses against microbial overgrowth.</p>
+<p>These groups represent asymptomatic carriers who may either pose a risk for community transmission or act as reservoirs within healthcare environments, thereby contributing indirectly to the spread of CDI.</p>
+</section>
+<section id="symptomatic-individuals" class="level4" data-number="1.4.1.2">
+<h4 data-number="1.4.1.2" class="anchored" data-anchor-id="symptomatic-individuals"><span class="header-section-number">1.4.1.2</span> Symptomatic Individuals:</h4>
+<p>Patients with active CDI are also reservoirs, especially in healthcare settings where spores can spread easily.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/Picture2.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>M<strong>odel of accquisition of <em>C. difficile</em> infection</strong> <span class="citation" data-cites="rupnik2009">(<a href="reference.html#ref-rupnik2009" role="doc-biblioref">Rupnik, Wilcox, and Gerding 2009</a>)</span></figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/Picture3.png" class="img-fluid figure-img" style="width:79.0%"></p>
+<figcaption><strong>Example of multistep algorithms for testing the presence of <em>C. difficile</em></strong> <span class="citation" data-cites="martin2016">(<a href="reference.html#ref-martin2016" role="doc-biblioref">Martin, Monaghan, and Wilcox 2016</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="animal-reservoirs" class="level3" data-number="1.4.2">
+<h3 data-number="1.4.2" class="anchored" data-anchor-id="animal-reservoirs"><span class="header-section-number">1.4.2</span> Animal Reservoirs</h3>
+<ul>
+<li><p><strong>Livestock</strong>: Animals, particularly pigs, cows, and chickens, can harbor <em>C. difficile</em>, especially certain ribotypes like ribotype 078, which has been linked to zoonotic transmission. These animals can spread spores through direct contact or indirectly through their waste.</p></li>
+<li><p><strong>Pets</strong>: Dogs, cats, and other pets can carry <em>C. difficile</em> asymptomatically, potentially shedding spores in household environments.</p></li>
+<li><p><strong>Wildlife</strong>: Some wild animals have been identified as carriers of <em>C. difficile</em> in the environment, which can facilitate the spread to other animals and, indirectly, humans.</p></li>
+</ul>
+</section>
+<section id="environmental-reservoirs" class="level3" data-number="1.4.3">
+<h3 data-number="1.4.3" class="anchored" data-anchor-id="environmental-reservoirs"><span class="header-section-number">1.4.3</span> Environmental Reservoirs</h3>
+<ul>
+<li><p><strong>Soil</strong>: <em>C. difficile</em> spores are resilient and can survive in soil, where they may be transmitted through contact or ingestion, potentially reaching food sources or water supplies.</p></li>
+<li><p><strong>Water Sources</strong>: <em>C. difficile</em> spores can persist in water systems, including rivers, lakes, and wastewater, providing another means for transmission in community settings.</p></li>
+<li><p><strong>Food</strong>: <em>C. difficile</em> has been isolated from foods, especially meats, suggesting foodborne transmission as a potential route. Meat contamination may occur at processing stages, particularly with livestock-associated strains.</p></li>
+</ul>
+</section>
+<section id="healthcare-environment-reservoirs" class="level3" data-number="1.4.4">
+<h3 data-number="1.4.4" class="anchored" data-anchor-id="healthcare-environment-reservoirs"><span class="header-section-number">1.4.4</span> Healthcare Environment Reservoirs</h3>
+<ul>
+<li><p><strong>Surfaces and Equipment</strong>: Hospital rooms, shared medical devices, and other surfaces can become reservoirs of <em>C. difficile</em> spores, especially in healthcare facilities where disinfecting practices may vary.</p></li>
+<li><p><strong>Healthcare Workers’ Clothing</strong>: Healthcare workers can inadvertently carry spores on their clothing, hands, or personal items, contributing to environmental contamination and patient-to-patient transmission.</p></li>
+</ul>
+<p>These reservoirs represent critical sources of <em>C. difficile</em> spores in healthcare, community, and natural environments, and understanding them helps guide effective infection control and prevention strategies.</p>
+</section>
+</section>
+<section id="global-geographical-distribution" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="global-geographical-distribution"><span class="header-section-number">1.5</span> Global geographical distribution</h2>
+<p>Globally, regions most affected by CDI include North America, Europe, and parts of East Asia. In the United States and Canada, the incidence and severity of CDI are notably high, particularly in healthcare settings. Europe also reports high rates of infection, with increasing antibiotic resistance complicating treatment. Other regions, like Latin America and parts of Asia, are experiencing rising incidence, likely due to increased antibiotic usage and healthcare-associated infections. High-risk populations are often the elderly and hospitalized patients worldwide.</p>
+<section id="regional-patterns" class="level3" data-number="1.5.1">
+<h3 data-number="1.5.1" class="anchored" data-anchor-id="regional-patterns"><span class="header-section-number">1.5.1</span> Regional Patterns</h3>
+<section id="north-america-and-europe" class="level4" data-number="1.5.1.1">
+<h4 data-number="1.5.1.1" class="anchored" data-anchor-id="north-america-and-europe"><span class="header-section-number">1.5.1.1</span> North America and Europe</h4>
+<ul>
+<li>Dominated by ribotypes 027 and 106, associated with HAIs. High fluoroquinolone use in these regions contributes to the prevalence of resistant strains.</li>
+</ul>
+</section>
+<section id="asia" class="level4" data-number="1.5.1.2">
+<h4 data-number="1.5.1.2" class="anchored" data-anchor-id="asia"><span class="header-section-number">1.5.1.2</span> Asia</h4>
+<ul>
+<li>Ribotype 017 is widespread, with increased cases linked to both healthcare and community sources. The region has seen distinct strains due to regional antibiotic practices and infection control policies​</li>
+</ul>
+</section>
+<section id="australia" class="level4" data-number="1.5.1.3">
+<h4 data-number="1.5.1.3" class="anchored" data-anchor-id="australia"><span class="header-section-number">1.5.1.3</span> Australia</h4>
+<ul>
+<li>Ribotype 244 is emerging as a prevalent strain, causing severe cases across both hospital and community settings.</li>
+</ul>
+</section>
+</section>
+<section id="regional-factors-influencing-spread" class="level3" data-number="1.5.2">
+<h3 data-number="1.5.2" class="anchored" data-anchor-id="regional-factors-influencing-spread"><span class="header-section-number">1.5.2</span> Regional Factors Influencing Spread</h3>
+<section id="antibiotic-usage-patterns" class="level4" data-number="1.5.2.1">
+<h4 data-number="1.5.2.1" class="anchored" data-anchor-id="antibiotic-usage-patterns"><span class="header-section-number">1.5.2.1</span> Antibiotic Usage Patterns</h4>
+<ul>
+<li>Regions with higher fluoroquinolone usage have seen a greater prevalence of fluoroquinolone-resistant ribotypes like 027. This is likely due to selective pressure that allows resistant strains to thrive, especially in healthcare settings where these antibiotics are frequently used.</li>
+</ul>
+</section>
+<section id="healthcare-practices" class="level4" data-number="1.5.2.2">
+<h4 data-number="1.5.2.2" class="anchored" data-anchor-id="healthcare-practices"><span class="header-section-number">1.5.2.2</span> Healthcare Practices</h4>
+<ul>
+<li>Variations in infection control practices and CDI surveillance can impact ribotype prevalence. For example, regions with strict infection control policies may report fewer cases of certain hypervirulent strains within healthcare facilities but may still see their spread in community settings.</li>
+</ul>
+</section>
+<section id="agricultural-practices" class="level4" data-number="1.5.2.3">
+<h4 data-number="1.5.2.3" class="anchored" data-anchor-id="agricultural-practices"><span class="header-section-number">1.5.2.3</span> Agricultural Practices</h4>
+<ul>
+<li>Ribotypes associated with animals, such as ribotype 078, are more prevalent in regions with high-density livestock farming (e.g., the Netherlands). The presence of C. difficile in soil, water, and meat products suggests that agricultural practices, including the use of antibiotics in livestock, contribute to regional ribotype prevalence.</li>
+</ul>
+</section>
+<section id="international-travel-and-global-spread" class="level4" data-number="1.5.2.4">
+<h4 data-number="1.5.2.4" class="anchored" data-anchor-id="international-travel-and-global-spread"><span class="header-section-number">1.5.2.4</span> International Travel and Global Spread</h4>
+<ul>
+<li>Ribotypes like 027 have spread globally in part due to increased international travel and patient movement across healthcare systems. WGS studies have tracked strains across continents, showing how certain ribotypes spread through healthcare tourism and hospital transfers.</li>
+</ul>
+</section>
+<section id="zoonotic-transmission-and-regional-expansion" class="level4" data-number="1.5.2.5">
+<h4 data-number="1.5.2.5" class="anchored" data-anchor-id="zoonotic-transmission-and-regional-expansion"><span class="header-section-number">1.5.2.5</span> Zoonotic Transmission and Regional Expansion</h4>
+<ul>
+<li>Ribotype 078’s association with livestock has led to increased community-acquired infections in agricultural areas and food supply chains. This has led to its spread outside traditional agricultural regions, affecting urban areas with less direct contact with livestock but potential exposure through food.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="ribotypes" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="ribotypes"><span class="header-section-number">1.6</span> Ribotypes</h2>
+<section id="ribotypes-shift" class="level3" data-number="1.6.1">
+<h3 data-number="1.6.1" class="anchored" data-anchor-id="ribotypes-shift"><span class="header-section-number">1.6.1</span> Ribotypes Shift</h3>
+<section id="changing-dominance-of-ribotypes" class="level4" data-number="1.6.1.1">
+<h4 data-number="1.6.1.1" class="anchored" data-anchor-id="changing-dominance-of-ribotypes"><span class="header-section-number">1.6.1.1</span> Changing Dominance of Ribotypes:</h4>
+<ul>
+<li><p>The predominant ribotypes in Europe shifted over time, from RT001 (13%) in 2005 to RT014/020 (16%) in 2008.</p></li>
+<li><p>By 2012/13, RT027 (19%) emerged as the predominant strain due to its higher outbreak potential and association with severe outcomes, influencing global CDI surveillance policies.</p></li>
+</ul>
+</section>
+<section id="antibiotic-resistance-trends" class="level4" data-number="1.6.1.2">
+<h4 data-number="1.6.1.2" class="anchored" data-anchor-id="antibiotic-resistance-trends"><span class="header-section-number">1.6.1.2</span> Antibiotic Resistance Trends:</h4>
+<ul>
+<li><p>In 2011/12, European <em>C. difficile</em> isolates showed reduced susceptibility to metronidazole and vancomycin.</p></li>
+<li><p>About 40% of isolates exhibited resistance to moxifloxacin, particularly among prevalent RTs.</p></li>
+<li><p>A study linked fluctuations in fluoroquinolone prescriptions to the emergence and subsequent control of fluoroquinolone-resistant RT027 in England.</p></li>
+</ul>
+</section>
+</section>
+<section id="key-ribotypes" class="level3" data-number="1.6.2">
+<h3 data-number="1.6.2" class="anchored" data-anchor-id="key-ribotypes"><span class="header-section-number">1.6.2</span> Key Ribotypes</h3>
+<section id="ribotype-027-binap1027" class="level4" data-number="1.6.2.1">
+<h4 data-number="1.6.2.1" class="anchored" data-anchor-id="ribotype-027-binap1027"><span class="header-section-number">1.6.2.1</span> Ribotype 027 (BI/NAP1/027)</h4>
+<ul>
+<li>This hypervirulent strain has been associated with severe CDI outbreaks and is particularly prevalent in North America and Europe, where it’s linked to hospital-associated infections (HAIs). Its spread has been facilitated by its high resistance to fluoroquinolones.</li>
+</ul>
+</section>
+<section id="ribotype-078" class="level4" data-number="1.6.2.2">
+<h4 data-number="1.6.2.2" class="anchored" data-anchor-id="ribotype-078"><span class="header-section-number">1.6.2.2</span> Ribotype 078</h4>
+<ul>
+<li>Commonly found in Europe and increasingly in North America, ribotype 078 is associated with community-associated CDI (CA-CDI) and zoonotic transmission, especially from livestock. This ribotype has been isolated from pigs, cows, and other animals, leading to concerns about foodborne transmission and its persistence in the community.</li>
+</ul>
+</section>
+<section id="ribotype-017" class="level4" data-number="1.6.2.3">
+<h4 data-number="1.6.2.3" class="anchored" data-anchor-id="ribotype-017"><span class="header-section-number">1.6.2.3</span> Ribotype 017</h4>
+<ul>
+<li>Found widely in Asia, particularly in East Asia (e.g., China, Japan, and South Korea), ribotype 017 is known for its unique toxin profile (TcdA-negative, TcdB-positive). This ribotype is also common in Australia and has been involved in both healthcare- and community-associated outbreaks.</li>
+</ul>
+</section>
+<section id="ribotype-106" class="level4" data-number="1.6.2.4">
+<h4 data-number="1.6.2.4" class="anchored" data-anchor-id="ribotype-106"><span class="header-section-number">1.6.2.4</span> Ribotype 106</h4>
+<ul>
+<li>Predominantly seen in the United Kingdom and Ireland, ribotype 106 has caused outbreaks in healthcare facilities and is increasingly linked to severe infections, similar to ribotype 027.</li>
+</ul>
+</section>
+<section id="ribotype-244" class="level4" data-number="1.6.2.5">
+<h4 data-number="1.6.2.5" class="anchored" data-anchor-id="ribotype-244"><span class="header-section-number">1.6.2.5</span> Ribotype 244</h4>
+<ul>
+<li>First detected in Australia, ribotype 244 is an emerging hypervirulent strain associated with severe infections and higher toxin production. It’s becoming more common in both hospital and community settings within Australia.</li>
+</ul>
+</section>
+</section>
+<section id="typing-techniques" class="level3" data-number="1.6.3">
+<h3 data-number="1.6.3" class="anchored" data-anchor-id="typing-techniques"><span class="header-section-number">1.6.3</span> Typing Techniques</h3>
+<section id="pcr-ribotyping" class="level4" data-number="1.6.3.1">
+<h4 data-number="1.6.3.1" class="anchored" data-anchor-id="pcr-ribotyping"><span class="header-section-number">1.6.3.1</span> PCR Ribotyping</h4>
+<ul>
+<li><p><strong>Principle:</strong> This method uses PCR to amplify the intergenic spacer region between the 16S and 23S rRNA genes. Differences in the length of these spacer regions result in unique banding patterns after gel electrophoresis, which are used to classify strains into specific ribotypes.</p></li>
+<li><p><strong>Applications</strong>: Effective for tracking strain distribution in epidemiological studies and identifying specific strains in healthcare settings.</p></li>
+</ul>
+</section>
+<section id="multilocus-sequence-typing-mlst" class="level4" data-number="1.6.3.2">
+<h4 data-number="1.6.3.2" class="anchored" data-anchor-id="multilocus-sequence-typing-mlst"><span class="header-section-number">1.6.3.2</span> Multilocus Sequence Typing (MLST)</h4>
+<ul>
+<li><p><strong>Principle</strong>: MLST sequences several conserved housekeeping genes (typically seven) to create an allelic profile for each strain. Each unique allelic combination is assigned a sequence type (ST), allowing for the characterization of genetic relationships between strains.</p></li>
+<li><p><strong>Applications</strong>: MLST is useful for understanding the genetic diversity, evolutionary relationships, and global distribution of C. difficile strains.</p></li>
+</ul>
+</section>
+<section id="whole-genome-sequencing-wgs" class="level4" data-number="1.6.3.3">
+<h4 data-number="1.6.3.3" class="anchored" data-anchor-id="whole-genome-sequencing-wgs"><span class="header-section-number">1.6.3.3</span> Whole genome sequencing (WGS)</h4>
+<ul>
+<li><p><strong>Principle</strong>: WGS involves sequencing the entire genome of the <em>C. difficile</em> strain. This provides comprehensive genetic information, including details on virulence factors, resistance genes, and evolutionary mutations.</p></li>
+<li><p><strong>Applications</strong>: WGS is highly precise and useful for tracking transmission routes, identifying outbreak sources, and conducting high-resolution epidemiological studies.</p></li>
+</ul>
+</section>
+<section id="restriction-endonuclease-analysis-rea" class="level4" data-number="1.6.3.4">
+<h4 data-number="1.6.3.4" class="anchored" data-anchor-id="restriction-endonuclease-analysis-rea"><span class="header-section-number">1.6.3.4</span> Restriction Endonuclease Analysis (REA)</h4>
+<ul>
+<li><p><strong>Principle</strong>: REA uses restriction enzymes to cut <em>C. difficile</em> DNA at specific nucleotide sequences, producing a unique pattern of DNA fragments. These fragments are then separated by gel electrophoresis, creating a strain-specific restriction pattern.</p></li>
+<li><p><strong>Applications</strong>: Traditionally used in research and clinical labs to differentiate strains, though less common now due to its labour-intensive nature.</p></li>
+</ul>
+</section>
+<section id="toxinotyping" class="level4" data-number="1.6.3.5">
+<h4 data-number="1.6.3.5" class="anchored" data-anchor-id="toxinotyping"><span class="header-section-number">1.6.3.5</span> Toxinotyping</h4>
+<p>Toxinotyping helps researchers understand <em>C. difficile</em> genetic diversity and link certain toxinotypes with outbreaks and disease trends, even though toxinotype alone is not a definitive predictor of clinical disease expression. The rise of variant strains in human populations, especially those associated with severe outbreaks, highlights the need for ongoing monitoring and research.</p>
+<ul>
+<li><p><strong>Principle</strong>: Toxinotyping examines variations within the pathogenicity locus (PaLoc), where the toxin genes <em>tcdA</em> and <em>tcdB</em> are located. This method involves PCR amplification and sequencing of PaLoc to identify differences in the toxin gene regions.</p></li>
+<li><p><strong>Applications</strong>: Toxinotyping helps distinguish between strains based on toxin gene variations, useful in identifying hypervirulent strains and understanding virulence differences among C. difficile strains</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/Picture4.png" class="img-fluid figure-img" style="width:82.0%"></p>
+<figcaption><strong><em>C. difficile</em></strong> <strong>toxin production operon</strong> <span class="citation" data-cites="rupnik2009">(<a href="reference.html#ref-rupnik2009" role="doc-biblioref">Rupnik, Wilcox, and Gerding 2009</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="multilocus-variable-number-tandem-repeat-analysis-mlva" class="level4" data-number="1.6.3.6">
+<h4 data-number="1.6.3.6" class="anchored" data-anchor-id="multilocus-variable-number-tandem-repeat-analysis-mlva"><span class="header-section-number">1.6.3.6</span> Multilocus Variable-Number Tandem Repeat Analysis (MLVA)</h4>
+<ul>
+<li><p><strong>Principle</strong>: MLVA analyzes variations in the number of tandem repeat sequences across multiple loci in the <em>C. difficile</em> genome. By counting these repeats, a unique fingerprint for each strain is generated.</p></li>
+<li><p><strong>Applications</strong>: MLVA is particularly useful in outbreak investigations to track the spread of specific C. difficile strains within healthcare facilities.</p></li>
+</ul>
+</section>
+<section id="amplified-fragment-length-polymorphism-aflp" class="level4" data-number="1.6.3.7">
+<h4 data-number="1.6.3.7" class="anchored" data-anchor-id="amplified-fragment-length-polymorphism-aflp"><span class="header-section-number">1.6.3.7</span> Amplified Fragment Length Polymorphism (AFLP)</h4>
+<ul>
+<li><p><strong>Principle</strong>: AFLP typing involves digesting <em>C. difficile</em> DNA with restriction enzymes, followed by selective PCR amplification of the DNA fragments. The resulting amplified fragments produce a unique pattern when separated on a gel, forming a fingerprint for each strain.</p></li>
+<li><p><strong>Applications</strong>: AFLP is used for assessing genetic diversity among strains, though it is less commonly applied due to its complexity and the need for specialized equipment.</p></li>
+</ul>
+</section>
+<section id="pulsed-field-gel-electrophoresis-pfge" class="level4" data-number="1.6.3.8">
+<h4 data-number="1.6.3.8" class="anchored" data-anchor-id="pulsed-field-gel-electrophoresis-pfge"><span class="header-section-number">1.6.3.8</span> Pulsed-Field Gel Electrophoresis (PFGE)</h4>
+<ul>
+<li><p><strong>Method</strong>: PFGE uses restriction enzymes to generate large DNA fragments that are separated by pulsed-field gel electrophoresis to produce a strain-specific banding pattern.</p></li>
+<li><p><strong>Applications</strong>: Historically popular for outbreak investigation, but now largely replaced by WGS due to PFGE’s complexity and lower resolution.</p></li>
+</ul>
+</section>
+</section>
+<section id="problems-with-ribotyping" class="level3" data-number="1.6.4">
+<h3 data-number="1.6.4" class="anchored" data-anchor-id="problems-with-ribotyping"><span class="header-section-number">1.6.4</span> Problems with Ribotyping</h3>
+<ul>
+<li><p>The&nbsp;lack of a universally accepted typing strategy has limited the comparison of strain patterns between countries and continents</p></li>
+<li><p>Each technique is reported with its nomenclature, thus ribotype 027 is also known as NAP1 (PFGE), BI (REA) and ST1 (MLST)</p></li>
+<li><p>The various typing methods have different relative discriminatory powers; REA and MLVA show greater discrimination than ribotyping or MLST, which in turn provide greater power to separate strains than PFGE</p></li>
+</ul>
+</section>
+</section>
+<section id="virulence-factor" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="virulence-factor"><span class="header-section-number">1.7</span> Virulence factor</h2>
+<section id="toxins" class="level3" data-number="1.7.1">
+<h3 data-number="1.7.1" class="anchored" data-anchor-id="toxins"><span class="header-section-number">1.7.1</span> Toxins</h3>
+<ul>
+<li><p><strong>TcdA and TcdB</strong>: Primary virulence factors encoded in the pathogenicity locus (PaLoc), disrupting intestinal cells and causing inflammation. TcdB is a key factor in colitis severity, while TcdA aids in gut colonization​.</p></li>
+<li><p><strong>Binary Toxin (CDT)</strong>: Present in certain hypervirulent strains like ribotype 027, CDT enhances adhesion and invasion, contributing to increased virulence and mortality rates​</p></li>
+</ul>
+</section>
+<section id="non-toxin-virulence-factors" class="level3" data-number="1.7.2">
+<h3 data-number="1.7.2" class="anchored" data-anchor-id="non-toxin-virulence-factors"><span class="header-section-number">1.7.2</span> Non-Toxin Virulence Factors</h3>
+<ul>
+<li><p><strong>Adhesion and Biofilm Formation</strong>: Proteins like fibronectin-binding proteins aid in adherence to host cells, supporting biofilm formation that provides resistance against host immune responses and antibiotics.</p></li>
+<li><p><strong>Regulatory Systems (c-di-GMP)</strong>: Modulates virulence by switching between motile/toxin-producing and biofilm-forming states, aiding in colonization and persistence within the gut environment​</p></li>
+</ul>
+</section>
+<section id="genetic-variability" class="level3" data-number="1.7.3">
+<h3 data-number="1.7.3" class="anchored" data-anchor-id="genetic-variability"><span class="header-section-number">1.7.3</span> Genetic Variability</h3>
+<ul>
+<li>Different toxin types, defined by the PaLoc variations, are linked to unique toxin profiles and clinical outcomes. For example, toxin type III (ribotype 027) and toxin type VIII (ribotype 017) show increased virulence, with significant outbreak associations​</li>
+</ul>
+</section>
+</section>
+<section id="infection-cycles" class="level2" data-number="1.8">
+<h2 data-number="1.8" class="anchored" data-anchor-id="infection-cycles"><span class="header-section-number">1.8</span> Infection cycles</h2>
+<p>Epidemiology: CDI incidence is highest in North America, Europe, and parts of East Asia, especially among hospitalized, elderly, and immunocompromised populations. Community-associated CDI (CA-CDI) is also rising, linked to strains such as RT027, RT078, and RT017, which show high levels of resistance to fluoroquinolones.</p>
+<p>The <em>Clostridioides difficile</em> (C. difficile) infection cycle involves several stages, from spore ingestion to active infection, followed by spore shedding that can lead to further transmission. Here’s a breakdown of the infection cycle:</p>
+<section id="spore-ingestion" class="level3" data-number="1.8.1">
+<h3 data-number="1.8.1" class="anchored" data-anchor-id="spore-ingestion"><span class="header-section-number">1.8.1</span> Spore Ingestion</h3>
+<ul>
+<li><p><strong>Entry Point</strong>: The infection cycle begins when a host ingests <em>C. difficile</em> spores, typically through contaminated hands, surfaces, food, or water.</p></li>
+<li><p><strong>Resistant to Stomach Acidity</strong>: Spores are highly resilient and can survive the acidic environment of the stomach, allowing them to reach the intestines intact.</p></li>
+</ul>
+</section>
+<section id="germination-in-the-gut" class="level3" data-number="1.8.2">
+<h3 data-number="1.8.2" class="anchored" data-anchor-id="germination-in-the-gut"><span class="header-section-number">1.8.2</span> Germination in the Gut</h3>
+<p>Germination is a critical step for <em>C. difficile</em> to establish infection but only occurs in the lower GI tract (O2 concentration is negligible at this site), as it allows the spores to transition into their vegetative form, which can produce toxins and cause disease. Therefore, preventing germination could be an effective strategy to reduce the risk of infection. Targeting germination processes may help decrease the infectious dose and limit the ability of <em>C. difficile</em> to colonize the gut.</p>
+<p>For <em>C. difficile</em>, germination starts when specific molecules, called germinants, interact with receptors on the spore’s surface. Unlike other bacteria like <em>Bacillus spp.</em>, <em>C. difficile</em> lacks the typical GerA, GerB, and GerK germinant receptors. Instead, it has a unique receptor called CspC, which binds to bile acids.</p>
+<ul>
+<li><strong>Bile Acid Trigger</strong>: In the small intestine, exposure to primary bile acids triggers spore germination, transforming the spores into vegetative, toxin-producing cells that is controlled by the <em>cspBAC</em> gene locus.</li>
+</ul>
+<!-- -->
+<ul>
+<li><p><strong>Primary Bile Acids:</strong></p>
+<ul>
+<li><p>Taurocholate and glycocholate (both primary bile acids) trigger spore germination when they interact with the CspC receptor, encoded by the <em>cspBAC</em> gene locus.</p></li>
+<li><p>These bile acids stimulate the transformation from spores to vegetative cells without promoting further vegetative growth.</p></li>
+</ul></li>
+<li><p><strong>Secondary Bile Acids:</strong></p>
+<ul>
+<li><p>Deoxycholate, a secondary bile acid, also promotes germination but inhibits vegetative growth of <em>C. difficile</em> cells, limiting their ability to thrive post-germination.</p></li>
+<li><p>Chenodeoxycholate has a unique effect: it not only inhibits germination by competing with taurocholate but also suppresses vegetative cell growth</p></li>
+</ul></li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>The CspC Receptor:</strong></li>
+</ul>
+<!-- -->
+<ul>
+<li><p>CspC is the primary bile acid receptor for <em>C. difficile</em> spores. Studies showed that CspC specifically binds to taurocholate, enabling the spore to sense the gut environment and begin germination. Mutations in CspC, such as a substitution at residue 457 (glycine to arginine), can change how <em>C. difficile</em> responds to inhibitory bile acids, like chenodeoxycholate.</p></li>
+<li><p>CspC works alongside other proteins encoded by the <em>cspBAC</em> locus, including CspB and SleC. CspB activates the enzyme SleC, which is crucial for breaking down the spore cortex during germination.</p></li>
+</ul>
+<!-- -->
+<ul>
+<li><p><strong>Activation Process of SleC:</strong> During germination, taurocholate binding to CspC initiates a chain reaction:</p>
+<ul>
+<li><p>SleC, activated by CspB, degrades the protective cortex layer of the spore, releasing nutrients and preparing the spore for vegetative growth.</p></li>
+<li><p>The lipoprotein GerS further enhances SleC’s activity, ensuring that germination proceeds efficiently</p></li>
+</ul></li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Gene Regulation During Germination</strong></li>
+</ul>
+<!-- -->
+<ul>
+<li>Germination is a complex process that triggers the regulation of over 500 genes, as identified through transcriptional profiling. This regulation varies among clinical strains of <em>C. difficile</em>, and researchers are studying how these differences might affect the virulence of each strain</li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Disruption of Gut Microbiota</strong>: In a healthy gut, the normal microbiota prevents <em>C. difficile</em> from proliferating. However, when gut microbiota is disrupted (e.g., by antibiotics), <em>C. difficile</em> has less competition and can colonize the gut more effectively.</li>
+</ul>
+</section>
+<section id="colonization-and-toxin-production" class="level3" data-number="1.8.3">
+<h3 data-number="1.8.3" class="anchored" data-anchor-id="colonization-and-toxin-production"><span class="header-section-number">1.8.3</span> Colonization and Toxin Production</h3>
+<ul>
+<li><p><strong>Adherence and Growth</strong>: The vegetative cells adhere to the gut lining, where they multiply and produce two main toxins, TcdA and TcdB. These toxins disrupt the intestinal epithelial cells, leading to inflammation and damage.</p></li>
+<li><p><strong>Inflammatory Response</strong>: Toxins trigger an inflammatory immune response that causes tissue damage, resulting in the symptoms associated with CDI, such as diarrhea, abdominal pain, and colitis.</p></li>
+</ul>
+</section>
+<section id="symptomatic-or-asymptomatic-infection" class="level3" data-number="1.8.4">
+<h3 data-number="1.8.4" class="anchored" data-anchor-id="symptomatic-or-asymptomatic-infection"><span class="header-section-number">1.8.4</span> Symptomatic or Asymptomatic Infection</h3>
+<ul>
+<li><p><strong>Symptomatic CDI</strong>: If toxin levels and inflammation are high, patients experience symptoms like diarrhea, fever, and abdominal pain. In severe cases, it can lead to pseudomembranous colitis or toxic megacolon.</p></li>
+<li><p><strong>Asymptomatic Colonization</strong>: Some people become asymptomatic carriers without developing symptoms. They can still shed spores and serve as a reservoir for transmission to others.</p></li>
+</ul>
+</section>
+<section id="spore-formation-and-shedding" class="level3" data-number="1.8.5">
+<h3 data-number="1.8.5" class="anchored" data-anchor-id="spore-formation-and-shedding"><span class="header-section-number">1.8.5</span> Spore Formation and Shedding</h3>
+<ul>
+<li><p><strong>Sporulation</strong>: When environmental conditions within the gut become unfavorable for vegetative cells, <em>C. difficile</em> forms spores. These spores are highly resistant and can survive for long periods outside the host.</p></li>
+<li><p><strong>Fecal Shedding</strong>: Infected individuals, both symptomatic and asymptomatic, shed spores in their feces. These spores can contaminate the surrounding environment, surfaces, and even hands, perpetuating the transmission cycle.</p></li>
+</ul>
+</section>
+<section id="environmental-persistence-and-transmission" class="level3" data-number="1.8.6">
+<h3 data-number="1.8.6" class="anchored" data-anchor-id="environmental-persistence-and-transmission"><span class="header-section-number">1.8.6</span> Environmental Persistence and Transmission</h3>
+<ul>
+<li><p><strong>Environmental Contamination</strong>: Spores shed in faeces contaminate surfaces, hospital equipment, and personal items, where they remain viable for months.</p></li>
+<li><p><strong>Infection of New Hosts</strong>: Spores can be transferred to new hosts through direct contact with contaminated surfaces or hands, reinitiating the infection cycle when they are ingested by another individual.</p></li>
+</ul>
+<p>This infection cycle underscores the resilience of <em>C. difficile</em> and the challenges in controlling CDI, particularly within healthcare environments where high transmission risk persists due to environmental spore contamination.</p>
+</section>
+</section>
+<section id="infectious-dose" class="level2" data-number="1.9">
+<h2 data-number="1.9" class="anchored" data-anchor-id="infectious-dose"><span class="header-section-number">1.9</span> Infectious Dose</h2>
+<section id="evidence-for-dose-response-in-cdi" class="level3" data-number="1.9.1">
+<h3 data-number="1.9.1" class="anchored" data-anchor-id="evidence-for-dose-response-in-cdi"><span class="header-section-number">1.9.1</span> Evidence for Dose-Response in CDI</h3>
+<ul>
+<li><p>Studies suggest a <strong>dose-response relationship</strong> for CDI, where the risk of infection increases with the number of spores ingested. In animal models, even a relatively low dose of 100 to 1,000 spores has been shown to induce infection, especially when normal gut microbiota has been disrupted, typically by antibiotics​.</p></li>
+<li><p>In humans, this susceptibility to infection after antibiotic treatment reflects a lowered microbial competition, allowing <em>C. difficile</em> to colonize and cause infection even at low spore counts​.</p></li>
+</ul>
+</section>
+<section id="factors-influencing-infectious-dose" class="level3" data-number="1.9.2">
+<h3 data-number="1.9.2" class="anchored" data-anchor-id="factors-influencing-infectious-dose"><span class="header-section-number">1.9.2</span> Factors Influencing Infectious Dose</h3>
+<ul>
+<li><p><strong>Antibiotic Use</strong>: The effective infectious dose of <em>C. difficile</em> is thought to decrease significantly in individuals whose microbiota is compromised by antibiotics, which eliminates protective colonization resistance from the gut flora.</p></li>
+<li><p><strong>Immune Status</strong>: Individuals with weakened immune defences, such as the elderly or immunocompromised, may have increased susceptibility to infection at lower spore doses.</p></li>
+</ul>
+</section>
+<section id="implications-for-infection-control-and-prevention" class="level3" data-number="1.9.3">
+<h3 data-number="1.9.3" class="anchored" data-anchor-id="implications-for-infection-control-and-prevention"><span class="header-section-number">1.9.3</span> Implications for Infection Control and Prevention</h3>
+<ul>
+<li><p><strong>Lowering Environmental Contamination</strong>: Understanding that low doses can trigger infection in susceptible individuals highlights the importance of rigorous sanitation practices, particularly in healthcare settings where individuals may be predisposed due to recent antibiotic use.</p></li>
+<li><p><strong>Protective Role of Microbiota Restoration</strong>: Strategies such as FMT or probiotics, which aim to re-establish colonization resistance in the gut, help increase the threshold infectious dose for <em>C. difficile</em> by reintroducing beneficial microbial competition​.</p></li>
+</ul>
+<p>While the exact infectious dose in humans remains undetermined, existing studies underscore that susceptibility is highly context-dependent, with antibiotic use and compromised immune status significantly lowering the threshold for infection by <em>C. difficile</em> spores.</p>
+</section>
+<section id="mathematical-models" class="level3" data-number="1.9.4">
+<h3 data-number="1.9.4" class="anchored" data-anchor-id="mathematical-models"><span class="header-section-number">1.9.4</span> Mathematical models</h3>
+<p>Mathematical models to determine the infectious dose of <em>C. difficile</em> spores may be derived based on dose-response models used for other pathogens. These models attempt to relate the probability of infection to the number of spores ingested, but precise quantification for <em>C. difficile</em> is challenging due to individual host factors, including microbiota status and antibiotic exposure. However, here are some of the primary approaches and types of models that have been adapted or suggested for <em>C. difficile</em>:</p>
+<p>Some useful models to look at:</p>
+<section id="exponential-and-beta-poisson-models" class="level4" data-number="1.9.4.1">
+<h4 data-number="1.9.4.1" class="anchored" data-anchor-id="exponential-and-beta-poisson-models"><span class="header-section-number">1.9.4.1</span> Exponential and Beta-Poisson Models</h4>
+<ul>
+<li><strong>Exponential Model</strong>: This model assumes that each spore has an equal and independent probability of causing infection. It calculates the probability of infection (Pinf​) based on the dose (N) and a pathogen-specific rate parameter (k) as follows: P<sub>inf</sub> = 1−e<sup>−kN</sup></li>
+</ul>
+<p>In this model, a lower k value suggests a lower probability of infection per spore, which might represent a higher threshold for infection.</p>
+<ul>
+<li><strong>Beta-Poisson Model</strong>: This model is commonly used when the host’s response to pathogens varies significantly between individuals. It introduces variability by using parameters (α and β) to capture a range of susceptibilities: P<sub>inf</sub>=1−(1+N/β)<sup>−α</sup></li>
+</ul>
+<p>The Beta-Poisson model is often more accurate in capturing variations in <em>C. difficile</em> infection risk, especially considering that antibiotic use or weakened immune systems can drastically reduce the effective infectious dose.</p>
+</section>
+<section id="logistic-regression-models-for-dose-response" class="level4" data-number="1.9.4.2">
+<h4 data-number="1.9.4.2" class="anchored" data-anchor-id="logistic-regression-models-for-dose-response"><span class="header-section-number">1.9.4.2</span> Logistic Regression Models for Dose-Response</h4>
+<ul>
+<li><p><strong>Logistic Regression Models</strong>: These models apply a logistic function to dose-response data to predict infection probability based on dose. Logistic regression can help analyze specific patient data (e.g., recent antibiotic use, age, comorbidities) and predict individual risk.</p></li>
+<li><p><strong>Threshold Models</strong>: In cases where a threshold dose is hypothesized (e.g., a minimum number of spores required to achieve colonization), logistic models can estimate the dose at which infection probability begins to rise significantly.</p></li>
+</ul>
+</section>
+<section id="quantitative-microbial-risk-assessment-qmra-models" class="level4" data-number="1.9.4.3">
+<h4 data-number="1.9.4.3" class="anchored" data-anchor-id="quantitative-microbial-risk-assessment-qmra-models"><span class="header-section-number">1.9.4.3</span> Quantitative Microbial Risk Assessment (QMRA) Models</h4>
+<ul>
+<li><p><strong>Simulation-Based Approaches</strong>: QMRA uses probabilistic simulation (e.g., Monte Carlo simulations) to model the variability in host susceptibility, environmental contamination levels, and dose-response relationships.</p></li>
+<li><p><strong>Risk Assessment in Healthcare</strong>: For <em>C. difficile</em>, QMRA has been adapted to assess infection risk in healthcare settings. This model accounts for variable patient susceptibility based on prior antibiotic use and environmental spore concentration to estimate likely infection outcomes.</p></li>
+</ul>
+</section>
+<section id="agent-based-and-computational-models" class="level4" data-number="1.9.4.4">
+<h4 data-number="1.9.4.4" class="anchored" data-anchor-id="agent-based-and-computational-models"><span class="header-section-number">1.9.4.4</span> Agent-Based and Computational Models</h4>
+<ul>
+<li><p><strong>Agent-Based Models (ABMs)</strong>: These models simulate individual hosts (agents) and interactions within healthcare settings or communities. ABMs can incorporate individual characteristics, such as microbiota diversity, immune status, and antibiotic history, making them highly adaptable to <em>C. difficile</em>’s unique infection dynamics.</p></li>
+<li><p><strong>Environmental Contamination Dynamics</strong>: In healthcare settings, ABMs can simulate how spore concentrations change over time with environmental cleaning, predicting infection probabilities based on spore exposure levels.</p></li>
+</ul>
+<p><strong>Current Research Gaps and Limitations</strong></p>
+<ul>
+<li><p><strong>Data Availability</strong>: Precise infectious dose estimates are difficult to determine due to the complexity of <em>C. difficile</em> infection dynamics and the lack of consistent human dose-response data.</p></li>
+<li><p><strong>Impact of Microbiota</strong>: Traditional models may not fully capture the variability in susceptibility caused by microbiota disruptions, which are known to lower the infectious dose threshold for <em>C. difficile</em>.</p></li>
+</ul>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-martin2016" class="csl-entry" role="listitem">
+Martin, Jessica S. H., Tanya M. Monaghan, and Mark H. Wilcox. 2016. <span>“Clostridium difficile infection: epidemiology, diagnosis and understanding transmission.”</span> <em>Nature Reviews. Gastroenterology &amp; Hepatology</em> 13 (4): 206–16. <a href="https://doi.org/10.1038/nrgastro.2016.25">https://doi.org/10.1038/nrgastro.2016.25</a>.
+</div>
+<div id="ref-rupnik2009" class="csl-entry" role="listitem">
+Rupnik, Maja, Mark H. Wilcox, and Dale N. Gerding. 2009. <span>“Clostridium Difficile Infection: New Developments in Epidemiology and Pathogenesis.”</span> <em>Nature Reviews Microbiology</em> 7 (7): 526–36. <a href="https://doi.org/10.1038/nrmicro2164">https://doi.org/10.1038/nrmicro2164</a>.
+</div>
+</div>
+</section>
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<footer style="text-align: center; margin-top: 20px; padding: 10px; background-color: #f8f9fa;">
+
+  <p>© 2024 Kah Yen Claire Yeak | All rights reserved</p>
+
+</footer>
+
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./preface.html" class="pagination-link" aria-label="Preface/Disclaimer">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface/Disclaimer</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./chapter_2.html" class="pagination-link" aria-label="Virulence mechanisms, environmental persistence and survival">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Virulence mechanisms, environmental persistence and survival</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
