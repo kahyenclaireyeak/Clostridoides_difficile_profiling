@@ -1,0 +1,123 @@
+---
+bibliography: references.bib
+---
+
+# Future Research Directions and Opportunities
+
+Ongoing research focuses on advancing diagnostics, including rapid toxin detection and identifying biomarkers for asymptomatic carriers. Other areas include developing vaccines, toxin-neutralizing monoclonal antibodies, and predictive infection tracking models, which can support both preventative and reactive measures against CDI outbreaks in healthcare settings.
+
+-   Improving Diagnostic Accuracy: Advanced methods to distinguish between true infections and asymptomatic carriage are needed to refine CDI management, prevent over-treatment, and accurately assess infection prevalence.
+
+-   Understanding Transmission Pathways: Whole-genome sequencing offers promise in tracing CDI sources, especially in community-onset cases, to mitigate hospital and environmental sources.
+
+-   Global Surveillance and Standardization: Uniform typing and reporting standards would help track and manage the spread of hypervirulent strains worldwide.
+
+## Modelling
+
+We can build a robust infection prediction model for *C. difficile* that not only forecasts future trends but adapts dynamically to real-world changes, making it an effective tool for infection prevention and control.
+
+Step 1: Gather Data from Past Outbreaks
+
+-   Collect historical data on *C. difficile* cases, including infection rates, timing, affected areas, and patient demographics. Data should ideally span multiple years to capture seasonal and environmental variations.
+
+-   Identify key factors that influence outbreaks, like antibiotic use rates, hospital occupancy, and infection control measures.
+
+Step 2: Develop a Stochastic Model
+
+-   Model randomness by setting up a basic framework that accounts for chance events, such as sudden spikes in cases due to high patient turnover or lapses in infection control.
+
+-   Define infection stages for patients (e.g., susceptible, infected, resistant) to track transitions over time, helping you simulate patient status changes in a hospital environment.
+
+-   Include cluster effects, assuming that cases can spread more quickly in specific wards or during particular times.
+
+Step 3: Set Up Monte Carlo Simulations
+
+-   Run thousands of simulations, where each simulation represents a possible future infection scenario.
+
+-   Vary parameters like transmission rates, seasonal changes, patient flow, and random chance events in each simulation. For instance, one simulation might assume an increase in antibiotic resistance, while another might model stricter infection control practices.
+
+-   Analyze results across simulations to identify patterns and ranges, like peak infection times, high-risk areas, and potential yearly trends.
+
+Step 4: Apply Bayesian Statistics for Uncertain Data
+
+-   Use prior knowledge about infection dynamics, like average infection rates or patient susceptibility, to establish a baseline prediction.
+
+-   As new data arrives in 2025, update predictions continuously. For example, if infections spike unexpectedly, Bayesian methods will adjust your model to reflect the new risk level.
+
+-   Bayesian methods allow you to handle missing or incomplete data, estimating infection risks even when some patient details (like exact susceptibility) are unknown.
+
+Step 5: Incorporate Real-Time Data for Dynamic Tracking
+
+-   Collect real-time data from hospital records, including newly confirmed infections, antibiotic prescriptions, and patient movements. This data feeds directly into your model.
+
+-   Run daily or weekly simulations based on this updated information, adjusting risk predictions and identifying outbreak clusters as they develop.
+
+Step 6: Analyze and Interpret Predictions
+
+-   Review Monte Carlo outcomes to understand the range of possible infection trends and likelihoods for each scenario (e.g., if a severe outbreak could happen in winter vs. summer).
+
+-   Identify high-risk periods and areas within the hospital or community based on the model's output, allowing for targeted preventative measures.
+
+Step 7: Create Actionable Interventions
+
+-   Based on predictions, develop response plans for high-risk times, which might include increasing infection control measures or adjusting staff protocols.
+
+-   Use Bayesian-influenced predictions to adapt plans in real-time as new data on cases and treatment effectiveness becomes available.
+
+### Feasible softwares
+
+#### R (with packages like EpiModel, spdep, INLA, and rstan):
+
+-   EpiModel: Designed for infectious disease modeling, with support for stochastic simulations and compartmental models.
+
+-   spdep: Useful for spatial data analysis, allowing you to incorporate geographic data and visualize the spread of infections.
+
+-   rstan: Integrates with Bayesian models, ideal for applying Bayesian inference to real-time data.
+
+-   INLA: Great for handling spatio-temporal data, allowing you to incorporate both time and location-based data.
+
+#### Python (with libraries like PyMC3, EpiPy, and Geopandas):
+
+-   PyMC3: Offers Bayesian modelling tools, allowing you to set up complex Bayesian inference models.
+
+-   EpiPy: Specialized for epidemiology, letting you model infectious disease dynamics, including stochastic and deterministic frameworks.
+
+-   Geopandas: Useful for managing spatial data to understand geographical patterns and create spatio-temporal models.
+
+#### ***AnyLogic***:
+
+-   A versatile software for developing agent-based models, system dynamics models, and discrete-event simulations. Useful for detailed simulations involving patient flow and disease transmission in healthcare settings.
+
+#### Matlab (with the Simulink and SimEvents toolboxes):
+
+-   Matlab is powerful for mathematical modelling and can support stochastic and deterministic simulations. Simulink can be used to visualize the model flow, while SimEvents is great for time-based simulations.
+
+#### STATA:
+
+-   While more commonly used for statistical analysis, STATA's support for time-series analysis and spatial modelling can assist with simpler, deterministic models.
+
+### Modified SEIR Model with a Carrier State (SECIR Model)
+
+To start predicting *C. difficile* infections, the SEIR (Susceptible-Exposed-Infected-Recovered) model can be a strong base, especially for capturing infection dynamics with latent periods. Given the characteristics of *C. difficile*, we can modify the SEIR model with an additional "Carrier" state to represent asymptomatic carriers who might still spread the infection.
+
+The modified model includes compartments for:
+
+-   S (Susceptible): Individuals at risk of infection.
+
+-   E (Exposed): Individuals who have been exposed but are not yet infectious.
+
+-   C (Carrier): Asymptomatic carriers who can transmit the infection without showing symptoms.
+
+-   I (Infected): Symptomatic individuals who can transmit the infection.
+
+-   R (Recovered): Individuals who have recovered and are assumed to have temporary immunity.
+
+![Simulation for hospital infection spread and outbreak [@kim2023]](image/Picture10.png){width="53%"}
+
+Why This Model Works for *C. difficile*
+
+-   Carrier State: Many *C. difficile* cases are asymptomatic but can still spread the bacteria, so a carrier compartment reflects this dynamic.
+
+-   Exposed and Incubation: Including an "Exposed" state captures the latent period between exposure and either becoming symptomatic or a carrier.
+
+-   Spatio-temporal Adaptations: Adding spatial data can help predict where infections may spread in hospital settings, using software like R or Python with spatial libraries.

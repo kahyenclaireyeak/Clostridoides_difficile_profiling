@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>3&nbsp; Virulence mechanisms, environmental persistence and survival – *Clostridoides difficile* Profiling</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./chapter_3.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-69a30c073420f475066ff0fd08b8a642.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter_2.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Virulence mechanisms, environmental persistence and survival</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./"><em>Clostridoides difficile</em> Profiling</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface/Disclaimer</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Pathogen Overview</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_2.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Virulence mechanisms, environmental persistence and survival</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Therapeutic Strategies Targeting Colonization Resistance</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Diagnostic Techniques and Challenges</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Treatment and Control Strategies</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Host immune response</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Future Research Directions and Opportunities</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./reference.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">References</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#toxin-production" id="toc-toxin-production" class="nav-link active" data-scroll-target="#toxin-production"><span class="header-section-number">3.1</span> Toxin production</a></li>
+  <li><a href="#sporulation" id="toc-sporulation" class="nav-link" data-scroll-target="#sporulation"><span class="header-section-number">3.2</span> Sporulation</a></li>
+  <li><a href="#biofilm-formation" id="toc-biofilm-formation" class="nav-link" data-scroll-target="#biofilm-formation"><span class="header-section-number">3.3</span> Biofilm Formation</a></li>
+  <li><a href="#stress-adaption" id="toc-stress-adaption" class="nav-link" data-scroll-target="#stress-adaption"><span class="header-section-number">3.4</span> Stress Adaption</a></li>
+  <li><a href="#flagella-and-motility" id="toc-flagella-and-motility" class="nav-link" data-scroll-target="#flagella-and-motility"><span class="header-section-number">3.5</span> Flagella and Motility</a></li>
+  <li><a href="#adhesion-proteins" id="toc-adhesion-proteins" class="nav-link" data-scroll-target="#adhesion-proteins"><span class="header-section-number">3.6</span> Adhesion Proteins</a></li>
+  <li><a href="#other-virulence-mechanisms" id="toc-other-virulence-mechanisms" class="nav-link" data-scroll-target="#other-virulence-mechanisms"><span class="header-section-number">3.7</span> Other Virulence Mechanisms</a></li>
+  <li><a href="#gut-interactions-and-colonization-resistance" id="toc-gut-interactions-and-colonization-resistance" class="nav-link" data-scroll-target="#gut-interactions-and-colonization-resistance"><span class="header-section-number">3.8</span> Gut Interactions and Colonization Resistance</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Virulence mechanisms, environmental persistence and survival</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><em>C. difficile’s</em> pathogenicity is primarily driven by its ability to produce toxins that damage host tissues, initiate inflammatory responses, and disrupt the intestinal epithelium. The major toxins involved include TcdA and TcdB, and in certain hypervirulent strains, the binary toxin CDT.</p>
+<p>Other than virulence factors, <em>C. difficile</em> employs various non-toxic factors for colonization, adherence, and survival within the gut. These mechanisms enhance its pathogenicity and serve dual purposes, promoting both host infection (increase colonization resistance) and survival in external environments. This overlap is crucial to <em>C. difficile’s</em> ability to thrive in healthcare settings and facilitate its transmission through community and hospital surfaces, air particles, and medical devices.</p>
+<section id="toxin-production" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="toxin-production"><span class="header-section-number">3.1</span> Toxin production</h2>
+<p>Toxin production in Clostridioides difficile plays a critical role in its pathogenicity and infection dynamics. While these toxins facilitate nutrient availability and reduce competition by disrupting gut cells, excessive production leads to severe gut damage, inflammation, and potential loss of the bacterial niche. This disruption can hinder C. difficile persistence in the gut, initiating cycles of infection and clearance as the host immune response becomes activated. Toxin expression is influenced by genetic and environmental factors that modulate the bacteria’s virulence, with therapeutic strategies targeting these toxins to mitigate symptoms and reduce recurrence risk in CDI.</p>
+<section id="major-toxins-tcda-and-tcdb" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="major-toxins-tcda-and-tcdb"><span class="header-section-number">3.1.1</span> Major Toxins: TcdA and TcdB</h3>
+<section id="genetic-basis-pathogenicity-locus-paloc" class="level4" data-number="3.1.1.1">
+<h4 data-number="3.1.1.1" class="anchored" data-anchor-id="genetic-basis-pathogenicity-locus-paloc"><span class="header-section-number">3.1.1.1</span> Genetic Basis (Pathogenicity Locus, PaLoc)</h4>
+<ul>
+<li><p>The pathogenicity locus (PaLoc) encodes toxins A (TcdA) and B (TcdB), which are the primary virulence factors for <em>C. difficile</em>. This locus typically contains five genes: <em>tcdA</em> (encodes TcdA), <em>tcdB</em> (encodes TcdB), <em>tcdR</em> (a positive regulator), <em>tcdE</em> (possibly involved in toxin export), and <em>tcdC</em> (a negative regulator).</p></li>
+<li><p>Variations in the PaLoc influence toxin levels among strains, affecting infection severity. Mutations in <strong><em>tcdC</em></strong> in hypervirulent strains disrupt normal regulation, leading to increased toxin expression and virulence.</p></li>
+</ul>
+</section>
+<section id="structure-and-function" class="level4" data-number="3.1.1.2">
+<h4 data-number="3.1.1.2" class="anchored" data-anchor-id="structure-and-function"><span class="header-section-number">3.1.1.2</span> Structure and Function</h4>
+<ul>
+<li><p>TcdA and TcdB, classified as large clostridial toxins, have four main domains: glucosyltransferase domain (GTD), autoprocessing domain, translocation domain, and receptor-binding domain.</p></li>
+<li><p>Their glucosyltransferase activity targets RHO GTPases in host cells, causing cytoskeletal disruption, cell rounding, and cell death. This activity compromises gut barrier integrity increases permeability, and induces inflammation.</p></li>
+</ul>
+</section>
+<section id="mechanism-of-action" class="level4" data-number="3.1.1.3">
+<h4 data-number="3.1.1.3" class="anchored" data-anchor-id="mechanism-of-action"><span class="header-section-number">3.1.1.3</span> Mechanism of Action</h4>
+<ul>
+<li><p><strong>TcdA</strong>: Known as an enterotoxin, TcdA binds to carbohydrates on colon epithelial cells, leading to fluid accumulation, inflammatory responses, and cell death. It initiates tissue damage and provides nutrient release, aiding bacterial colonization.</p></li>
+<li><p><strong>TcdB</strong>: Acts as a potent cytotoxin and binds to host receptors like chondroitin sulfate proteoglycan 4, causing severe cellular disruption. TcdB is essential for colitis and severe disease, as strains without TcdB are non-pathogenic. Conversely, strains with TcdB but lacking TcdA can still cause colitis.</p></li>
+</ul>
+</section>
+<section id="regulation-of-toxin-expression" class="level4" data-number="3.1.1.4">
+<h4 data-number="3.1.1.4" class="anchored" data-anchor-id="regulation-of-toxin-expression"><span class="header-section-number">3.1.1.4</span> Regulation of Toxin Expression</h4>
+<ul>
+<li><p><strong>TcdR</strong> functions as an alternative sigma factor, activating toxin gene transcription, particularly in stationary growth phases.</p></li>
+<li><p><strong>TcdC</strong> serves as a negative regulator during exponential growth. Hypervirulent strains, such as BI/NAP1/027, often harbour mutations in <strong>tcdC</strong> that dysregulate toxin expression, contributing to enhanced pathogenicity.</p></li>
+</ul>
+</section>
+</section>
+<section id="binary-toxin-cdt" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="binary-toxin-cdt"><span class="header-section-number">3.1.2</span> Binary Toxin (CDT)</h3>
+<section id="presence-in-hypervirulent-strains" class="level4" data-number="3.1.2.1">
+<h4 data-number="3.1.2.1" class="anchored" data-anchor-id="presence-in-hypervirulent-strains"><span class="header-section-number">3.1.2.1</span> Presence in Hypervirulent Strains:</h4>
+<ul>
+<li>CDT, an additional toxin produced by certain strains like ribotype 027, consists of two subunits, <strong>CdtA</strong> and <strong>CdtB</strong>. CdtA has ADP-ribosyl transferase activity targeting actin, weakening host cell structure, while CdtB forms pores facilitating CdtA’s entry.</li>
+</ul>
+</section>
+<section id="impact-of-cdt" class="level4" data-number="3.1.2.2">
+<h4 data-number="3.1.2.2" class="anchored" data-anchor-id="impact-of-cdt"><span class="header-section-number">3.1.2.2</span> Impact of CDT:</h4>
+<ul>
+<li>Although CDT alone is not sufficient to cause disease, it enhances <em>C. difficile</em>’s adhesive capacity, potentially aiding in immune evasion and increasing virulence in severe or recurrent infections.</li>
+</ul>
+</section>
+</section>
+<section id="toxin-triggered-inflammatory-responses" class="level3" data-number="3.1.3">
+<h3 data-number="3.1.3" class="anchored" data-anchor-id="toxin-triggered-inflammatory-responses"><span class="header-section-number">3.1.3</span> Toxin-Triggered Inflammatory Responses</h3>
+<p><strong>Host Immune Response</strong></p>
+<ul>
+<li><p><strong>TcdA and TcdB</strong> induce cellular damage, prompting the release of pro-inflammatory cytokines and chemokines. These signals recruit immune cells, exacerbating inflammation in the colon and causing CDI symptoms, such as diarrhoea and colitis.</p></li>
+<li><p><strong>RHO GTPase Glycosylation</strong> by TcdB activates inflammasomes within host cells, leading to the release of interleukin-1β (IL-1β) and promoting a strong inflammatory response that worsens tissue damage.</p></li>
+</ul>
+</section>
+<section id="regulation-of-toxin-production" class="level3" data-number="3.1.4">
+<h3 data-number="3.1.4" class="anchored" data-anchor-id="regulation-of-toxin-production"><span class="header-section-number">3.1.4</span> Regulation of Toxin Production</h3>
+<section id="environmental-cues" class="level4" data-number="3.1.4.1">
+<h4 data-number="3.1.4.1" class="anchored" data-anchor-id="environmental-cues"><span class="header-section-number">3.1.4.1</span> Environmental Cues</h4>
+<p>Nutrient availability, bile acids, and gut pH can influence toxin expression. Stress conditions, like nutrient limitation, prompt <em>C. difficile</em> to upregulate toxin production, disrupting host cells to release nutrients for bacterial sustenance.</p>
+</section>
+<section id="genetic-diversity-and-strain-variability" class="level4" data-number="3.1.4.2">
+<h4 data-number="3.1.4.2" class="anchored" data-anchor-id="genetic-diversity-and-strain-variability"><span class="header-section-number">3.1.4.2</span> Genetic Diversity and Strain Variability</h4>
+<p>Variability within the PaLoc, particularly in regulatory genes like <strong>tcdC</strong>, results in differing toxin production levels among strains. Hypervirulent strains often have dysregulated toxin expression, contributing to more severe disease outcomes. Different ribotypes (e.g., RT027, RT078) produce variable combinations of TcdA, TcdB, and CDT, while non-toxigenic strains lack these genes entirely.</p>
+</section>
+<section id="detection-of-toxins" class="level4" data-number="3.1.4.3">
+<h4 data-number="3.1.4.3" class="anchored" data-anchor-id="detection-of-toxins"><span class="header-section-number">3.1.4.3</span> Detection of Toxins</h4>
+<p>Protocols such as <strong>multiplex PCR</strong> and <strong>whole genome sequencing (WGS)</strong> identify the presence of virulence genes (<em>tcdA, tcdB, cdtA, cdtB</em>), aiding in differentiating between toxigenic and non-toxigenic strains and tailoring infection control strategies.</p>
+</section>
+<section id="paloc-and-toxin-gene-fragments" class="level4" data-number="3.1.4.4">
+<h4 data-number="3.1.4.4" class="anchored" data-anchor-id="paloc-and-toxin-gene-fragments"><span class="header-section-number">3.1.4.4</span> PaLoc and Toxin Gene Fragments</h4>
+<ul>
+<li><p>The PaLoc includes ten fragments, but toxinotyping primarily analyzes the B1 and A3 fragments. These fragments contain regions of the tcdA and tcdB toxin genes.</p></li>
+<li><p>Comparison with a Reference Strain: Strains are compared to the reference strain <em>C. difficile</em> VPI 10463, revealing variations that define 27 toxin types (I to XXVII).</p></li>
+</ul>
+</section>
+<section id="types-of-paloc-variations" class="level4" data-number="3.1.4.5">
+<h4 data-number="3.1.4.5" class="anchored" data-anchor-id="types-of-paloc-variations"><span class="header-section-number">3.1.4.5</span> Types of PaLoc Variations</h4>
+<ul>
+<li><p>Minor Changes: Some toxin types have small deletions or alterations in repetitive sequences, particularly in the A3 region of the tcdA gene.</p></li>
+<li><p>Major Variations: In other toxin types, changes are distributed across the entire PaLoc, resulting in major toxin types. These often correspond well with other typing methods like ribotyping.</p></li>
+</ul>
+</section>
+<section id="variant-toxin-production" class="level4" data-number="3.1.4.6">
+<h4 data-number="3.1.4.6" class="anchored" data-anchor-id="variant-toxin-production"><span class="header-section-number">3.1.4.6</span> Variant Toxin Production</h4>
+<ul>
+<li>Variant toxin genes may produce toxins with altered properties or result in the absence of one or both toxins. For example, TcdA–TcdB+ strains produce only TcdB, the first discovered variant type.</li>
+</ul>
+</section>
+<section id="clinical-relevance" class="level4" data-number="3.1.4.7">
+<h4 data-number="3.1.4.7" class="anchored" data-anchor-id="clinical-relevance"><span class="header-section-number">3.1.4.7</span> Clinical Relevance</h4>
+<ul>
+<li><p>Association with Disease Patterns:</p>
+<ul>
+<li>Specific toxin types can sometimes correlate with disease characteristics or specific patient populations during outbreaks. However, a toxin type does not generally predict disease severity.</li>
+</ul></li>
+</ul>
+<!-- -->
+<ul>
+<li>Increased Human Variant Strains:</li>
+</ul>
+<!-- -->
+<ul>
+<li>Historically, many variant toxinotypes were found in animal isolates, while human isolates were mostly non-variant. Recently, the proportion of variant strains in humans has risen, and some variant toxin types (e.g., toxin type III or ribotype 027, and toxin type VIII or ribotype 017) have been linked to major outbreaks worldwide.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/Picture4.png" class="img-fluid figure-img" style="width:81.0%"></p>
+<figcaption><em>C. difficile</em> toxin production operon <span class="citation" data-cites="rupnik2009">(<a href="reference.html#ref-rupnik2009" role="doc-biblioref">Rupnik, Wilcox, and Gerding 2009</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+</section>
+</section>
+<section id="sporulation" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="sporulation"><span class="header-section-number">3.2</span> Sporulation</h2>
+<p><strong>Stages of Sporulation</strong>: Sporulation is a four-step process in <em>C. difficile</em>:</p>
+<ul>
+<li><p><strong>Initiation</strong>: Triggered by environmental stress, leading <em>C. difficile</em> to decide to form spores.</p></li>
+<li><p><strong>Development</strong>: The bacterium begins forming the spore structure, sequestering essential DNA and proteins.</p></li>
+<li><p><strong>Maturation</strong>: The spore develops a tough, resistant coat, enabling survival under adverse conditions.</p></li>
+<li><p><strong>Release</strong>: The mature spore exits the mother cell and becomes capable of enduring extreme environments and eventually infecting new hosts</p></li>
+</ul>
+<p><strong>Benefits:</strong> Sporulation allows <em>C. difficile</em> to persist outside the host and resist environmental factors like heat, desiccation, and antimicrobials, making it central to transmission and survival.</p>
+<p><strong>In-Host Function</strong>: Sporulation allows <em>C. difficile</em> to survive in the host when conditions become hostile (e.g., low nutrients or immune attack).</p>
+<p><strong>Environmental Survival</strong>: Sporulated <em>C. difficile</em> spores are highly resistant to environmental factors like desiccation, heat, UV light, and chemical disinfectants. This resilience allows spores to survive on surfaces in healthcare settings and other environments for months, contributing to transmission.</p>
+<p>Currently, there is limited understanding of why some <em>C. difficile</em> strains have led to large transatlantic epidemics (such as BI/NAP1/ribotype 027), whereas others remain at a local or sporadic level. Several explanations for this ‘hypervirulence’ have been proposed, and it seems likely that pathogenic factors such as germination, sporulation, epithelial adherence and toxin production could influence the success of some strains.</p>
+<p>Early evidence indicates that Spo0A might vary between ribotypes, but further research is required to confirm the influence this factor might have on transmission and clinical disease</p>
+</section>
+<section id="biofilm-formation" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="biofilm-formation"><span class="header-section-number">3.3</span> Biofilm Formation</h2>
+<p><em>C. difficile</em> has limited but significant biofilm-forming capabilities, which are characterized by the production of different biofilm structures that exhibit unique metabolic types. Biofilm formation is induced by factors such as deoxycholate and is associated with reduced sporulation and toxin production, allowing <em>C. difficile</em> to adapt to nutrient availability during its persistent lifestyle in vivo. This ability to form biofilms may enhance its survival in the gut environment and contribute to recurrent infections, highlighting the need for further research on the clinical implications of <em>C. difficile</em> biofilm formation.</p>
+<ul>
+<li><p><strong>Structure and Composition</strong>: In biofilm form, <em>C. difficile</em> secretes an extracellular matrix made of proteins, polysaccharides, and extracellular DNA. This matrix helps the bacteria survive against antibiotics, oxidative stress, and immune responses.</p></li>
+<li><p><strong>Inle Acids</strong>: Biofilm formation in <em>C. difficile</em> is triggered by bile acids like deoxycholate, especially under nutrient limitations. This adaptation allows <em>C. difficile</em> to transition between active infection and persistence in the gut.</p></li>
+<li><p><strong>Limited Biofilm Formation</strong>: Although <em>C. difficile</em> does not form particularly robust biofilms, the biofilm state is significant for recurrent infections, as it provides a secure environment for spores to survive and persist within the host.</p></li>
+</ul>
+<p><strong>In-Host Role</strong>: Biofilm formation enables <em>C. difficile</em> to resist host defences and antibiotics by creating a protective matrix around itself.</p>
+<p><strong>Environmental Benefit</strong>: Biofilms enhance environmental persistence by embedding spores within a matrix, protecting them from physical and chemical disruptions. This trait is particularly useful in water systems, surfaces, and medical equipment, where spores can survive within biofilms for extended periods.</p>
+</section>
+<section id="stress-adaption" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="stress-adaption"><span class="header-section-number">3.4</span> Stress Adaption</h2>
+<ul>
+<li><p><strong>Sensitivity to Oxygen and pH</strong>: As an anaerobic bacterium, <em>C. difficile</em> struggles in oxygen-rich environments, which limits its growth near the gut lining. Low pH conditions also restrict its ability to thrive, giving other microbes an advantage over <em>C. difficile</em> in oxygenated areas.</p></li>
+<li><p>Response to Environmental er stress conditions like low nutrients, <em>C. difficile</em> can activate sporulation or biofilm formation to survive hostile environments within the gut.</p></li>
+<li><p><strong>Heat and Solvent Stress</strong>: Stress response proteins (e.g., heat shock proteins) and solvent resistance mechanisms support <em>C. difficile</em>’s survival and enable it to endure fluctuating environmental conditions within the gut.</p></li>
+</ul>
+<p><strong>In-Host Adaptation</strong>: Within the host, <em>C. difficile</em> uses stress adaptation proteins (e.g., heat shock proteins) to withstand immune responses, oxidative stress, and other gut environmental pressures.</p>
+<p><strong>Environmental Resilience</strong>: These adaptations also enable survival under environmental stresses, such as temperature fluctuations, limited nutrients, and exposure to disinfectants. This mechanism aids in survival in soil, water, and healthcare environments where conditions vary widely.</p>
+</section>
+<section id="flagella-and-motility" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="flagella-and-motility"><span class="header-section-number">3.5</span> Flagella and Motility</h2>
+<ul>
+<li><strong>Role in Virulence</strong>: Flagella enhance <em>C. difficile</em> motility, allowing it to migrate and adhere to the gut lining. Additionally, flagellar expression appears to be linked with toxin regulation, meaning flagella plays a dual role in both adherence and virulence.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Flagellar expression varies widely between strains, and strains without flagella show a&nbsp;reduced ability to adhere to intestinal cells, e.g., mutants lacking flagellar components show disrupted toxin regulation, indicating that flagella not only helps with movement and adherence but also influence toxin production.</li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Regulation by Cyclic dimeric guanosine monophosphate</strong> <strong>c-di-GMP</strong>: High cyclic di-GMP (c-di-GMP) levels suppress flagellar and toxin production, shifting <em>C. difficile</em> to a biofilm-forming, adherent state. Lower c-di-GMP levels activate flagellar expression, allowing <em>C. difficile</em> to transition to a motile, toxin-producing form.</li>
+</ul>
+<p><strong>In-Host Function</strong>: Flagella facilitate movement toward the gut lining, aiding in colonization and evasion of gut defences.</p>
+<p><strong>Environmental Impact</strong>: While motility is primarily a factor in host colonization, flagella help <em>C. difficile</em> attach to surfaces, assisting in the&nbsp;initial stages of biofilm formation. The flagella-driven movement also plays a role in reaching favourable niches in environments outside the host, such as nutrient-rich spots on the&nbsp;surface.</p>
+</section>
+<section id="adhesion-proteins" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="adhesion-proteins"><span class="header-section-number">3.6</span> Adhesion Proteins</h2>
+<ul>
+<li><p><em>Adhesins for C. difficile</em> uses a variety of adhesion proteins to attach to the gut lining:</p>
+<ul>
+<li><strong>Fibronectin-binding protein A</strong> and cell wall proteins like <strong>Cwp66</strong>, <strong>S-layer protein A</strong>, and <strong>Cwp84</strong> play critical roles in colonization by anchoring the bacterium to host cells.</li>
+</ul></li>
+<li><p><strong>Spo0A</strong>: Interestingly, the sporulation regulator Spo0A not only regulates sporulation but also aids in adhesion, linking survival mechanisms with virulence.</p></li>
+</ul>
+<p><strong>Host Colonization</strong>: Adhesion proteins (e.g., fibronectin-binding proteins and S-layer proteins) are crucial for binding to intestinal cells, enabling stable colonization.</p>
+<p><strong>Environmental Adhesion</strong>: These proteins likely facilitate attachment to surfaces outside the host, such as medical equipment and healthcare surfaces, where <em>C. difficile</em> spores can anchor and persist. This attachment helps spores remain viable and increases their likelihood of infecting a new host.</p>
+</section>
+<section id="other-virulence-mechanisms" class="level2" data-number="3.7">
+<h2 data-number="3.7" class="anchored" data-anchor-id="other-virulence-mechanisms"><span class="header-section-number">3.7</span> Other Virulence Mechanisms</h2>
+<ul>
+<li><p><strong>Nutrient Competition and Colonization in Mucus</strong>: <em>C. difficile</em> colonizes the nutrient-rich mucus layer lining the gut, with a preference for mucus associated with CDI. By-products from other gut microbes can stimulate <em>C. difficile</em> colonization, indicating how changes in the gut environment help the pathogen establish infection.</p></li>
+<li><p><strong>Immune Modulation</strong>: <em>C. difficile</em> can adjust its toxin production to avoid excessive host immune response, reducing the likelihood of displacing itself from the gut niche. By managing toxin levels, it maintains a balance that favours long-term survival within the host.</p></li>
+</ul>
+<p><strong>In-Host Utility</strong>: Nutrient uptake mechanisms allow <em>C. difficile</em> to utilize resources in the gut, especially during antibiotic-induced dysbiosis. It can also modulate toxin production to avoid triggering a strong immune response.</p>
+<p><strong>Environmental Adaptation</strong>: The ability to persist in nutrient-scarce environments and to use diverse substrates may aid in survival outside the host, particularly in nutrient-limited environments like soil and water.</p>
+</section>
+<section id="gut-interactions-and-colonization-resistance" class="level2" data-number="3.8">
+<h2 data-number="3.8" class="anchored" data-anchor-id="gut-interactions-and-colonization-resistance"><span class="header-section-number">3.8</span> Gut Interactions and Colonization Resistance</h2>
+<p>Gut microbiota plays a critical role in preventing <em>C. difficile</em> colonization, a process known as colonization resistance. Antibiotics disrupt this balance, reducing competitive pressures and enabling <em>C. difficile</em> spores to germinate and colonize. Bile acid modulation is another important factor: primary bile acids (e.g., taurocholate) promote germination, whereas secondary bile acids (e.g., deoxycholate) inhibit it. Understanding these dynamics offers potential targets for interventions. For example, modulating bile acid composition in the gut or targeting specific receptors like CspC could inhibit spore germination and reduce infection rates.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/Picture5.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption><em>C. difficile</em> pathogenesis <span class="citation" data-cites="rupnik2009">(<a href="reference.html#ref-rupnik2009" role="doc-biblioref">Rupnik, Wilcox, and Gerding 2009</a>)</span></figcaption>
+</figure>
+</div>
+<section id="metabolic-adaptability" class="level3" data-number="3.8.1">
+<h3 data-number="3.8.1" class="anchored" data-anchor-id="metabolic-adaptability"><span class="header-section-number">3.8.1</span> Metabolic Adaptability</h3>
+<ul>
+<li><em>C. difficile</em> is highly adaptable in using various gut nutrients, which aids in its survival and spread. It can break down mucus components like sialic acid and N-acetylglucosamine and uses amino acids through a process called Stickland fermentation. One nutrient, trehalose, has been linked to the spread of a specific, common strain (Ribotype 027), though not necessarily to increased severity. Understanding how different nutrients and additives impact C. difficile could improve treatments, possibly offering alternatives to FMT by targeting these metabolic pathways.</li>
+</ul>
+</section>
+<section id="role-of-bile-acids" class="level3" data-number="3.8.2">
+<h3 data-number="3.8.2" class="anchored" data-anchor-id="role-of-bile-acids"><span class="header-section-number">3.8.2</span> Role of Bile Acids</h3>
+<ul>
+<li><p>Bile acids are key regulators of <em>C. difficile</em> spore germination. Primary bile acids like taurocholate induce spore germination, while secondary bile acids, such as chenodeoxycholate, inhibit both germination and vegetative growth. This effect depends on the type and concentration of bile acids present, with a balanced microbiota generally favouring secondary bile acid production, thereby maintaining colonization resistance against <em>C. difficile</em>.</p></li>
+<li><p>Antibiotic-treated animals have higher concentrations of primary bile acids in their stool, which promotes germination.</p></li>
+<li><p>In untreated animals, secondary bile acids dominate, aiding in colonization resistance (the gut’s ability to resist pathogen growth).</p></li>
+<li><p>Certain bacteria, like <em>Clostridium scindens</em>, metabolize primary bile acids into secondary bile acids, creating an environment that resists <em>C. difficile</em> colonization. Studies suggest that multiple types of gut bacteria might contribute to this resistance.</p></li>
+<li><p>The balance of bile acids regulated by the microbiota along different areas of the gut could be key in both regulating spore germination and maintaining resistance to <em>C. difficile</em> colonization. This relationship indicates that a healthy microbiota composition could help prevent <em>C. difficile</em> infection by reducing conditions favourable for its germination and growth.</p></li>
+</ul>
+</section>
+<section id="iron-and-zinc-scavenging" class="level3" data-number="3.8.3">
+<h3 data-number="3.8.3" class="anchored" data-anchor-id="iron-and-zinc-scavenging"><span class="header-section-number">3.8.3</span> Iron and Zinc Scavenging</h3>
+<ul>
+<li>To support growth, <em>C. difficile</em> scavenges essential nutrients, including iron and zinc, using specialized transporters and mechanisms that help reduce redox stress enabling it to survive and colonize more effectively. Elevated zinc levels have been shown to reduce the antibiotic dose needed for <em>C. difficile</em> colonization, indicating that limiting access to these nutrients in the gut is a natural defence mechanism against its colonization.</li>
+</ul>
+</section>
+<section id="sensitivity-to-oxygen-and-ph" class="level3" data-number="3.8.4">
+<h3 data-number="3.8.4" class="anchored" data-anchor-id="sensitivity-to-oxygen-and-ph"><span class="header-section-number">3.8.4</span> Sensitivity to Oxygen and pH</h3>
+<ul>
+<li>As an obligate anaerobe, <em>C. difficile</em> thrives in low-oxygen areas of the gut, with higher oxygen levels limiting its colonization ability near the epithelial lining. Additionally, <em>C. difficile</em> grows slower in acidic (low-pH) environments, so gut regions with higher pH and low oxygen favour its establishment, especially when other bacteria are absent due to antibiotics.</li>
+</ul>
+</section>
+<section id="colonization-of-the-mucus-layer" class="level3" data-number="3.8.5">
+<h3 data-number="3.8.5" class="anchored" data-anchor-id="colonization-of-the-mucus-layer"><span class="header-section-number">3.8.5</span> Colonization of the Mucus Layer</h3>
+<ul>
+<li><em>C. difficile</em> specifically colonizes the mucus layer of the large intestine, where it is attracted by nutrient-rich by-products from other microbes breaking down the mucus. This layer contains polysaccharides, proteins, and other nutrients that support <em>C. difficile</em> growth. <em>C. difficile</em> is drawn to areas where microbial activity is high and binds preferentially to certain mucin types commonly found in individuals susceptible to CDI. This targeted attachment allows <em>C. difficile</em> to integrate into multispecies microbial communities in the mucus, enhancing its stability, persistence, and potential for recurrence within the host. Changes in the gut environment, such as alterations in mucin types during infection, appear to facilitate <em>C. difficile</em> colonization.</li>
+</ul>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-rupnik2009" class="csl-entry" role="listitem">
+Rupnik, Maja, Mark H. Wilcox, and Dale N. Gerding. 2009. <span>“Clostridium Difficile Infection: New Developments in Epidemiology and Pathogenesis.”</span> <em>Nature Reviews Microbiology</em> 7 (7): 526–36. <a href="https://doi.org/10.1038/nrmicro2164">https://doi.org/10.1038/nrmicro2164</a>.
+</div>
+</div>
+</section>
+</section>
+
+</main> <!-- /main -->
+<footer style="text-align: center; margin-top: 20px; padding: 10px; background-color: #f8f9fa;">
+
+  <p>© 2024 Kah Yen Claire Yeak | All rights reserved</p>
+
+</footer>
+
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Pathogen Overview">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Pathogen Overview</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./chapter_3.html" class="pagination-link" aria-label="Therapeutic Strategies Targeting Colonization Resistance">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Therapeutic Strategies Targeting Colonization Resistance</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
