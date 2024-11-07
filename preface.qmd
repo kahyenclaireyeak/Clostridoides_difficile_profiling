@@ -6,10 +6,6 @@ bibliography: references.bib
 
 ![](image/cdi.png){fig-align="left" width="380"}
 
-This book on *Clostridioides difficile* (*C. difficile*) has been compiled by the author using information originally published in peer-reviewed articles and other credible sources. This book intends to gather all essential and valuable information on *C. difficile* into a single comprehensive resource. Some sections may include direct excerpts or closely paraphrased content from the original articles, supplemented with the author’s interpretations for clarity and synthesis.
+This book on *Clostridioides difficile* (*C. difficile*) has been compiled by the author for self-education purposes only, using information originally published in peer-reviewed articles and other credible sources. This book intends to gather all essential and valuable information on *C. difficile* into a single comprehensive resource. Some sections may include direct excerpts or closely paraphrased content from the original articles, supplemented with the author’s interpretations for clarity and synthesis. Some information interpreted by the author may be subjective and may contain errors. If in doubt, please do further check using other resources in literature.
 
 All figures within this compilation are taken from their respective original publications and are appropriately credited. This compilation does not claim to present new research or novel findings. Full credit is given to the original authors and sources for their contributions and the generation of the knowledge shared herein. For complete citation details, please refer to the [References section](#references), or the respective references at the end of each page.
-
-The use of this material is intended for educational and informational purposes, ensuring that the integrity and acknowledgement of the original work are maintained.
-
-

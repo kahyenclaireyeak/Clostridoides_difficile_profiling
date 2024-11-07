@@ -22,7 +22,7 @@ bibliography: references.bib
 
 -   CDI typically follows the **disruption of the gut microbiota** by antibiotics, which reduces microbial competition and allows *C. difficile* spores to germinate and grow.
 
-### **Duration of Sickness**
+### Duration of Sickness
 
 -   **Mild to moderate cases** usually last **1--2 weeks** with appropriate antibiotic treatment.
 
@@ -30,61 +30,63 @@ bibliography: references.bib
 
 ### **Duration of onset**
 
--   Most infectious periods for potential donors to support transmission of *C. difficile* were ≤1 week (65%), with only 10% \>8 weeks.
+-   Most infectious periods for potential donors to support transmission of *C. difficile* were ≤ 1 week (65%), with only 10% \> 8 weeks.
 
--   Most incubation periods in recipients were ≤4 weeks (61%), with few \>12 weeks (13%)
+-   Most incubation periods in recipients were ≤ 4 weeks (61%), with few \> 12 weeks (13%)
 
 -   82% of CDIs occurred within 4 weeks of a potential donor infection
 
--   30-day mortality (rare cases)
+-   For rare cases, onset of sickness to death takes only 30 days.
 
 ### Recurrence rate
 
--   Recurrence occurs in approximately **20-30% of patients** after the initial infection, with some cases experiencing multiple recurrences, further increasing morbidity.
+-   Recurrence occurs in approximately **20-30%** of patients after the initial infection, with some cases experiencing multiple recurrences, further increasing morbidity.
 
 <!-- -->
 
--   **Recurrence Factors**:
+**Recurrence Factors**:
 
 <!-- -->
 
--   **Age**: Older adults are more likely to experience recurrent CDI.
+1.  **Age**: Older adults (65+) are more likely to experience recurrent CDI due to reduced immune function
 
--   **Previous CDI**: A history of CDI increases the likelihood of future recurrences.
+2.  **Previous CDI**: A history of CDI increases the likelihood of future recurrences.
 
--   **Antibiotic Use**: Continued use of broad-spectrum antibiotics disrupts gut microbiota, increasing recurrence risk.
+3.  **Antibiotic Use**: Continued use of broad-spectrum antibiotics disrupts gut microbiota, increasing recurrence risk.
 
--   **Immune Response**: Insufficient immune response to *C. difficile* toxins predisposes patients to recurrence​
+4.  **Immune Response**: Insufficient immune response to *C. difficile* toxins predisposes patients to recurrence​
 
 ### Severity of Sickness
 
 -   **Mortality Rate**: CDI has an estimated 5-10% mortality with some cases **up to 20% mortality rate,** especially in older, hospitalized patients or those with weakened immune systems. Mortality rates may vary by country, healthcare setting, and patient age.
 
-### Likelihood
+### Likelihood of Infection
 
 -   CDI is a leading cause of healthcare-associated infections, with **incidence rates of 3--10 per 1,000 hospital admissions** in North America and Europe. Rates are on the rise in some regions, linked to high antibiotic usage and inadequate infection control in healthcare facilities.
 
 ### **Risk Factors**
 
-#### Antibiotic Use:
-
--   Broad-spectrum antibiotics, such as fluoroquinolones, clindamycin, cephalosporins, and penicillin, disrupt normal gut microbiota, making patients more susceptible.
-
-#### Hospitalization and Long-Term Care:
-
--   Patients in these settings are more exposed to *C. difficile* spores, especially those undergoing lengthy treatments.
+Basically similar to factors causing recurrence in patients as mentioned above.
 
 #### Age:
 
 -   Older adults (65+) are at higher risk due to reduced immune function.
 
+#### Hospitalization and Long-Term Care:
+
+-   Patients in these settings are more exposed to *C. difficile* spores, especially those undergoing lengthy treatments.
+
+#### Antibiotic Use:
+
+-   Broad-spectrum antibiotics, such as fluoroquinolones, clindamycin, cephalosporins, and penicillin, disrupt normal gut microbiota, making patients more susceptible.
+
 #### Immunocompromised Status:
+
+-   Previous CDI: Individuals who have had CDI before are at a higher risk for recurrence.
 
 -   Patients with weakened immune systems (e.g., cancer patients, organ transplant recipients) are more vulnerable.
 
 -   Underlying Health Conditions: Conditions such as inflammatory bowel disease (IBD) and kidney disease increase the risk of severe outcomes.
-
--   Previous CDI: Individuals who have had CDI before are at a higher risk for recurrence.
 
 ### Antibiotics Used for Treatment
 
@@ -100,17 +102,17 @@ bibliography: references.bib
 
 -   In cases of recurrent CDI, **faecal microbiota transplantation (FMT)** is often considered to restore a healthy microbiome​
 
-### Diagnostics for CDI 
+### Diagnostics for CDI
 
 #### Glutamate Dehydrogenase (GDH) EIA
 
--   **Purpose**: Screens for the presence of *C. difficile* but cannot distinguish between toxigenic and non-toxigenic strains.
+-   Screens for the presence of *C. difficile* but cannot distinguish between toxigenic and non-toxigenic strains.
 
 -   **Use**: Typically combined with a toxin test for confirmation due to high sensitivity​.
 
-#### Enzyme Immunoassay (EIA) 
+#### Enzyme Immunoassay (EIA)
 
--   **Purpose**: Detects toxins A and/or B directly from stool samples.
+-   Detects toxins A and/or B directly from stool samples.
 
 -   **Advantages**: Rapid results, but sensitivity ranges widely (29--86%) depending on the setting and kit used.
 
@@ -118,17 +120,17 @@ bibliography: references.bib
 
 #### Nucleic Acid Amplification Test (NAAT)
 
--   **Purpose**: Detects toxigenic genes directly from stool samples, offering high sensitivity for identifying *C. difficile's* presence.
+-   Detects toxigenic genes directly from stool samples, offering high sensitivity for identifying *C. difficile's* presence.
 
--   **Consideration**: While highly sensitive, NAAT may detect asymptomatic colonization, potentially leading to overtreatment. Often used alongside toxin assays for accurate diagnosis.
+-   **Limitation**: While highly sensitive, NAAT may detect asymptomatic colonization, potentially leading to overtreatment. Often used alongside toxin assays for accurate diagnosis.
 
 #### Cell Cytotoxicity Assay (CTA)
 
--   **Purpose**: Identifies toxin-induced damage in a cell culture, serving as a reference standard with high accuracy.
+-   Identifies toxin-induced damage in a cell culture, serving as a reference standard with high accuracy.
 
 -   **Limitation**: The process is time-intensive and technically demanding, making it less practical for routine diagnostics​
 
-    For more information on diagnostics for CDI, see [Diagnostics for CDI](#diagnostics).
+    **For more information on diagnostics for CDI, see** [Diagnostics for CDI](#diagnostics).
 
 ## Epidemiology
 
@@ -143,6 +145,8 @@ bibliography: references.bib
 -   Ribotype 078 has increased recently from 3% to 13% in several countries in Europe. In the Netherlands, patients infected with ribotype 078 were younger (67.4 versus 73.5 years) and had community-associated disease more frequently (17.5% versus 6.7%; odds ratio = 2.98; 95% confidence interval = 2.11--8.02) than patients infected with ribotype 027.
 
 -   Ribotype 027, new hypervirulent strains (e.g., ribotype 078 and ribotype 181) have been identified, particularly in community-associated settings and Environmental and Zoonotic Reservoirs
+
+-   **Global Trends**: Different regions showed varying strain distributions, with North America and Europe still seeing hypervirulent strains like ribotype 027, while Asia and Australia documented distinct ribotypes, such as 017, 018, and 244.
 
 ### Historical Context and Rise in Incidence
 
@@ -172,7 +176,7 @@ bibliography: references.bib
 
 -   **2005**: Major outbreaks of CDI linked to ribotype 027 were reported in Canada and the U.S., resulting in significant mortality and reinforcing CDI as a public health priority.
 
--   The EUCLID study (2011--2013) in Europe highlighted underreporting and gaps in the recognition of CDI, emphasizing the need for standardized diagnostics and increased awareness.
+-    **2011--2013:** The EUCLID study in Europe highlighted underreporting and gaps in the recognition of CDI, emphasizing the need for standardized diagnostics and increased awareness.
 
 **2010s -- Recognition of Community-Associated CDI (CA-CDI)**
 
@@ -184,21 +188,17 @@ bibliography: references.bib
 
 -   **2011**: Fidaxomicin was approved as a treatment option, offering a targeted approach to reduce recurrence by preserving more of the normal gut microbiota compared to other antibiotics.
 
--   Research in the decade highlighted the importance of microbiota restoration therapies, such as faecal microbiota transplantation (FMT), which gained popularity as an effective treatment for recurrent CDI.
-
 **2020s -- Continued Research and Novel Strains**
 
 -   Ongoing studies focus on understanding the spread of CDI in community settings and further improving diagnostic methods. Research into alternative treatment methods, including bacteriophages and CRISPR-based strategies, continues to evolve.
 
--   **Global Trends**: Different regions showed varying strain distributions, with North America and Europe still seeing hypervirulent strains like ribotype 027, while Asia and Australia documented distinct ribotypes, such as 017, 018, and 244.
-
 ### Incidence in Healthcare-Associated Infections (HAIs)
 
--   **North America and Europe**: CDI is a major contributor to HAIs in these regions. In the U.S., CDI accounts for approximately 14,000 deaths annually, positioning it as a leading cause of hospital-associated infections.
+-   **CDI in North America**: CDI is a major contributor to HAIs in these regions. In the U.S., CDI accounts for approximately 14,000 deaths annually, positioning it as a leading cause of hospital-associated infections.
 
--   **CDI Rates in Europe**:
+-   **CDI in Europe**:
 
-    -   **Early Studies**: In 2000, CDI incidence in Europe was estimated at around 1.1 cases per 1,000 patient admissions. By 2005, it increased to 2.5 cases per 10,000 patient days, and by 2008, reached 4.1 cases per 10,000 patient days.
+    -   **Early Studies**: **In 2000**, CDI incidence in Europe was estimated at around 1.1 cases per 1,000 patient admissions. By 2005, it increased to 2.5 cases per 10,000 patient days, and by 2008, reached 4.1 cases per 10,000 patient days.
 
     -   **EUCLID Study (2011-2013)**: This large, multicenter European study reported an incidence of 7.0 cases per 10,000 patient days among hospitalized patients with diarrhoea. The study highlighted that CDI may be underreported due to limited awareness and testing by healthcare providers.
 
@@ -208,9 +208,9 @@ bibliography: references.bib
 
 -   **Expansion Beyond Hospitals**: Initially, CDI primarily affected hospitalized and elderly patients with recent antibiotic exposure. Recently, however, there has been a significant increase in community-associated CDI cases affecting younger, healthier individuals with little or no recent antibiotic exposure.
 
--   **Demographic Shift**: This shift suggests changes in the transmission patterns and epidemiology of CDI, potentially linked to environmental contamination, foodborne sources, or asymptomatic carriers.
+-   **Demographic Shift**: This shift suggests changes in the transmission patterns and epidemiology of CDI, potentially linked to environmental contamination, foodborne sources, or asymptomatic carriers
 
--   **Definitions**
+    **Definitions**
 
 <!-- -->
 
@@ -220,39 +220,39 @@ bibliography: references.bib
 
 <!-- -->
 
--   **Epidemiology and Rising Trends**
+#### **Epidemiology and Rising Trends**
 
 <!-- -->
 
--   Both CA-CDI and CO-CDI cases have been increasing in recent years, making up a larger portion of all CDI cases. Studies estimate that between 20-40% of CDI cases in some regions now occur outside healthcare settings.
+-   Both CA-CDI and CO-CDI cases have been increasing in recent years, making up a larger portion of all CDI cases. Studies estimate that between **20-40% of CDI** cases in some regions now occur outside healthcare settings.
 
 -   CA-CDI has been noted more frequently among younger, healthier individuals who traditionally would be at lower risk, such as children, pregnant women, and adults without recent antibiotic use or hospital exposure.
 
 <!-- -->
 
--   **Potential Sources and Transmission Pathways**
+####  **Potential Sources and Transmission Pathways for non HAIs**
 
 <!-- -->
 
--   Environmental Contamination: C. difficile spores, which are highly resilient, are found in various environments, including soil, water, and public spaces. This environmental persistence contributes to community-based transmission, as spores can be ingested via contaminated surfaces, food, or water sources.
+-   **Environmental Contamination:** *C. difficile* spores, which are highly resilient, are found in various environments, including soil, water, and public spaces. This environmental persistence contributes to community-based transmission, as spores can be ingested via contaminated surfaces, food, or water sources.
 
--   Foodborne Transmission: Recent studies have detected C. difficile in retail meats (e.g., beef, pork, and chicken), suggesting a potential foodborne route, although direct evidence of foodborne infection remains limited.
+-   **Foodborne Transmission:** Recent studies have detected *C. difficile* in retail meats (e.g., beef, pork, and chicken), suggesting a potential foodborne route, although direct evidence of foodborne infection remains limited.
 
--   Animal and Zoonotic Sources: Certain C. difficile ribotypes found in livestock (like ribotype 078) are increasingly implicated in CA-CDI, especially in regions with intensive farming practices. Cross-species transmission from animals to humans could contribute to community transmission.
+-   **Animal and Zoonotic Sources:** Certain *C. difficile* ribotypes found in livestock (like ribotype 078) are increasingly implicated in CA-CDI, especially in regions with intensive farming practices. Cross-species transmission from animals to humans could contribute to community transmission.
 
 <!-- -->
 
--   **Risk Factors for CA-CDI**
+#### **Risk Factors for CA-CDI**
 
 > Unlike healthcare-associated CDI, where antibiotics are the main risk factor, CA-CDI cases often have more varied backgrounds. Risk factors include:
 
--   Antibiotic Use: Although less common than in healthcare-associated CDI, prior outpatient antibiotic use (e.g., broad-spectrum antibiotics like cephalosporins) remains a significant risk factor.
+-   **Antibiotic Use:** Although less common than in healthcare-associated CDI, prior outpatient antibiotic use (e.g., broad-spectrum antibiotics like cephalosporins) remains a significant risk factor.
 
--   Acid-Suppressing Medications: Proton pump inhibitors (PPIs) and other acid-suppressing medications have been linked to increased CDI risk, possibly due to changes in gut pH that favour C. difficile growth.
+-   **Acid-Suppressing Medications:** Proton pump inhibitors (PPIs) and other acid-suppressing medications have been linked to increased CDI risk, possibly due to changes in gut pH that favour *C. difficile* growth.
 
--   Underlying Health Conditions: Conditions like inflammatory bowel disease (IBD) and irritable bowel syndrome (IBS) can increase susceptibility to CDI by altering gut microbiota.
+-   **Underlying Health Conditions:** Conditions like inflammatory bowel disease (IBD) and irritable bowel syndrome (IBS) can increase susceptibility to CDI by altering gut microbiota.
 
--   Household Transmission: Some studies suggest household transmission among family members or those in close contact, particularly when one individual has been recently colonized or infected.
+-   **Household Transmission:** Some studies suggest household transmission among family members or those in close contact, particularly when one individual has been recently colonized or infected.
 
 ### Global Trends and Regional Variations
 
@@ -262,25 +262,25 @@ bibliography: references.bib
 
 In Europe, CDI incidence has doubled over the past few decades, with the prevalence reaching about 3.7% in HAIs. Major regional studies like the ECDC's report indicate an annual CDI burden of approximately 124,000 cases across the EU and EEA​
 
-### Transmission and Reservoirs for CDI
-
-Primary transmission occurs through spores that can persist on surfaces, with healthcare environments and asymptomatic carriers serving as main reservoirs. Community transmission is increasingly linked to environmental and food sources, especially in areas with intensive farming practices​
-
--   Primary Reservoirs: CDI can spread through direct contact with symptomatic or asymptomatic individuals, healthcare workers, and contaminated environments. Spores survive on surfaces for extended periods, posing long-term risks.
-
--   Role of Asymptomatic Carriers: Asymptomatic individuals, especially in hospital and long-term care settings, can spread CDI. Roughly 4-10% of patients are colonized with C. difficile upon admission to healthcare facilities, increasing during their stay.
-
--   Environmental and Zoonotic Sources: CDI spores are found in soil, water, and foods (e.g., meats, shellfish). There is potential zoonotic transmission from animals, particularly in agricultural regions with high-density farming, although foodborne outbreaks are rare.
-
 ## Transmission route
 
-Other than HAI, community sources for CDI include soil, water, pets, animals used for food, meats and vegetables There is no conclusive evidence that *C. difficile* contamination of food has led to clinical CDI in humans, and Community-associated CDI without previous direct or indirect contact with a hospital environment remains rare compared with hospital-acquired CDI
+Other than HAI, community sources for CDI include soil, water, pets, animals used for food, meats and vegetables There is no conclusive evidence that *C. difficile* contamination of food has led to clinical CDI in humans, and Community-associated CDI without previous direct or indirect contact with a hospital environment remains rare compared with hospital-acquired CDI. While direct contact with contaminated surfaces and person-to-person spread in healthcare settings are the primary transmission routes, environmental reservoirs, food, animals, and even aerosolization can contribute to *C. difficile* spread. Understanding these routes is essential for effective control and prevention.
 
 ### Direct Contact Transmission
 
--   **Person-to-Person Contact**: Transmission via hands or skin contact with an infected or colonized individual, particularly in healthcare settings.
+-   **Person-to-Person Contact**: Transmission via hands or skin contact with an infected or colonized individual, particularly in healthcare settings. Hospital visitors who are not always under strict hygiene protocols might spread spores inadvertently, especially if they visit multiple rooms or interact closely with patients.
 
 -   **Healthcare Workers**: *C. difficile* spores can be transferred from healthcare workers' hands, clothing, or equipment if hygiene protocols are not followed.
+
+-   **Human Carriers**: Asymptomatic carriers can shed *C. difficile* spores into the environment without displaying symptoms. These carriers, particularly healthcare workers or patients with recent hospital visits, can unknowingly spread spores in both healthcare and community settings.
+
+### Hospital Infrastructure-Related Transmission
+
+-   **Open-Plan Wards or Shared Bathrooms**: The layout and use of shared bathrooms in healthcare facilities can contribute to transmission by increasing the chance of contact with contaminated surfaces or aerosolized particles from toilets.
+
+-   **Shared Ventilation and Airflow**: Although less common, there is some evidence that spores may spread within hospitals through shared ventilation systems, especially in inadequately ventilated or overcrowded facilities.
+
+-   **Clothing and Personal Items**: Personal items like mobile phones, stethoscopes, and clothing can act as vectors, particularly in hospitals where cross-contamination is common.
 
 ### Fomite Transmission
 
@@ -288,15 +288,15 @@ Other than HAI, community sources for CDI include soil, water, pets, animals use
 
 -   **Hospital and Healthcare Equipment**: Shared medical devices, bed linens, and even handrails can harbor spores if not properly disinfected.
 
-### Aerosolization and Airborne Particles
+### Transmission via Aerosols
 
-*C. difficile* spores can potentially spread via aerosols, although it is not the primary mode of transmission. The spores are highly resilient and can survive on surfaces for long periods. While direct contact and surface contamination are the most common ways *C. diff* spreads, studies have shown that spores can be released into the air during certain activities, such as when removing bed linens or flushing toilets. This highlights the importance of strict infection control measures in healthcare settings to prevent aerosol spread.
+*C. difficile* spores can potentially spread via aerosols, although it is not the primary mode of transmission. The spores are highly resilient and can survive on surfaces for long periods. While direct contact and surface contamination are the most common ways *C. diff* icile spreads, studies have shown that spores can be released into the air during certain activities, such as when removing bed linens or flushing toilets. This highlights the importance of strict infection control measures in healthcare settings to prevent aerosol spread.
 
 -   **Aerosolized Particles**: Spores may become airborne during activities such as bed linen removal, patient cleaning, or toilet flushing, although this is a less common transmission route than surface contamination.
 
 -   **Close Proximity Aerosols**: In some settings, spores could theoretically spread through short-range airborne particles, especially in rooms with poor ventilation.
 
-### Ingestion of Contaminated Food and Water
+### Foodborned and Waterborned Transmission
 
 -   **Foodborne Transmission**: *C. difficile* spores have been found in food products, including meat and shellfish, potentially posing a foodborne transmission risk.
 
@@ -314,29 +314,9 @@ Other than HAI, community sources for CDI include soil, water, pets, animals use
 
 -   **Public Spaces**: *C. difficile* spores may be present in community spaces such as public restrooms, gyms, and transportation vehicles, though these routes are less common.
 
-While direct contact with contaminated surfaces and person-to-person spread in healthcare settings are the primary transmission routes, environmental reservoirs, food, animals, and even aerosolization can contribute to *C. difficile* spread. Understanding these routes is essential for effective control and prevention.
-
-### Colonization in Asymptomatic Carriers
-
--   **Human Carriers as Reservoirs**: Asymptomatic carriers can shed *C. difficile* spores into the environment without displaying symptoms. These carriers, particularly healthcare workers or patients with recent hospital visits, can unknowingly spread spores in both healthcare and community settings.
-
-### Hospital Infrastructure-Related Spread
-
--   **Shared Ventilation and Airflow**: Although less common, there is some evidence that spores may spread within hospitals through shared ventilation systems, especially in inadequately ventilated or overcrowded facilities.
-
--   **Clothing and Personal Items**: Personal items like mobile phones, stethoscopes, and clothing can act as vectors, particularly in hospitals where cross-contamination is common.
-
-### Biofilm as a Long-Term Environmental Reservoir
+### Transmission via Biofilm
 
 -   **Water Systems and Biofilms**: *C. difficile* spores can integrate into biofilms in water systems (e.g., sinks, drains) within healthcare facilities. Biofilms can harbor spores, allowing them to persist and spread over extended periods.
-
-### Hands of Visitors and Community Exposure
-
--   **Public Interaction in Hospitals**: Hospital visitors who are not always under strict hygiene protocols might spread spores inadvertently, especially if they visit multiple rooms or interact closely with patients.
-
-### Healthcare Facility Design Factors
-
--   **Open-Plan Wards or Shared Bathrooms**: The layout and use of shared bathrooms in healthcare facilities can contribute to transmission by increasing the chance of contact with contaminated surfaces or aerosolized particles from toilets.
 
 These additional routes highlight nuances in how *C. difficile* can spread, especially within healthcare settings, and underscore the importance of strict hygiene, infrastructure design, and environmental cleaning to minimize transmission risks.
 
@@ -346,35 +326,37 @@ These additional routes highlight nuances in how *C. difficile* can spread, espe
 
 *C. difficile* reservoirs are locations or hosts where the bacterium can survive, persist, and potentially spread to new hosts. These reservoirs are critical to understanding the transmission pathways of both symptomatic and asymptomatic CDI. Here are the main types:
 
+-   **Primary Reservoirs:** CDI can spread through direct contact with symptomatic or asymptomatic individuals, healthcare workers, and contaminated environments. Spores survive on surfaces for extended periods, posing long-term risks.
+
+-   **Asymptomatic Carriers:** Asymptomatic individuals, especially in hospital and long-term care settings, can spread CDI. Roughly 4-10% of patients are colonized with *C. difficile* upon admission to healthcare facilities, increasing during their stay.
+
+-   **Environmental and Zoonotic Reservoirs**: CDI spores are found in soil, water, and foods (e.g., meats, shellfish). There is potential zoonotic transmission from animals, particularly in agricultural regions with high-density farming, although foodborne outbreaks are rare.
+
 ### Human Reservoirs
 
-#### Asymptomatic Carriers
+-   **Asymptomatic Carriers**
 
 Humans can carry *C. difficile* without symptoms, especially in high-risk groups (e.g., infants, the elderly, and immunocompromised individuals), and shed spores that can infect others. Asymptomatic carriers can shed the bacteria and contribute to transmission without showing symptoms of infection themselves. Several groups are recognized as common or significant carriers:
 
 -   **Infants and Young Children**
 
-Infants, particularly under one year of age, frequently carry *C. difficile* asymptomatically due to underdeveloped gut microbiota and potential immune tolerance to C. difficile toxins.
-
-This group is unique in that C. difficile is often present without causing disease, possibly due to reduced toxin receptor expression in their intestines.
+Infants, particularly under one year of age, frequently carry *C. difficile* asymptomatically due to underdeveloped gut microbiota and potential immune tolerance to *C. difficile* toxins. This group is unique in that C. difficile is often present without causing disease, possibly due to reduced toxin receptor expression in their intestines.
 
 -   **Elderly Individuals**
 
-Older adults, especially those in long-term care facilities, are more likely to carry C. difficile asymptomatically. Factors include frequent antibiotic use, age-related gut microbiome changes, and increased exposure in healthcare settings.
+Older adults, especially those in long-term care facilities, are more likely to carry *C. difficile* asymptomatically. Factors include frequent antibiotic use, age-related gut microbiome changes, and increased exposure in healthcare settings.
 
 -   **Hospitalized Patients**
 
-Patients admitted for reasons other than CDI often carry C. difficile asymptomatically, especially after receiving antibiotics that disrupt their gut microbiota.
-
-These carriers pose a transmission risk in hospitals, as they can shed spores that survive on surfaces, leading to healthcare-associated infections.
+Patients admitted for reasons other than CDI often carry *C. difficile* asymptomatically, especially after receiving antibiotics that disrupt their gut microbiota. These carriers pose a transmission risk in hospitals, as they can shed spores that survive on surfaces, leading to healthcare-associated infections.
 
 -   **Healthcare Workers**
 
-While not commonly symptomatic carriers, healthcare workers can carry C. difficile spores transiently on their skin or clothing, making them potential vectors for hospital-based transmission, especially without rigorous hand hygiene.
+While not commonly symptomatic carriers, healthcare workers can carry *C. difficile* spores transiently on their skin or clothing, making them potential vectors for hospital-based transmission, especially without rigorous hand hygiene.
 
 -   **Individuals Recently Treated with Antibiotics**
 
-Antibiotic use disrupts the gut microbiota, increasing susceptibility to C. difficile colonization without necessarily leading to symptoms, especially in patients not on acid-suppressing therapy.
+Antibiotic use disrupts the gut microbiota, increasing susceptibility to *C. difficile* colonization without necessarily leading to symptoms, especially in patients not on acid-suppressing therapy.
 
 -   **Close Contacts of CDI Patients**
 
@@ -382,15 +364,13 @@ Family members or household contacts of individuals with symptomatic CDI can bec
 
 -   **Immunocompromised Individuals**
 
-People with weakened immune systems (e.g., cancer patients, those on immunosuppressive therapy) are at a higher risk of asymptomatic colonization due to compromised defenses against microbial overgrowth.
+People with weakened immune systems (e.g., cancer patients, those on immunosuppressive therapy) are at a higher risk of asymptomatic colonization due to compromised defenses against microbial overgrowth. These groups represent asymptomatic carriers who may either pose a risk for community transmission or act as reservoirs within healthcare environments, thereby contributing indirectly to the spread of CDI.
 
-These groups represent asymptomatic carriers who may either pose a risk for community transmission or act as reservoirs within healthcare environments, thereby contributing indirectly to the spread of CDI.
-
-#### Symptomatic Individuals:
+-   **Symptomatic Individuals**
 
 Patients with active CDI are also reservoirs, especially in healthcare settings where spores can spread easily.
 
-![M**odel of accquisition of *C. difficile* infection** [@rupnik2009]](image/Picture2.png){width="100%"}
+![M**odel of accquisition of *C. difficile* infection** [@rupnik2009]](image/Picture2.png){width="96%"}
 
 ![**Example of multistep algorithms for testing the presence of *C. difficile*** [@martin2016]](image/Picture3.png){width="79%"}
 
@@ -426,15 +406,15 @@ Globally, regions most affected by CDI include North America, Europe, and parts 
 
 #### North America and Europe
 
--   Dominated by ribotypes 027 and 106, associated with HAIs. High fluoroquinolone use in these regions contributes to the prevalence of resistant strains.
+-   Dominated by **ribotypes 027 and 106,** associated with HAIs. High fluoroquinolone use in these regions contributes to the prevalence of resistant strains.
 
 #### Asia
 
--   Ribotype 017 is widespread, with increased cases linked to both healthcare and community sources. The region has seen distinct strains due to regional antibiotic practices and infection control policies​
+-   **Ribotype 017** is widespread, with increased cases linked to both healthcare and community sources. The region has seen distinct strains due to regional antibiotic practices and infection control policies​
 
 #### Australia
 
--   Ribotype 244 is emerging as a prevalent strain, causing severe cases across both hospital and community settings.
+-   **Ribotype 244** is emerging as a prevalent strain, causing severe cases across both hospital and community settings.
 
 ### Regional Factors Influencing Spread
 
@@ -448,7 +428,7 @@ Globally, regions most affected by CDI include North America, Europe, and parts 
 
 #### Agricultural Practices
 
--   Ribotypes associated with animals, such as ribotype 078, are more prevalent in regions with high-density livestock farming (e.g., the Netherlands). The presence of C. difficile in soil, water, and meat products suggests that agricultural practices, including the use of antibiotics in livestock, contribute to regional ribotype prevalence.
+-   Ribotypes associated with animals, such as ribotype 078, are more prevalent in regions with high-density livestock farming (e.g., the Netherlands). The presence of *C. difficile* in soil, water, and meat products suggests that agricultural practices, including the use of antibiotics in livestock, contribute to regional ribotype prevalence.
 
 #### International Travel and Global Spread
 
@@ -468,27 +448,19 @@ Globally, regions most affected by CDI include North America, Europe, and parts 
 
 -   By 2012/13, RT027 (19%) emerged as the predominant strain due to its higher outbreak potential and association with severe outcomes, influencing global CDI surveillance policies.
 
-#### Antibiotic Resistance Trends:
-
--   In 2011/12, European *C. difficile* isolates showed reduced susceptibility to metronidazole and vancomycin.
-
--   About 40% of isolates exhibited resistance to moxifloxacin, particularly among prevalent RTs.
-
--   A study linked fluctuations in fluoroquinolone prescriptions to the emergence and subsequent control of fluoroquinolone-resistant RT027 in England.
-
 ### Key Ribotypes
 
 #### Ribotype 027 (BI/NAP1/027)
 
--   This hypervirulent strain has been associated with severe CDI outbreaks and is particularly prevalent in North America and Europe, where it's linked to hospital-associated infections (HAIs). Its spread has been facilitated by its high resistance to fluoroquinolones.
+-   This hypervirulent strain has been associated with severe CDI outbreaks and is particularly prevalent in North America and Europe, where it's linked to HAIs. Its spread has been facilitated by its high resistance to fluoroquinolones.
 
 #### Ribotype 078
 
--   Commonly found in Europe and increasingly in North America, ribotype 078 is associated with community-associated CDI (CA-CDI) and zoonotic transmission, especially from livestock. This ribotype has been isolated from pigs, cows, and other animals, leading to concerns about foodborne transmission and its persistence in the community.
+-   Commonly found in Europe and increasingly in North America, ribotype 078 is associated with community-associated CDI and zoonotic transmission, especially from livestock. This ribotype has been isolated from pigs, cows, and other animals, leading to concerns about foodborne transmission and its persistence in the community.
 
 #### Ribotype 017
 
--   Found widely in Asia, particularly in East Asia (e.g., China, Japan, and South Korea), ribotype 017 is known for its unique toxin profile (TcdA-negative, TcdB-positive). This ribotype is also common in Australia and has been involved in both healthcare- and community-associated outbreaks.
+-   Found widely in Asia, particularly in East Asia (e.g., China, Japan, and South Korea), ribotype 017 is known for its unique toxin profile **(TcdA-negative, TcdB-positive)**. This ribotype is also common in Australia and has been involved in both healthcare- and community-associated outbreaks.
 
 #### Ribotype 106
 
@@ -510,7 +482,7 @@ Globally, regions most affected by CDI include North America, Europe, and parts 
 
 -   **Principle**: MLST sequences several conserved housekeeping genes (typically seven) to create an allelic profile for each strain. Each unique allelic combination is assigned a sequence type (ST), allowing for the characterization of genetic relationships between strains.
 
--   **Applications**: MLST is useful for understanding the genetic diversity, evolutionary relationships, and global distribution of C. difficile strains.
+-   **Applications**: MLST is useful for understanding the genetic diversity, evolutionary relationships, and global distribution of *C. difficile* strains.
 
 #### Whole genome sequencing (WGS)
 
@@ -530,7 +502,7 @@ Toxinotyping helps researchers understand *C. difficile* genetic diversity and l
 
 -   **Principle**: Toxinotyping examines variations within the pathogenicity locus (PaLoc), where the toxin genes *tcdA* and *tcdB* are located. This method involves PCR amplification and sequencing of PaLoc to identify differences in the toxin gene regions.
 
--   **Applications**: Toxinotyping helps distinguish between strains based on toxin gene variations, useful in identifying hypervirulent strains and understanding virulence differences among C. difficile strains
+-   **Applications**: Toxinotyping helps distinguish between strains based on toxin gene variations, useful in identifying hypervirulent strains and understanding virulence differences among *C. difficile* strains
 
 ![***C. difficile*** **toxin production operon** [@rupnik2009]](image/Picture4.png){width="82%"}
 
@@ -538,7 +510,7 @@ Toxinotyping helps researchers understand *C. difficile* genetic diversity and l
 
 -   **Principle**: MLVA analyzes variations in the number of tandem repeat sequences across multiple loci in the *C. difficile* genome. By counting these repeats, a unique fingerprint for each strain is generated.
 
--   **Applications**: MLVA is particularly useful in outbreak investigations to track the spread of specific C. difficile strains within healthcare facilities.
+-   **Applications**: MLVA is particularly useful in outbreak investigations to track the spread of specific *C. difficile* strains within healthcare facilities.
 
 #### Amplified Fragment Length Polymorphism (AFLP)
 
@@ -560,6 +532,8 @@ Toxinotyping helps researchers understand *C. difficile* genetic diversity and l
 
 -   The various typing methods have different relative discriminatory powers; REA and MLVA show greater discrimination than ribotyping or MLST, which in turn provide greater power to separate strains than PFGE
 
+-   WGS provides the best resolution to date
+
 ## Virulence factor
 
 ### Toxins
@@ -580,9 +554,7 @@ Toxinotyping helps researchers understand *C. difficile* genetic diversity and l
 
 ## Infection cycles
 
-Epidemiology: CDI incidence is highest in North America, Europe, and parts of East Asia, especially among hospitalized, elderly, and immunocompromised populations. Community-associated CDI (CA-CDI) is also rising, linked to strains such as RT027, RT078, and RT017, which show high levels of resistance to fluoroquinolones.
-
-The *Clostridioides difficile* (C. difficile) infection cycle involves several stages, from spore ingestion to active infection, followed by spore shedding that can lead to further transmission. Here's a breakdown of the infection cycle:
+The *C. difficile* infection cycle involves several stages, from spore ingestion to active infection, followed by spore shedding that can lead to further transmission. Here's a breakdown of the infection cycle:
 
 ### Spore Ingestion
 
@@ -594,9 +566,9 @@ The *Clostridioides difficile* (C. difficile) infection cycle involves several s
 
 Germination is a critical step for *C. difficile* to establish infection but only occurs in the lower GI tract (O2 concentration is negligible at this site), as it allows the spores to transition into their vegetative form, which can produce toxins and cause disease. Therefore, preventing germination could be an effective strategy to reduce the risk of infection. Targeting germination processes may help decrease the infectious dose and limit the ability of *C. difficile* to colonize the gut.
 
-For *C. difficile*, germination starts when specific molecules, called germinants, interact with receptors on the spore's surface. Unlike other bacteria like *Bacillus spp.*, *C. difficile* lacks the typical GerA, GerB, and GerK germinant receptors. Instead, it has a unique receptor called CspC, which binds to bile acids.
+For *C. difficile*, germination starts when specific molecules, called germinants, interact with receptors on the spore's surface. Unlike other bacteria like *Bacillus* spp., *C. difficile* lacks the typical GerA, GerB, and GerK germinant receptors. Instead, it has a unique receptor called CspC, which binds to bile acids.
 
--   **Bile Acid Trigger**: In the small intestine, exposure to primary bile acids triggers spore germination, transforming the spores into vegetative, toxin-producing cells that is controlled by the *cspBAC* gene locus.
+**Bile Acid Trigger**: In the small intestine, exposure to primary bile acids triggers spore germination, transforming the spores into vegetative, toxin-producing cells that is controlled by the *cspBAC* gene locus.
 
 <!-- -->
 
@@ -614,7 +586,7 @@ For *C. difficile*, germination starts when specific molecules, called germinant
 
 <!-- -->
 
--   **The CspC Receptor:**
+**The CspC Receptor:**
 
 <!-- -->
 
@@ -624,23 +596,25 @@ For *C. difficile*, germination starts when specific molecules, called germinant
 
 <!-- -->
 
--   **Activation Process of SleC:** During germination, taurocholate binding to CspC initiates a chain reaction:
+**Activation Process of SleC:**
 
-    -   SleC, activated by CspB, degrades the protective cortex layer of the spore, releasing nutrients and preparing the spore for vegetative growth.
+-   During germination, taurocholate binding to CspC initiates a chain reaction
 
-    -   The lipoprotein GerS further enhances SleC's activity, ensuring that germination proceeds efficiently
+-   SleC, activated by CspB, degrades the protective cortex layer of the spore, releasing nutrients and preparing the spore for vegetative growth.
 
-<!-- -->
-
--   **Gene Regulation During Germination**
+-   The lipoprotein GerS further enhances SleC's activity, ensuring that germination proceeds efficiently
 
 <!-- -->
 
--   Germination is a complex process that triggers the regulation of over 500 genes, as identified through transcriptional profiling. This regulation varies among clinical strains of *C. difficile*, and researchers are studying how these differences might affect the virulence of each strain
+**Gene Regulation During Germination**
+
+Germination is a complex process that triggers the regulation of over 500 genes, as identified through transcriptional profiling. This regulation varies among clinical strains of *C. difficile*, and researchers are studying how these differences might affect the virulence of each strain
 
 <!-- -->
 
--   **Disruption of Gut Microbiota**: In a healthy gut, the normal microbiota prevents *C. difficile* from proliferating. However, when gut microbiota is disrupted (e.g., by antibiotics), *C. difficile* has less competition and can colonize the gut more effectively.
+**Disruption of Gut Microbiota**
+
+In a healthy gut, the normal microbiota prevents *C. difficile* from proliferating. However, when gut microbiota is disrupted (e.g., by antibiotics), *C. difficile* has less competition and can colonize the gut more effectively.
 
 ### Colonization and Toxin Production
 
@@ -672,7 +646,7 @@ This infection cycle underscores the resilience of *C. difficile* and the challe
 
 ### Evidence for Dose-Response in CDI
 
--   Studies suggest a **dose-response relationship** for CDI, where the risk of infection increases with the number of spores ingested. In animal models, even a relatively low dose of 100 to 1,000 spores has been shown to induce infection, especially when normal gut microbiota has been disrupted, typically by antibiotics​.
+-   Studies suggest a **dose-response relationship** for CDI, where the risk of infection increases with the number of spores ingested. In animal models, even a relatively low dose of **100 to 1,000 spores** has been shown to induce infection, especially when normal gut microbiota has been disrupted, typically by antibiotics​.
 
 -   In humans, this susceptibility to infection after antibiotic treatment reflects a lowered microbial competition, allowing *C. difficile* to colonize and cause infection even at low spore counts​.
 
@@ -692,7 +666,7 @@ While the exact infectious dose in humans remains undetermined, existing studies
 
 ### Mathematical models
 
-Mathematical models to determine the infectious dose of *C. difficile* spores may be derived based on dose-response models used for other pathogens. These models attempt to relate the probability of infection to the number of spores ingested, but precise quantification for *C. difficile* is challenging due to individual host factors, including microbiota status and antibiotic exposure. However, here are some of the primary approaches and types of models that have been adapted or suggested for *C. difficile*:
+Mathematical models to determine the infectious dose of *C. difficile* spores may be derived based on dose-response models used for other pathogens. These models may be used to relate the probability of infection to the number of spores ingested, but precise quantification for *C. difficile* is challenging due to individual host factors, including microbiota status and antibiotic exposure. However, here are some of the primary approaches and types of models that could be adapted or suggested for *C. difficile:*
 
 Some useful models to look at:
 
@@ -704,11 +678,11 @@ In this model, a lower k value suggests a lower probability of infection per spo
 
 -   **Beta-Poisson Model**: This model is commonly used when the host's response to pathogens varies significantly between individuals. It introduces variability by using parameters (α and β) to capture a range of susceptibilities: P~inf~=1−(1+N/β)^−α^
 
-The Beta-Poisson model is often more accurate in capturing variations in *C. difficile* infection risk, especially considering that antibiotic use or weakened immune systems can drastically reduce the effective infectious dose.
+The Beta-Poisson model is often more accurate in capturing variations in pathogen infection risk, especially considering that antibiotic use or weakened immune systems can drastically reduce the effective infectious dose.
 
 #### Logistic Regression Models for Dose-Response
 
--   **Logistic Regression Models**: These models apply a logistic function to dose-response data to predict infection probability based on dose. Logistic regression can help analyze specific patient data (e.g., recent antibiotic use, age, comorbidities) and predict individual risk.
+-   **Logistic Regression Models**: These models apply a logistic function to dose-response data to predict infection probability based on dose. Logistic regression can help analyze specific patient data (e.g., recent antibiotic use, age, co-morbidities) and predict individual risk.
 
 -   **Threshold Models**: In cases where a threshold dose is hypothesized (e.g., a minimum number of spores required to achieve colonization), logistic models can estimate the dose at which infection probability begins to rise significantly.
 
@@ -716,11 +690,11 @@ The Beta-Poisson model is often more accurate in capturing variations in *C. dif
 
 -   **Simulation-Based Approaches**: QMRA uses probabilistic simulation (e.g., Monte Carlo simulations) to model the variability in host susceptibility, environmental contamination levels, and dose-response relationships.
 
--   **Risk Assessment in Healthcare**: For *C. difficile*, QMRA has been adapted to assess infection risk in healthcare settings. This model accounts for variable patient susceptibility based on prior antibiotic use and environmental spore concentration to estimate likely infection outcomes.
+-   **Risk Assessment in Healthcare**: QMRA has been adapted to assess infection risk in healthcare settings. This model accounts for variable patient susceptibility based on prior antibiotic use and environmental spore concentration to estimate likely infection outcomes.
 
 #### Agent-Based and Computational Models
 
--   **Agent-Based Models (ABMs)**: These models simulate individual hosts (agents) and interactions within healthcare settings or communities. ABMs can incorporate individual characteristics, such as microbiota diversity, immune status, and antibiotic history, making them highly adaptable to *C. difficile*'s unique infection dynamics.
+-   **Agent-Based Models (ABMs)**: These models simulate individual hosts (agents) and interactions within healthcare settings or communities. ABMs can incorporate individual characteristics, such as microbiota diversity, immune status, and antibiotic history, making them highly adaptable to pathogen's unique infection dynamics.
 
 -   **Environmental Contamination Dynamics**: In healthcare settings, ABMs can simulate how spore concentrations change over time with environmental cleaning, predicting infection probabilities based on spore exposure levels.
 
