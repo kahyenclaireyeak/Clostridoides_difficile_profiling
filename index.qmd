@@ -28,7 +28,7 @@ bibliography: references.bib
 
 -   **Severe or recurrent cases** can persist for weeks or longer, especially in cases where standard treatments are less effective or where reinfection occurs.
 
-### **Duration of onset**
+### Duration of onset
 
 -   Most infectious periods for potential donors to support transmission of *C. difficile* were ≤ 1 week (65%), with only 10% \> 8 weeks.
 
@@ -64,7 +64,7 @@ bibliography: references.bib
 
 -   CDI is a leading cause of healthcare-associated infections, with **incidence rates of 3--10 per 1,000 hospital admissions** in North America and Europe. Rates are on the rise in some regions, linked to high antibiotic usage and inadequate infection control in healthcare facilities.
 
-### **Risk Factors**
+### Risk Factors
 
 Basically similar to factors causing recurrence in patients as mentioned above.
 
@@ -176,7 +176,7 @@ Basically similar to factors causing recurrence in patients as mentioned above.
 
 -   **2005**: Major outbreaks of CDI linked to ribotype 027 were reported in Canada and the U.S., resulting in significant mortality and reinforcing CDI as a public health priority.
 
--    **2011--2013:** The EUCLID study in Europe highlighted underreporting and gaps in the recognition of CDI, emphasizing the need for standardized diagnostics and increased awareness.
+-   **2011--2013:** The EUCLID study in Europe highlighted underreporting and gaps in the recognition of CDI, emphasizing the need for standardized diagnostics and increased awareness.
 
 **2010s -- Recognition of Community-Associated CDI (CA-CDI)**
 
@@ -230,7 +230,7 @@ Basically similar to factors causing recurrence in patients as mentioned above.
 
 <!-- -->
 
-####  **Potential Sources and Transmission Pathways for non HAIs**
+#### **Potential Sources and Transmission Pathways for non HAIs**
 
 <!-- -->
 

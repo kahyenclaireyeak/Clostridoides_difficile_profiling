@@ -16,13 +16,13 @@ Ongoing research focuses on advancing diagnostics, including rapid toxin detecti
 
 We can build a robust infection prediction model for *C. difficile* that not only forecasts future trends but adapts dynamically to real-world changes, making it an effective tool for infection prevention and control.
 
-Step 1: Gather Data from Past Outbreaks
+**Step 1: Gather Data from Past Outbreaks**
 
 -   Collect historical data on *C. difficile* cases, including infection rates, timing, affected areas, and patient demographics. Data should ideally span multiple years to capture seasonal and environmental variations.
 
 -   Identify key factors that influence outbreaks, like antibiotic use rates, hospital occupancy, and infection control measures.
 
-Step 2: Develop a Stochastic Model
+**Step 2: Develop a Stochastic Model**
 
 -   Model randomness by setting up a basic framework that accounts for chance events, such as sudden spikes in cases due to high patient turnover or lapses in infection control.
 
@@ -30,7 +30,7 @@ Step 2: Develop a Stochastic Model
 
 -   Include cluster effects, assuming that cases can spread more quickly in specific wards or during particular times.
 
-Step 3: Set Up Monte Carlo Simulations
+**Step 3: Set Up Monte Carlo Simulations**
 
 -   Run thousands of simulations, where each simulation represents a possible future infection scenario.
 
@@ -38,7 +38,7 @@ Step 3: Set Up Monte Carlo Simulations
 
 -   Analyze results across simulations to identify patterns and ranges, like peak infection times, high-risk areas, and potential yearly trends.
 
-Step 4: Apply Bayesian Statistics for Uncertain Data
+**Step 4: Apply Bayesian Statistics for Uncertain Data**
 
 -   Use prior knowledge about infection dynamics, like average infection rates or patient susceptibility, to establish a baseline prediction.
 
@@ -46,29 +46,29 @@ Step 4: Apply Bayesian Statistics for Uncertain Data
 
 -   Bayesian methods allow you to handle missing or incomplete data, estimating infection risks even when some patient details (like exact susceptibility) are unknown.
 
-Step 5: Incorporate Real-Time Data for Dynamic Tracking
+**Step 5: Incorporate Real-Time Data for Dynamic Tracking**
 
 -   Collect real-time data from hospital records, including newly confirmed infections, antibiotic prescriptions, and patient movements. This data feeds directly into your model.
 
 -   Run daily or weekly simulations based on this updated information, adjusting risk predictions and identifying outbreak clusters as they develop.
 
-Step 6: Analyze and Interpret Predictions
+**Step 6: Analyze and Interpret Predictions**
 
 -   Review Monte Carlo outcomes to understand the range of possible infection trends and likelihoods for each scenario (e.g., if a severe outbreak could happen in winter vs. summer).
 
 -   Identify high-risk periods and areas within the hospital or community based on the model's output, allowing for targeted preventative measures.
 
-Step 7: Create Actionable Interventions
+**Step 7: Create Actionable Interventions**
 
 -   Based on predictions, develop response plans for high-risk times, which might include increasing infection control measures or adjusting staff protocols.
 
 -   Use Bayesian-influenced predictions to adapt plans in real-time as new data on cases and treatment effectiveness becomes available.
 
-### Feasible softwares
+### Feasible software
 
 #### R (with packages like EpiModel, spdep, INLA, and rstan):
 
--   EpiModel: Designed for infectious disease modeling, with support for stochastic simulations and compartmental models.
+-   EpiModel: Designed for infectious disease modelling, with support for stochastic simulations and compartmental models.
 
 -   spdep: Useful for spatial data analysis, allowing you to incorporate geographic data and visualize the spread of infections.
 
@@ -84,7 +84,7 @@ Step 7: Create Actionable Interventions
 
 -   Geopandas: Useful for managing spatial data to understand geographical patterns and create spatio-temporal models.
 
-#### ***AnyLogic***:
+#### **AnyLogic**:
 
 -   A versatile software for developing agent-based models, system dynamics models, and discrete-event simulations. Useful for detailed simulations involving patient flow and disease transmission in healthcare settings.
 

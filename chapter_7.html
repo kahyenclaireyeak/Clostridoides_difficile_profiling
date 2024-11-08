@@ -226,50 +226,50 @@ div.csl-indent {
 <section id="modelling" class="level2" data-number="8.1">
 <h2 data-number="8.1" class="anchored" data-anchor-id="modelling"><span class="header-section-number">8.1</span> Modelling</h2>
 <p>We can build a robust infection prediction model for <em>C. difficile</em> that not only forecasts future trends but adapts dynamically to real-world changes, making it an effective tool for infection prevention and control.</p>
-<p>Step 1: Gather Data from Past Outbreaks</p>
+<p><strong>Step 1: Gather Data from Past Outbreaks</strong></p>
 <ul>
 <li><p>Collect historical data on <em>C. difficile</em> cases, including infection rates, timing, affected areas, and patient demographics. Data should ideally span multiple years to capture seasonal and environmental variations.</p></li>
 <li><p>Identify key factors that influence outbreaks, like antibiotic use rates, hospital occupancy, and infection control measures.</p></li>
 </ul>
-<p>Step 2: Develop a Stochastic Model</p>
+<p><strong>Step 2: Develop a Stochastic Model</strong></p>
 <ul>
 <li><p>Model randomness by setting up a basic framework that accounts for chance events, such as sudden spikes in cases due to high patient turnover or lapses in infection control.</p></li>
 <li><p>Define infection stages for patients (e.g., susceptible, infected, resistant) to track transitions over time, helping you simulate patient status changes in a hospital environment.</p></li>
 <li><p>Include cluster effects, assuming that cases can spread more quickly in specific wards or during particular times.</p></li>
 </ul>
-<p>Step 3: Set Up Monte Carlo Simulations</p>
+<p><strong>Step 3: Set Up Monte Carlo Simulations</strong></p>
 <ul>
 <li><p>Run thousands of simulations, where each simulation represents a possible future infection scenario.</p></li>
 <li><p>Vary parameters like transmission rates, seasonal changes, patient flow, and random chance events in each simulation. For instance, one simulation might assume an increase in antibiotic resistance, while another might model stricter infection control practices.</p></li>
 <li><p>Analyze results across simulations to identify patterns and ranges, like peak infection times, high-risk areas, and potential yearly trends.</p></li>
 </ul>
-<p>Step 4: Apply Bayesian Statistics for Uncertain Data</p>
+<p><strong>Step 4: Apply Bayesian Statistics for Uncertain Data</strong></p>
 <ul>
 <li><p>Use prior knowledge about infection dynamics, like average infection rates or patient susceptibility, to establish a baseline prediction.</p></li>
 <li><p>As new data arrives in 2025, update predictions continuously. For example, if infections spike unexpectedly, Bayesian methods will adjust your model to reflect the new risk level.</p></li>
 <li><p>Bayesian methods allow you to handle missing or incomplete data, estimating infection risks even when some patient details (like exact susceptibility) are unknown.</p></li>
 </ul>
-<p>Step 5: Incorporate Real-Time Data for Dynamic Tracking</p>
+<p><strong>Step 5: Incorporate Real-Time Data for Dynamic Tracking</strong></p>
 <ul>
 <li><p>Collect real-time data from hospital records, including newly confirmed infections, antibiotic prescriptions, and patient movements. This data feeds directly into your model.</p></li>
 <li><p>Run daily or weekly simulations based on this updated information, adjusting risk predictions and identifying outbreak clusters as they develop.</p></li>
 </ul>
-<p>Step 6: Analyze and Interpret Predictions</p>
+<p><strong>Step 6: Analyze and Interpret Predictions</strong></p>
 <ul>
 <li><p>Review Monte Carlo outcomes to understand the range of possible infection trends and likelihoods for each scenario (e.g., if a severe outbreak could happen in winter vs.&nbsp;summer).</p></li>
 <li><p>Identify high-risk periods and areas within the hospital or community based on the model’s output, allowing for targeted preventative measures.</p></li>
 </ul>
-<p>Step 7: Create Actionable Interventions</p>
+<p><strong>Step 7: Create Actionable Interventions</strong></p>
 <ul>
 <li><p>Based on predictions, develop response plans for high-risk times, which might include increasing infection control measures or adjusting staff protocols.</p></li>
 <li><p>Use Bayesian-influenced predictions to adapt plans in real-time as new data on cases and treatment effectiveness becomes available.</p></li>
 </ul>
-<section id="feasible-softwares" class="level3" data-number="8.1.1">
-<h3 data-number="8.1.1" class="anchored" data-anchor-id="feasible-softwares"><span class="header-section-number">8.1.1</span> Feasible softwares</h3>
+<section id="feasible-software" class="level3" data-number="8.1.1">
+<h3 data-number="8.1.1" class="anchored" data-anchor-id="feasible-software"><span class="header-section-number">8.1.1</span> Feasible software</h3>
 <section id="r-with-packages-like-epimodel-spdep-inla-and-rstan" class="level4" data-number="8.1.1.1">
 <h4 data-number="8.1.1.1" class="anchored" data-anchor-id="r-with-packages-like-epimodel-spdep-inla-and-rstan"><span class="header-section-number">8.1.1.1</span> R (with packages like EpiModel, spdep, INLA, and rstan):</h4>
 <ul>
-<li><p>EpiModel: Designed for infectious disease modeling, with support for stochastic simulations and compartmental models.</p></li>
+<li><p>EpiModel: Designed for infectious disease modelling, with support for stochastic simulations and compartmental models.</p></li>
 <li><p>spdep: Useful for spatial data analysis, allowing you to incorporate geographic data and visualize the spread of infections.</p></li>
 <li><p>rstan: Integrates with Bayesian models, ideal for applying Bayesian inference to real-time data.</p></li>
 <li><p>INLA: Great for handling spatio-temporal data, allowing you to incorporate both time and location-based data.</p></li>
@@ -284,7 +284,7 @@ div.csl-indent {
 </ul>
 </section>
 <section id="anylogic" class="level4" data-number="8.1.1.3">
-<h4 data-number="8.1.1.3" class="anchored" data-anchor-id="anylogic"><span class="header-section-number">8.1.1.3</span> <strong><em>AnyLogic</em></strong>:</h4>
+<h4 data-number="8.1.1.3" class="anchored" data-anchor-id="anylogic"><span class="header-section-number">8.1.1.3</span> <strong>AnyLogic</strong>:</h4>
 <ul>
 <li>A versatile software for developing agent-based models, system dynamics models, and discrete-event simulations. Useful for detailed simulations involving patient flow and disease transmission in healthcare settings.</li>
 </ul>

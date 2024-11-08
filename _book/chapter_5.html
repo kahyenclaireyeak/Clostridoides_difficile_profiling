@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -176,10 +196,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#toxin-targeting-treatments" id="toc-toxin-targeting-treatments" class="nav-link" data-scroll-target="#toxin-targeting-treatments"><span class="header-section-number">6.3</span> Toxin-Targeting Treatments</a></li>
   <li><a href="#antimicrobial-peptides-and-small-molecule-inhibitors" id="toc-antimicrobial-peptides-and-small-molecule-inhibitors" class="nav-link" data-scroll-target="#antimicrobial-peptides-and-small-molecule-inhibitors"><span class="header-section-number">6.4</span> Antimicrobial Peptides and Small Molecule Inhibitors</a></li>
   <li><a href="#bile-acid-modulation-and-nutrient-limitation" id="toc-bile-acid-modulation-and-nutrient-limitation" class="nav-link" data-scroll-target="#bile-acid-modulation-and-nutrient-limitation"><span class="header-section-number">6.5</span> Bile Acid Modulation and Nutrient Limitation</a></li>
-  <li><a href="#infection-control-measures-in-healthcare-settings" id="toc-infection-control-measures-in-healthcare-settings" class="nav-link" data-scroll-target="#infection-control-measures-in-healthcare-settings"><span class="header-section-number">6.6</span> Infection Control Measures in Healthcare Settings</a></li>
-  <li><a href="#emerging-and-experimental-therapies" id="toc-emerging-and-experimental-therapies" class="nav-link" data-scroll-target="#emerging-and-experimental-therapies"><span class="header-section-number">6.7</span> Emerging and Experimental Therapies</a></li>
+  <li><a href="#emerging-and-experimental-therapies" id="toc-emerging-and-experimental-therapies" class="nav-link" data-scroll-target="#emerging-and-experimental-therapies"><span class="header-section-number">6.6</span> Emerging and Experimental Therapies</a></li>
+  <li><a href="#infection-control-measures-in-healthcare-settings" id="toc-infection-control-measures-in-healthcare-settings" class="nav-link" data-scroll-target="#infection-control-measures-in-healthcare-settings"><span class="header-section-number">6.7</span> Infection Control Measures in Healthcare Settings</a></li>
   <li><a href="#infection-control-measures-in-community-settings" id="toc-infection-control-measures-in-community-settings" class="nav-link" data-scroll-target="#infection-control-measures-in-community-settings"><span class="header-section-number">6.8</span> Infection Control Measures in Community Settings</a></li>
-  <li><a href="#modelling-control" id="toc-modelling-control" class="nav-link" data-scroll-target="#modelling-control"><span class="header-section-number">6.9</span> Modelling control</a></li>
   <li><a href="#novel-simulator-for-tracking-hai" id="toc-novel-simulator-for-tracking-hai" class="nav-link" data-scroll-target="#novel-simulator-for-tracking-hai"><span class="header-section-number">6.10</span> Novel simulator for tracking HAI</a></li>
   </ul>
 </nav>
@@ -206,72 +225,132 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Current treatment methods include antibiotics (e.g., vancomycin, fidaxomicin), fecal microbiota transplantation (FMT), and emerging therapies that modulate the gut microbiota to restore balance.</p>
+<p>Current treatment methods include antibiotics (e.g., vancomycin, fidaxomicin), faecal microbiota transplantation (FMT), and emerging therapies that modulate the gut microbiota to restore balance.</p>
 <p>Biocide applications targeting environmental control are also crucial. Opportunities lie in developing formulations that interfere with spore germination, biofilm formation, and nutrient acquisition, all of which are key survival mechanisms for <em>C. difficile.</em></p>
-<p><strong>Relevant antibiotics</strong></p>
+<p><strong>Relevant treatment</strong> <span class="citation" data-cites="sholeh2020">(<a href="reference.html#ref-sholeh2020" role="doc-biblioref">Sholeh et al. 2020</a>)</span></p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
 <th>Antibiotic</th>
+<th>Use</th>
 <th>Resistance</th>
+<th>Reference</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>fluoroquinolones</td>
-<td></td>
+<td>Vancomycin</td>
+<td>First-line treatment for CDI, administered orally</td>
+<td>Resistance is rare</td>
+<td><a href="https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5">ARIC Journal</a></td>
 </tr>
 <tr class="even">
-<td>clindamycin</td>
-<td></td>
+<td>Fidaxomicin</td>
+<td>First-line treatment, especially if vancomycin is ineffective</td>
+<td>Resistance is uncommon</td>
+<td><a href="https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5">ARIC Journal</a></td>
 </tr>
 <tr class="odd">
-<td>cephalosporins</td>
-<td></td>
+<td>Metronidazole</td>
+<td>Reserved for mild CDI cases or when other treatments are unsuitable</td>
+<td>Rare resistance cases reported</td>
+<td><a href="https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5">ARIC Journal</a></td>
 </tr>
 <tr class="even">
-<td>penicillin</td>
-<td></td>
+<td>Rifaximin</td>
+<td>Follow-up treatment after vancomycin to prevent recurrence</td>
+<td>Resistance observed</td>
+<td><a href="https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5">ARIC Journal</a></td>
 </tr>
 <tr class="odd">
-<td>vancomycin</td>
-<td></td>
+<td>Tigecycline</td>
+<td>Alternative treatment, especially in severe cases</td>
+<td>Resistance is rare</td>
+<td><a href="https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5">ARIC Journal</a></td>
 </tr>
 <tr class="even">
-<td>fidaxomicin</td>
-<td></td>
+<td>Bezlotoxumab*</td>
+<td>Monoclonal antibody used with antibiotics to reduce recurrence</td>
+<td>Not applicable (not an antibiotic; no resistance issues)</td>
+<td><span class="citation" data-cites="johnson2021">(<a href="reference.html#ref-johnson2021" role="doc-biblioref">Johnson et al. 2021</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>metronidazole</td>
-<td></td>
+<td>Clindamycin</td>
+<td>Not used for CDI; associated with high CDI risk due to resistance</td>
+<td>High resistance in <em>C. difficile</em> strains</td>
+<td><a href="https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5">ARIC Journal</a></td>
+</tr>
+<tr class="even">
+<td>Fluoroquinolones</td>
+<td>Not used for CDI; linked to hypervirulent strains with resistance</td>
+<td>High resistance; associated with CDI outbreak strains</td>
+<td><a href="https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5">ARIC Journal</a></td>
+</tr>
+<tr class="odd">
+<td>Cephalosporins</td>
+<td>Not used for CDI treatment; often associated with CDI development</td>
+<td>High risk of CDI due to gut microbiota disruption. <em>C. difficile</em> strains can show resistance.</td>
+<td><a href="https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5">ARIC Journal</a></td>
+</tr>
+<tr class="even">
+<td>Penicillins</td>
+<td>Not used for CDI treatment; certain types associated with CDI risk</td>
+<td>Broad-spectrum penicillins (e.g., ampicillin) may increase CDI risk by altering gut microbiota. Resistance patterns vary.</td>
+<td><a href="https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5">ARIC Journal</a></td>
 </tr>
 </tbody>
 </table>
 <section id="antibiotic-therapies" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="antibiotic-therapies"><span class="header-section-number">6.1</span> Antibiotic Therapies</h2>
-<section id="metronidazole" class="level3" data-number="6.1.1">
-<h3 data-number="6.1.1" class="anchored" data-anchor-id="metronidazole"><span class="header-section-number">6.1.1</span> Metronidazole</h3>
-<ul>
-<li>Traditionally used for mild to moderate CDI but now less favored due to lower efficacy compared to other antibiotics.</li>
-</ul>
-</section>
-<section id="vancomycin" class="level3" data-number="6.1.2">
-<h3 data-number="6.1.2" class="anchored" data-anchor-id="vancomycin"><span class="header-section-number">6.1.2</span> Vancomycin</h3>
+<section id="vancomycin" class="level3" data-number="6.1.1">
+<h3 data-number="6.1.1" class="anchored" data-anchor-id="vancomycin"><span class="header-section-number">6.1.1</span> Vancomycin</h3>
 <ul>
 <li>An effective oral antibiotic for CDI, often used for moderate to severe cases. It works by inhibiting bacterial cell wall synthesis, helping to reduce <em>C. difficile</em> numbers in the gut.</li>
 </ul>
 </section>
-<section id="fidaxomicin" class="level3" data-number="6.1.3">
-<h3 data-number="6.1.3" class="anchored" data-anchor-id="fidaxomicin"><span class="header-section-number">6.1.3</span> Fidaxomicin</h3>
+<section id="fidaxomicin" class="level3" data-number="6.1.2">
+<h3 data-number="6.1.2" class="anchored" data-anchor-id="fidaxomicin"><span class="header-section-number">6.1.2</span> Fidaxomicin</h3>
 <ul>
 <li>A narrow-spectrum antibiotic that targets <em>C. difficile</em> specifically, preserving other gut microbiota and reducing recurrence rates. Often used for initial treatment and recurrent cases.</li>
 </ul>
 </section>
-<section id="bezlotoxumab-monoclonal-antibody" class="level3" data-number="6.1.4">
-<h3 data-number="6.1.4" class="anchored" data-anchor-id="bezlotoxumab-monoclonal-antibody"><span class="header-section-number">6.1.4</span> Bezlotoxumab (Monoclonal Antibody)</h3>
+<section id="metronidazole" class="level3" data-number="6.1.3">
+<h3 data-number="6.1.3" class="anchored" data-anchor-id="metronidazole"><span class="header-section-number">6.1.3</span> Metronidazole</h3>
+<ul>
+<li>Traditionally used for mild to moderate CDI but now less favoured due to lower efficacy compared to other antibiotics.</li>
+</ul>
+</section>
+<section id="rifaximin" class="level3" data-number="6.1.4">
+<h3 data-number="6.1.4" class="anchored" data-anchor-id="rifaximin"><span class="header-section-number">6.1.4</span> <strong>Rifaximin</strong></h3>
+<ul>
+<li>An oral antibiotic that is sometimes used as a follow-up after vancomycin therapy to help prevent recurrence. Rifaximin has limited systemic absorption, primarily acting in the gut, where it targets residual <em>C. difficile</em> cells. It is often reserved for patients who have experienced recurrent CDI.</li>
+</ul>
+</section>
+<section id="tigecycline" class="level3" data-number="6.1.5">
+<h3 data-number="6.1.5" class="anchored" data-anchor-id="tigecycline"><span class="header-section-number">6.1.5</span> <strong>Tigecycline</strong></h3>
+<ul>
+<li>An intravenous antibiotic for severe or refractory CDI cases, especially when other treatment options have been ineffective. Tigecycline works by inhibiting protein synthesis in bacteria, but its use is generally limited to cases where first-line therapies like vancomycin and fidaxomicin are inadequate.</li>
+</ul>
+<blockquote class="blockquote">
+<h3 id="bezlotoxumab-monoclonal-antibody" data-number="6.1.6" class="anchored"><span class="header-section-number">6.1.6</span> Bezlotoxumab (Monoclonal Antibody)</h3>
 <ul>
 <li>While not an antibiotic, this monoclonal antibody targets toxin B produced by <em>C. difficile</em>, reducing recurrence risk when used alongside antibiotics.</li>
 </ul>
+<h3 id="clindamycin" data-number="6.1.7" class="anchored"><span class="header-section-number">6.1.7</span> <strong>Clindamycin</strong></h3>
+<ul>
+<li>While not used for treating CDI, clindamycin is noteworthy because of its association with an increased risk of developing CDI due to its significant impact on gut microbiota. The widespread use of clindamycin has been linked to the selection of <em>C. difficile</em> strains resistant to standard antibiotics.</li>
+</ul>
+<h3 id="fluoroquinolones-e.g.-ciprofloxacin-levofloxacin" data-number="6.1.8" class="anchored"><span class="header-section-number">6.1.8</span> <strong>Fluoroquinolones (e.g., Ciprofloxacin, Levofloxacin)</strong></h3>
+<ul>
+<li>Similar to clindamycin, fluoroquinolones are not used to treat CDI but are known to increase CDI risk. Their use is linked to the emergence of hypervirulent <em>C. difficile</em> strains, particularly those resistant to fluoroquinolones. These antibiotics disrupt the gut microbiota significantly, favouring <em>C. difficile</em> overgrowth.</li>
+</ul>
+<h3 id="cephalosporins" data-number="6.1.9" class="anchored"><span class="header-section-number">6.1.9</span> <strong>Cephalosporins</strong></h3>
+<ul>
+<li>Not used for CDI treatment but are associated with a high risk of CDI development due to their broad-spectrum activity, which disrupts gut flora. Cephalosporin use is often linked to CDI outbreaks, especially in hospital settings.</li>
+</ul>
+<h3 id="penicillins-e.g.-ampicillin" data-number="6.1.10" class="anchored"><span class="header-section-number">6.1.10</span> <strong>Penicillins (e.g., Ampicillin)</strong></h3>
+<p>Broad-spectrum penicillins like ampicillin are associated with increased CDI risk by disrupting gut microbiota balance. Narrow-spectrum penicillins pose a lower risk but are still considered cautiously in patients with a history of CDI.</p>
+</blockquote>
 </section>
 </section>
 <section id="microbiota-restoration-therapies" class="level2" data-number="6.2">
@@ -346,51 +425,51 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 </section>
-<section id="infection-control-measures-in-healthcare-settings" class="level2" data-number="6.6">
-<h2 data-number="6.6" class="anchored" data-anchor-id="infection-control-measures-in-healthcare-settings"><span class="header-section-number">6.6</span> Infection Control Measures in Healthcare Settings</h2>
-<section id="rigorous-hygiene-and-cleaning" class="level3" data-number="6.6.1">
-<h3 data-number="6.6.1" class="anchored" data-anchor-id="rigorous-hygiene-and-cleaning"><span class="header-section-number">6.6.1</span> Rigorous Hygiene and Cleaning</h3>
-<ul>
-<li>Use of sporicidal agents (e.g., bleach-based cleaners) on surfaces in healthcare facilities to eliminate <em>C. difficile</em> spores and prevent transmission.</li>
-</ul>
-</section>
-<section id="hand-hygiene" class="level3" data-number="6.6.2">
-<h3 data-number="6.6.2" class="anchored" data-anchor-id="hand-hygiene"><span class="header-section-number">6.6.2</span> Hand Hygiene</h3>
-<ul>
-<li>Handwashing with soap and water is recommended over alcohol-based sanitizers, as alcohol is less effective at killing <em>C. difficile</em> spores.</li>
-</ul>
-</section>
-<section id="isolation-precautions" class="level3" data-number="6.6.3">
-<h3 data-number="6.6.3" class="anchored" data-anchor-id="isolation-precautions"><span class="header-section-number">6.6.3</span> Isolation Precautions</h3>
-<ul>
-<li>Infected patients are often isolated, and healthcare workers use protective equipment (e.g., gloves, gowns) to prevent cross-contamination.</li>
-</ul>
-</section>
-<section id="antibiotic-stewardship" class="level3" data-number="6.6.4">
-<h3 data-number="6.6.4" class="anchored" data-anchor-id="antibiotic-stewardship"><span class="header-section-number">6.6.4</span> Antibiotic Stewardship</h3>
-<ul>
-<li>Reducing unnecessary antibiotic use to prevent disruption of gut microbiota and lower the risk of CDI, particularly in hospitals and long-term care facilities.</li>
-</ul>
-</section>
-</section>
-<section id="emerging-and-experimental-therapies" class="level2" data-number="6.7">
-<h2 data-number="6.7" class="anchored" data-anchor-id="emerging-and-experimental-therapies"><span class="header-section-number">6.7</span> Emerging and Experimental Therapies</h2>
-<section id="bacteriophage-therapy" class="level3" data-number="6.7.1">
-<h3 data-number="6.7.1" class="anchored" data-anchor-id="bacteriophage-therapy"><span class="header-section-number">6.7.1</span> Bacteriophage Therapy</h3>
+<section id="emerging-and-experimental-therapies" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="emerging-and-experimental-therapies"><span class="header-section-number">6.6</span> Emerging and Experimental Therapies</h2>
+<section id="bacteriophage-therapy" class="level3" data-number="6.6.1">
+<h3 data-number="6.6.1" class="anchored" data-anchor-id="bacteriophage-therapy"><span class="header-section-number">6.6.1</span> Bacteriophage Therapy</h3>
 <ul>
 <li>Phages that specifically target <em>C. difficile</em> are being investigated as a means to reduce bacterial load without affecting other gut bacteria.</li>
 </ul>
 </section>
-<section id="crispr-cas-systems" class="level3" data-number="6.7.2">
-<h3 data-number="6.7.2" class="anchored" data-anchor-id="crispr-cas-systems"><span class="header-section-number">6.7.2</span> CRISPR-Cas Systems</h3>
+<section id="crispr-cas-systems" class="level3" data-number="6.6.2">
+<h3 data-number="6.6.2" class="anchored" data-anchor-id="crispr-cas-systems"><span class="header-section-number">6.6.2</span> CRISPR-Cas Systems</h3>
 <ul>
 <li>Gene-editing approaches using CRISPR-Cas systems are under exploration to target and deactivate <em>C. difficile</em> genes responsible for virulence or survival in the gut.</li>
 </ul>
 </section>
-<section id="short-chain-fatty-acids-scfas" class="level3" data-number="6.7.3">
-<h3 data-number="6.7.3" class="anchored" data-anchor-id="short-chain-fatty-acids-scfas"><span class="header-section-number">6.7.3</span> Short-Chain Fatty Acids (SCFAs)</h3>
+<section id="short-chain-fatty-acids-scfas" class="level3" data-number="6.6.3">
+<h3 data-number="6.6.3" class="anchored" data-anchor-id="short-chain-fatty-acids-scfas"><span class="header-section-number">6.6.3</span> Short-Chain Fatty Acids (SCFAs)</h3>
 <ul>
 <li>SCFAs, produced by beneficial gut bacteria, lower gut pH and inhibit <em>C. difficile</em> growth. Supplementing SCFAs or promoting SCFA-producing bacteria may help maintain colonization resistance.</li>
+</ul>
+</section>
+</section>
+<section id="infection-control-measures-in-healthcare-settings" class="level2" data-number="6.7">
+<h2 data-number="6.7" class="anchored" data-anchor-id="infection-control-measures-in-healthcare-settings"><span class="header-section-number">6.7</span> Infection Control Measures in Healthcare Settings</h2>
+<section id="rigorous-hygiene-and-cleaning" class="level3" data-number="6.7.1">
+<h3 data-number="6.7.1" class="anchored" data-anchor-id="rigorous-hygiene-and-cleaning"><span class="header-section-number">6.7.1</span> Rigorous Hygiene and Cleaning</h3>
+<ul>
+<li>Use of sporicidal agents (e.g., bleach-based cleaners) on surfaces in healthcare facilities to eliminate <em>C. difficile</em> spores and prevent transmission.</li>
+</ul>
+</section>
+<section id="hand-hygiene" class="level3" data-number="6.7.2">
+<h3 data-number="6.7.2" class="anchored" data-anchor-id="hand-hygiene"><span class="header-section-number">6.7.2</span> Hand Hygiene</h3>
+<ul>
+<li>Handwashing with soap and water is recommended over alcohol-based sanitizers, as alcohol is less effective at killing <em>C. difficile</em> spores.</li>
+</ul>
+</section>
+<section id="isolation-precautions" class="level3" data-number="6.7.3">
+<h3 data-number="6.7.3" class="anchored" data-anchor-id="isolation-precautions"><span class="header-section-number">6.7.3</span> Isolation Precautions</h3>
+<ul>
+<li>Infected patients are often isolated, and healthcare workers use protective equipment (e.g., gloves, PPE) to prevent cross-contamination.</li>
+</ul>
+</section>
+<section id="antibiotic-stewardship" class="level3" data-number="6.7.4">
+<h3 data-number="6.7.4" class="anchored" data-anchor-id="antibiotic-stewardship"><span class="header-section-number">6.7.4</span> Antibiotic Stewardship</h3>
+<ul>
+<li>Reducing unnecessary antibiotic use to prevent disruption of gut microbiota and lower the risk of CDI, particularly in hospitals and long-term care facilities.</li>
 </ul>
 </section>
 </section>
@@ -400,9 +479,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Strategies include monitoring <em>C. difficile</em> in livestock and regulating antibiotic use in agriculture</p></li>
 <li><p>Enhanced Surveillance in Travel and Healthcare Settings: Cross-border ribotype tracking, especially in regions with high patient mobility, has become a priority to prevent international spread of hypervirulent ribotypes.</p></li>
 </ul>
-</section>
-<section id="modelling-control" class="level2" data-number="6.9">
-<h2 data-number="6.9" class="anchored" data-anchor-id="modelling-control"><span class="header-section-number">6.9</span> Modelling control</h2>
+<blockquote class="blockquote">
+<h2 id="modelling-control" data-number="6.9" class="anchored"><span class="header-section-number">6.9</span> Modelling control</h2>
 <p>Stochastic models, specifically MCMC and Bayesian inference, enable accurate CDI tracking by accommodating random infection spread, handling data gaps, and analyzing population-wide immunity. These methods provide insight into how infection risks change and how interventions might affect overall outcomes, essential for devising targeted infection control strategies in hospital settings</p>
 <ul>
 <li><p>Stochastic Models handle randomness, making them ideal for unpredictable events like concert arrivals or sporadic CDI cases.</p></li>
@@ -410,6 +488,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Bayesian Statistics incorporate both observed and missing data to continually refine predictions, helping address uncertainties in real-life and medical contexts.</p></li>
 </ul>
 <p>By combining these approaches, epidemiologists and event planners alike can make better-informed decisions, accounting for randomness, refining their models with each new data point, and exploring a wide range of possible scenarios.</p>
+</blockquote>
 <section id="spatio-temporal-time-series-models" class="level3" data-number="6.9.1">
 <h3 data-number="6.9.1" class="anchored" data-anchor-id="spatio-temporal-time-series-models"><span class="header-section-number">6.9.1</span> Spatio-temporal Time Series Models:</h3>
 <p>Spatio-temporal models are mathematical tools used to understand how CDI infections spread over time and across different locations, which is crucial for developing effective infection control strategies.</p>
@@ -490,6 +569,14 @@ ul.task-list li input[type="checkbox"] {
 <p>This simulation approach enables hospitals to monitor infection spread, detect patterns over time and space, and use predictive data to make more informed decisions about infection control policies. By addressing data gaps with simulated data, this model compensates for the limited high-volume clinical datasets currently available for AI-driven infection control solutions.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-johnson2021" class="csl-entry" role="listitem">
+Johnson, Stuart, Valéry Lavergne, Andrew M Skinner, Anne J Gonzales-Luna, Kevin W Garey, Ciaran P Kelly, and Mark H Wilcox. 2021. <span>“Clinical Practice Guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 Focused Update Guidelines on Management of Clostridioides Difficile Infection in Adults.”</span> <em>Clinical Infectious Diseases</em> 73 (5): e1029–44. <a href="https://doi.org/10.1093/cid/ciab549">https://doi.org/10.1093/cid/ciab549</a>.
+</div>
+<div id="ref-sholeh2020" class="csl-entry" role="listitem">
+Sholeh, Mohammad, Marcela Krutova, Mehdi Forouzesh, Sergey Mironov, Nourkhoda Sadeghifard, Leila Molaeipour, Abbas Maleki, and Ebrahim Kouhsari. 2020. <span>“Antimicrobial Resistance in Clostridioides (Clostridium) Difficile Derived from Humans: A Systematic Review and Meta-Analysis.”</span> <em>Antimicrobial Resistance &amp; Infection Control</em> 9 (1): 158. <a href="https://doi.org/10.1186/s13756-020-00815-5">https://doi.org/10.1186/s13756-020-00815-5</a>.
+</div>
+</div>
 </section>
 </section>
 

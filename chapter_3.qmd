@@ -1,162 +1,83 @@
 # Therapeutic Strategies Targeting Colonization Resistance
 
--   **Microbiota Restoration**: Probiotics and FMT reintroduce
-    beneficial bacteria that inhibit *C. difficile* through competition,
-    secondary bile acid production, and other inhibitory metabolites.
+-   **Microbiota Restoration**: Probiotics and FMT reintroduce beneficial bacteria that inhibit *C. difficile* through competition, secondary bile acid production, and other inhibitory metabolites.
 
--   **Nutrient and Resource Modulation**: Limiting access to essential
-    nutrients like trehalose, iron, and zinc can suppress *C. difficile*
-    colonization.
+-   **Harnessing Beneficial Bacteria**: Key microbiota members---*Bacteroides*, *Firmicutes*, *Akkermansia muciniphila*, and *Faecalibacterium prausnitzii*---are central to colonization resistance and gut health.
 
--   **Antibiotics and Alternative Treatments**: Standard antibiotics,
-    bile acid modulation, antimicrobial peptides, and bacteriophages
-    offer targeted approaches for reducing *C. difficile* without
-    extensive disruption of the microbiota.
+-   **Nutrient and Resource Modulation**: Limiting access to essential nutrients like trehalose, iron, and zinc can suppress *C. difficile* colonization.
 
--   **Harnessing Beneficial Bacteria**: Key microbiota
-    members---*Bacteroides*, *Firmicutes*, *Akkermansia muciniphila*,
-    and *Faecalibacterium prausnitzii*---are central to colonization
-    resistance and gut health.
+-   **Antibiotics and Alternative Treatments**: Standard antibiotics, bile acid modulation, antimicrobial peptides, and bacteriophages offer targeted approaches for reducing *C. difficile* without extensive disruption of the microbiota.
 
-> Overall, these approaches aim to restore the gut microbiota balance,
-> inhibit *C. difficile* colonization, and prevent CDI recurrence by
-> leveraging natural mechanisms of colonization resistance and gut
-> health maintenance.
+> Overall, these approaches aim to restore the gut microbiota balance, inhibit *C. difficile* colonization, and prevent CDI recurrence by leveraging natural mechanisms of colonization resistance and gut health maintenance.
 
-The gut microbiota competes with *C. difficile* for resources and
-produces inhibitory metabolites, which creates "colonization resistance"
-that prevents *C. difficile* colonization. A deeper understanding of
-these interactions is crucial for developing effective CDI treatments.
+The gut microbiota competes with *C. difficile* for resources and produces inhibitory metabolites, which creates "colonization resistance" that prevents *C. difficile* colonization. A deeper understanding of these interactions is crucial for developing effective CDI treatments.
 
 ## Probiotics and Fecal Microbiota Transplantation (FMT)
 
--   **Probiotics**: Probiotics are supplements that introduce beneficial
-    bacterial strains, aiming to restore gut microbial diversity and
-    compete against *C. difficile* for resources. Common probiotic
-    strains include *Bacteroides* and *Lactobacillus*, which can produce
-    secondary bile acids and other metabolites that inhibit *C.
-    difficile* growth and spore germination.
+-   **Probiotics**: Probiotics are supplements that introduce beneficial bacterial strains, aiming to restore gut microbial diversity and compete against *C. difficile* for resources. Common probiotic strains include *Bacteroides* and *Lactobacillus*, which can produce secondary bile acids and other metabolites that inhibit *C. difficile* growth and spore germination.
 
--   **Fecal Microbiota Transplantation (FMT)**: FMT involves
-    transferring fecal material from a healthy donor into a CDI
-    patient's gut, to restore a balanced microbiota. By reintroducing a
-    diverse range of beneficial microbes, FMT helps re-establish
-    colonization resistance, reduces CDI recurrence, and promotes the
-    production of secondary bile acids that suppress *C. difficile*.
+-   **Fecal Microbiota Transplantation (FMT)**: FMT involves transferring fecal material from a healthy donor into a CDI patient's gut, to restore a balanced microbiota. By reintroducing a diverse range of beneficial microbes, FMT helps re-establish colonization resistance, reduces CDI recurrence, and promotes the production of secondary bile acids that suppress *C. difficile*.
 
 ## Nutrient Competition
 
--   **Limiting Access to Specific Nutrients**: Certain nutrients are
-    essential for *C. difficile* growth, and restricting access to these
-    can help prevent colonization. For instance:
+-   **Limiting Access to Specific Nutrients**: Certain nutrients are essential for *C. difficile* growth, and restricting access to these can help prevent colonization. For instance:
 
-    -   **Trehalose**: Some hypervirulent strains of *C. difficile*
-        (e.g., ribotype 027) can metabolize trehalose, a sugar linked to
-        increased colonization and virulence. Limiting trehalose in the
-        diet could reduce infection risk from these strains.
+    -   **Trehalose**: Some hypervirulent strains of *C. difficile* (e.g., ribotype 027) can metabolize trehalose, a sugar linked to increased colonization and virulence. Limiting trehalose in the diet could reduce infection risk from these strains.
 
-    -   **Iron and Zinc Modulation**: *C. difficile* relies on iron and
-        zinc for growth and toxin production. Limiting these nutrients
-        in the gut, or reducing their bioavailability, creates an
-        unfavorable environment for *C. difficile*. High zinc levels,
-        for example, are associated with increased colonization risk, so
-        modulating these levels in CDI patients may be beneficial.
+    -   **Iron and Zinc Modulation**: *C. difficile* relies on iron and zinc for growth and toxin production. Limiting these nutrients in the gut, or reducing their bioavailability, creates an unfavorable environment for *C. difficile*. High zinc levels, for example, are associated with increased colonization risk, so modulating these levels in CDI patients may be beneficial.
 
 ## Primary Treatment Options
 
 ### Antibiotics
 
--   Standard antibiotic treatments, such as fidaxomicin and vancomycin,
-    target *C. difficile* directly but often disrupt the broader gut
-    microbiota, which can lead to recurrence if colonization resistance
-    is not restored. Fidaxomicin has a narrower spectrum than other
-    antibiotics, which may help preserve some beneficial gut bacteria.
+-   Standard antibiotic treatments, such as fidaxomicin and vancomycin, target *C. difficile* directly but often disrupt the broader gut microbiota, which can lead to recurrence if colonization resistance is not restored. Fidaxomicin has a narrower spectrum than other antibiotics, which may help preserve some beneficial gut bacteria.
 
 ### FMT
 
--   FMT is also used as a primary treatment, especially in recurrent CDI
-    cases where antibiotics alone are ineffective. FMT aims to
-    re-establish colonization resistance by repopulating the gut with a
-    healthy microbiota.
+-   FMT is also used as a primary treatment, especially in recurrent CDI cases where antibiotics alone are ineffective. FMT aims to re-establish colonization resistance by repopulating the gut with a healthy microbiota.
 
 ### Emerging Microbiota-Based Therapies
 
--   New therapies focus on restoring microbial balance without
-    disrupting the gut environment. These include microbiota-derived
-    therapies that mimic the effects of FMT, using synthetic microbial
-    communities or cultured strains known to suppress *C. difficile*.
+-   New therapies focus on restoring microbial balance without disrupting the gut environment. These include microbiota-derived therapies that mimic the effects of FMT, using synthetic microbial communities or cultured strains known to suppress *C. difficile*.
 
 ## Alternative Treatment Mechanisms
 
 ### Bile Acid Modulation
 
--   Since bile acids play a crucial role in *C. difficile* germination,
-    therapies that promote secondary bile acid production may inhibit
-    spore germination and vegetative cell growth. Modifying bile acid
-    composition could be a key approach in CDI treatment and prevention.
+-   Since bile acids play a crucial role in *C. difficile* germination, therapies that promote secondary bile acid production may inhibit spore germination and vegetative cell growth. Modifying bile acid composition could be a key approach in CDI treatment and prevention.
 
 ### Antimicrobial Peptides
 
--   **Antimicrobial Peptides (AMPs)**: AMPs are small, host-produced
-    peptides that can kill or inhibit *C. difficile* without disrupting
-    other gut bacteria.
+-   **Antimicrobial Peptides (AMPs)**: AMPs are small, host-produced peptides that can kill or inhibit *C. difficile* without disrupting other gut bacteria.
 
 ### Bacteriophages
 
--   **Bacteriophage Therapy**: Bacteriophages are viruses that infect
-    specific bacterial species. Phage therapy for *C. difficile* targets
-    the pathogen without impacting the surrounding microbiota.
+-   **Bacteriophage Therapy**: Bacteriophages are viruses that infect specific bacterial species. Phage therapy for *C. difficile* targets the pathogen without impacting the surrounding microbiota.
 
 ### Short-Chain Fatty Acids (SCFAs)
 
--   Produced by beneficial gut bacteria, SCFAs help lower gut pH and
-    inhibit *C. difficile* growth. Therapy with SCFAs or SCFA-promoting
-    bacteria is being studied as a way to maintain an environment
-    hostile to *C. difficile*.
+-   Produced by beneficial gut bacteria, SCFAs help lower gut pH and inhibit *C. difficile* growth. Therapy with SCFAs or SCFA-promoting bacteria is being studied as a way to maintain an environment hostile to *C. difficile*.
 
-### Biofilm Inhibition and Nutrient Deprivation 
+### Biofilm Inhibition and Nutrient Deprivation
 
--   Strategies that disrupt biofilm formation prevent *C. difficile*
-    from establishing long-term infections. Reducing nutrients essential
-    for *C. difficile* growth, such as iron and zinc, is also being
-    explored as a therapeutic strategy.
+-   Strategies that disrupt biofilm formation prevent *C. difficile* from establishing long-term infections. Reducing nutrients essential for *C. difficile* growth, such as iron and zinc, is also being explored as a therapeutic strategy.
 
 ## Role of Beneficial Gut Microbiota in Preventing CDI
 
-Certain beneficial bacterial groups play a vital role in maintaining a
-healthy gut microbiome and preventing *C. difficile* overgrowth. FMT and
-probiotic therapies often aim to restore these beneficial bacteria,
-enhancing colonization resistance against *C. difficile*.
+Certain beneficial bacterial groups play a vital role in maintaining a healthy gut microbiome and preventing *C. difficile* overgrowth. FMT and probiotic therapies often aim to restore these beneficial bacteria, enhancing colonization resistance against *C. difficile*.
 
 ### Bacteroides
 
--   **Function**: Bacteroides species help break down complex
-    carbohydrates, releasing short-chain fatty acids (SCFAs) and other
-    by-products that create an inhospitable environment for pathogens
-    like *C. difficile*. SCFAs lower gut pH, indirectly inhibiting *C.
-    difficile* growth.
+-   **Function**: Bacteroides species help break down complex carbohydrates, releasing short-chain fatty acids (SCFAs) and other by-products that create an inhospitable environment for pathogens like *C. difficile*. SCFAs lower gut pH, indirectly inhibiting *C. difficile* growth.
 
-### Firmicutes (e.g., Lactobacillus and Clostridium scindens)
+### Firmicutes (e.g., *Lactobacillus* and *Clostridium scindens*)
 
--   **Function**: Firmicutes are key producers of secondary bile acids,
-    which inhibit *C. difficile* spore germination and growth.
-    *Clostridium scindens*, in particular, converts primary bile acids
-    into secondary bile acids, maintaining colonization resistance.
-    *Lactobacillus* species also help stabilize gut pH and produce
-    antimicrobial compounds that suppress *C. difficile*.
+-   **Function**: Firmicutes are key producers of secondary bile acids, which inhibit *C. difficile* spore germination and growth. *Clostridium scindens*, in particular, converts primary bile acids into secondary bile acids, maintaining colonization resistance. *Lactobacillus* species also help stabilize gut pH and produce antimicrobial compounds that suppress *C. difficile*.
 
-### Akkermansia muciniphila
+### *Akkermansia muciniphila*
 
--   **Function**: This bacterium helps strengthen the gut lining and
-    enhances mucosal barrier integrity, making it harder for pathogens
-    like *C. difficile* to establish infection. It also supports immune
-    functions, providing additional defenses against colonization.
+-   **Function**: This bacterium helps strengthen the gut lining and enhances mucosal barrier integrity, making it harder for pathogens like *C. difficile* to establish infection. It also supports immune functions, providing additional defences against colonization.
 
-### Faecalibacterium prausnitzii
+### *Faecalibacterium prausnitzii*
 
--   **Function**: Known for its anti-inflammatory properties, *F.
-    prausnitzii* produces butyrate, an SCFA that supports gut health and
-    inhibits *C. difficile*. Its presence is often associated with
-    reduced inflammation, helping maintain a balanced gut environment
-    resistant to CDI.
-
+-   **Function**: Known for its anti-inflammatory properties, *F. prausnitzii* produces butyrate, an SCFA that supports gut health and inhibits *C. difficile*. Its presence is often associated with reduced inflammation, helping maintain a balanced gut environment resistant to CDI.

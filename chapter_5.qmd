@@ -1,26 +1,29 @@
+---
+bibliography: references.bib
+---
+
 # Treatment and Control Strategies
 
-Current treatment methods include antibiotics (e.g., vancomycin, fidaxomicin), fecal microbiota transplantation (FMT), and emerging therapies that modulate the gut microbiota to restore balance.
+Current treatment methods include antibiotics (e.g., vancomycin, fidaxomicin), faecal microbiota transplantation (FMT), and emerging therapies that modulate the gut microbiota to restore balance.
 
 Biocide applications targeting environmental control are also crucial. Opportunities lie in developing formulations that interfere with spore germination, biofilm formation, and nutrient acquisition, all of which are key survival mechanisms for *C. difficile.*
 
-**Relevant antibiotics**
+**Relevant treatment** [@sholeh2020]
 
-| Antibiotic       | Resistance |
-|------------------|------------|
-| fluoroquinolones |            |
-| clindamycin      |            |
-| cephalosporins   |            |
-| penicillin       |            |
-| vancomycin       |            |
-| fidaxomicin      |            |
-| metronidazole    |            |
+| Antibiotic | Use | Resistance | Reference |
+|--------------|----------------------------|--------------------|----------|
+| Vancomycin | First-line treatment for CDI, administered orally | Resistance is rare | [ARIC Journal](https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5) |
+| Fidaxomicin | First-line treatment, especially if vancomycin is ineffective | Resistance is uncommon | [ARIC Journal](https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5) |
+| Metronidazole | Reserved for mild CDI cases or when other treatments are unsuitable | Rare resistance cases reported | [ARIC Journal](https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5) |
+| Rifaximin | Follow-up treatment after vancomycin to prevent recurrence | Resistance observed | [ARIC Journal](https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5) |
+| Tigecycline | Alternative treatment, especially in severe cases | Resistance is rare | [ARIC Journal](https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5) |
+| Bezlotoxumab\* | Monoclonal antibody used with antibiotics to reduce recurrence | Not applicable (not an antibiotic; no resistance issues) | [@johnson2021] |
+| Clindamycin | Not used for CDI; associated with high CDI risk due to resistance | High resistance in *C. difficile* strains | [ARIC Journal](https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5) |
+| Fluoroquinolones | Not used for CDI; linked to hypervirulent strains with resistance | High resistance; associated with CDI outbreak strains | [ARIC Journal](https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5) |
+| Cephalosporins | Not used for CDI treatment; often associated with CDI development | High risk of CDI due to gut microbiota disruption. *C. difficile* strains can show resistance. | [ARIC Journal](https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5) |
+| Penicillins | Not used for CDI treatment; certain types associated with CDI risk | Broad-spectrum penicillins (e.g., ampicillin) may increase CDI risk by altering gut microbiota. Resistance patterns vary. | [ARIC Journal](https://aricjournal.biomedcentral.com/articles/10.1186/s13756-020-00815-5) |
 
 ## Antibiotic Therapies
-
-### Metronidazole
-
--   Traditionally used for mild to moderate CDI but now less favored due to lower efficacy compared to other antibiotics.
 
 ### Vancomycin
 
@@ -30,9 +33,37 @@ Biocide applications targeting environmental control are also crucial. Opportuni
 
 -   A narrow-spectrum antibiotic that targets *C. difficile* specifically, preserving other gut microbiota and reducing recurrence rates. Often used for initial treatment and recurrent cases.
 
-### Bezlotoxumab (Monoclonal Antibody)
+### Metronidazole
 
--   While not an antibiotic, this monoclonal antibody targets toxin B produced by *C. difficile*, reducing recurrence risk when used alongside antibiotics.
+-   Traditionally used for mild to moderate CDI but now less favoured due to lower efficacy compared to other antibiotics.
+
+### **Rifaximin**
+
+-   An oral antibiotic that is sometimes used as a follow-up after vancomycin therapy to help prevent recurrence. Rifaximin has limited systemic absorption, primarily acting in the gut, where it targets residual *C. difficile* cells. It is often reserved for patients who have experienced recurrent CDI.
+
+### **Tigecycline**
+
+-   An intravenous antibiotic for severe or refractory CDI cases, especially when other treatment options have been ineffective. Tigecycline works by inhibiting protein synthesis in bacteria, but its use is generally limited to cases where first-line therapies like vancomycin and fidaxomicin are inadequate.
+
+> ### Bezlotoxumab (Monoclonal Antibody)
+>
+> -   While not an antibiotic, this monoclonal antibody targets toxin B produced by *C. difficile*, reducing recurrence risk when used alongside antibiotics.
+>
+> ### **Clindamycin**
+>
+> -   While not used for treating CDI, clindamycin is noteworthy because of its association with an increased risk of developing CDI due to its significant impact on gut microbiota. The widespread use of clindamycin has been linked to the selection of *C. difficile* strains resistant to standard antibiotics.
+>
+> ### **Fluoroquinolones (e.g., Ciprofloxacin, Levofloxacin)**
+>
+> -   Similar to clindamycin, fluoroquinolones are not used to treat CDI but are known to increase CDI risk. Their use is linked to the emergence of hypervirulent *C. difficile* strains, particularly those resistant to fluoroquinolones. These antibiotics disrupt the gut microbiota significantly, favouring *C. difficile* overgrowth.
+>
+> ### **Cephalosporins**
+>
+> -   Not used for CDI treatment but are associated with a high risk of CDI development due to their broad-spectrum activity, which disrupts gut flora. Cephalosporin use is often linked to CDI outbreaks, especially in hospital settings.
+>
+> ### **Penicillins (e.g., Ampicillin)**
+>
+> Broad-spectrum penicillins like ampicillin are associated with increased CDI risk by disrupting gut microbiota balance. Narrow-spectrum penicillins pose a lower risk but are still considered cautiously in patients with a history of CDI.
 
 ## Microbiota Restoration Therapies
 
@@ -82,24 +113,6 @@ Biocide applications targeting environmental control are also crucial. Opportuni
 
 -   Limiting access to specific nutrients that *C. difficile* relies on, such as trehalose, iron, and zinc, may create an unfavourable environment for bacterial colonization and persistence.
 
-## Infection Control Measures in Healthcare Settings
-
-### Rigorous Hygiene and Cleaning
-
--   Use of sporicidal agents (e.g., bleach-based cleaners) on surfaces in healthcare facilities to eliminate *C. difficile* spores and prevent transmission.
-
-### Hand Hygiene
-
--   Handwashing with soap and water is recommended over alcohol-based sanitizers, as alcohol is less effective at killing *C. difficile* spores.
-
-### Isolation Precautions
-
--   Infected patients are often isolated, and healthcare workers use protective equipment (e.g., gloves, gowns) to prevent cross-contamination.
-
-### Antibiotic Stewardship
-
--   Reducing unnecessary antibiotic use to prevent disruption of gut microbiota and lower the risk of CDI, particularly in hospitals and long-term care facilities.
-
 ## Emerging and Experimental Therapies
 
 ### Bacteriophage Therapy
@@ -114,23 +127,41 @@ Biocide applications targeting environmental control are also crucial. Opportuni
 
 -   SCFAs, produced by beneficial gut bacteria, lower gut pH and inhibit *C. difficile* growth. Supplementing SCFAs or promoting SCFA-producing bacteria may help maintain colonization resistance.
 
+## Infection Control Measures in Healthcare Settings
+
+### Rigorous Hygiene and Cleaning
+
+-   Use of sporicidal agents (e.g., bleach-based cleaners) on surfaces in healthcare facilities to eliminate *C. difficile* spores and prevent transmission.
+
+### Hand Hygiene
+
+-   Handwashing with soap and water is recommended over alcohol-based sanitizers, as alcohol is less effective at killing *C. difficile* spores.
+
+### Isolation Precautions
+
+-   Infected patients are often isolated, and healthcare workers use protective equipment (e.g., gloves, PPE) to prevent cross-contamination.
+
+### Antibiotic Stewardship
+
+-   Reducing unnecessary antibiotic use to prevent disruption of gut microbiota and lower the risk of CDI, particularly in hospitals and long-term care facilities.
+
 ## Infection Control Measures in Community Settings
 
 -   Strategies include monitoring *C. difficile* in livestock and regulating antibiotic use in agriculture
 
 -   Enhanced Surveillance in Travel and Healthcare Settings: Cross-border ribotype tracking, especially in regions with high patient mobility, has become a priority to prevent international spread of hypervirulent ribotypes.
 
-## Modelling control
-
-Stochastic models, specifically MCMC and Bayesian inference, enable accurate CDI tracking by accommodating random infection spread, handling data gaps, and analyzing population-wide immunity. These methods provide insight into how infection risks change and how interventions might affect overall outcomes, essential for devising targeted infection control strategies in hospital settings
-
--   Stochastic Models handle randomness, making them ideal for unpredictable events like concert arrivals or sporadic CDI cases.
-
--   Monte Carlo Simulations explore numerous possible scenarios by running repeated trials, providing a range of outcomes and highlighting patterns.
-
--   Bayesian Statistics incorporate both observed and missing data to continually refine predictions, helping address uncertainties in real-life and medical contexts.
-
-By combining these approaches, epidemiologists and event planners alike can make better-informed decisions, accounting for randomness, refining their models with each new data point, and exploring a wide range of possible scenarios.
+> ## Modelling control
+>
+> Stochastic models, specifically MCMC and Bayesian inference, enable accurate CDI tracking by accommodating random infection spread, handling data gaps, and analyzing population-wide immunity. These methods provide insight into how infection risks change and how interventions might affect overall outcomes, essential for devising targeted infection control strategies in hospital settings
+>
+> -   Stochastic Models handle randomness, making them ideal for unpredictable events like concert arrivals or sporadic CDI cases.
+>
+> -   Monte Carlo Simulations explore numerous possible scenarios by running repeated trials, providing a range of outcomes and highlighting patterns.
+>
+> -   Bayesian Statistics incorporate both observed and missing data to continually refine predictions, helping address uncertainties in real-life and medical contexts.
+>
+> By combining these approaches, epidemiologists and event planners alike can make better-informed decisions, accounting for randomness, refining their models with each new data point, and exploring a wide range of possible scenarios.
 
 ### Spatio-temporal Time Series Models:
 
