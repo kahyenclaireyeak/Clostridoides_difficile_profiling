@@ -19,13 +19,25 @@ book:
     - chapter_7.qmd
     - reference.qmd
 
-
 format:
   html:
-    theme: flatly  #preferred theme
+    theme: flatly  # Preferred theme
     toc: true  # Display a table of contents
     toc-depth: 2  # Set the depth of the table of contents
     number-sections: true  # Number the sections of your book
+    code-fold: true
+    fig-cap: true
     css: styles.css  # Optional custom CSS for styling
     bibliography: references.bib  # Link to your bibliography file
     include-after-body: footer.html  # Add custom footer
+
+  pdf:
+    documentclass: book        # Use LaTeX "book" class
+    toc: true                  # Display a table of contents
+    number-sections: true      # Number sections
+    fig-cap: true 
+    papersize: a4              # Choose paper size, e.g., a4 or letter
+    fontsize: 10pt             # Adjust font size for better content fit
+    geometry: "margin=1in"     # Set page margins
+    linkcolor: blue            # Set link color in PDF (for clickable TOC)
+    bibliography: references.bib
